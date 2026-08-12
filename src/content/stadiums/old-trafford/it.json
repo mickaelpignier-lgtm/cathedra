@@ -1,0 +1,52 @@
+{
+  "slug": "old-trafford",
+  "name": "Old Trafford",
+  "club": "Manchester United",
+  "city": "Manchester",
+  "country": "Inghilterra",
+  "countryCode": "GB",
+  "league": "Premier League",
+  "coordinates": { "lat": 53.4631, "lng": -2.2913 },
+  "capacity": 74310,
+  "yearOpened": 1910,
+  "description": "Soprannominato \"il teatro dei sogni\", Old Trafford è uno degli stadi più iconici d'Inghilterra e il più grande stadio di club del paese.",
+  "howToGetThere": {
+    "nearestAirport": "Aeroporto di Manchester (MAN)",
+    "airportDistanceKm": 14,
+    "publicTransport": "Tram Metrolink, fermata Old Trafford (linea Altrincham/Trafford) oppure Trafford Bar seguita da 15 minuti a piedi. Treno fino alla stazione Manchester United Football Ground nei giorni di partita.",
+    "fromAirport": "Treno diretto dall'aeroporto a Manchester Piccadilly (circa 20 minuti), poi tram Metrolink fino a Old Trafford (circa 20 minuti)."
+  },
+  "bestTimeToVisit": "Il museo e il tour dello stadio sono aperti nei giorni feriali dalle 9:30 alle 16:30, nei giorni senza partita. Arrivate presto al mattino per evitare i gruppi scolastici.",
+  "tickets": {
+    "currency": "GBP",
+    "guidedTourPriceFrom": 25,
+    "guidedTourUrl": "https://www.manutd.com/en/museum-tour",
+    "matchTicketPriceFrom": 35,
+    "matchTicketUrl": "https://www.manutd.com/en/tickets"
+  },
+  "whatToSee": [
+    "Il museo del club e i suoi trofei",
+    "Il tunnel dei giocatori e il campo",
+    "La panchina e l'area tecnica",
+    "Gli spogliatoi",
+    "La sala conferenze stampa"
+  ],
+  "shop": {
+    "description": "Il Megastore, all'angolo dello stadio, ospita la più grande collezione di prodotti del Manchester United al mondo.",
+    "url": "https://store.manutd.com",
+    "flagshipProducts": [
+      { "name": "Maglia home ufficiale", "priceFrom": 85 },
+      { "name": "Sciarpa del club", "priceFrom": 15 },
+      { "name": "Mini pallone personalizzato", "priceFrom": 12 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/old-trafford-1/1600/900", "alt": "Vista esterna di Old Trafford di giorno" },
+    { "src": "https://picsum.photos/seed/old-trafford-2/1600/900", "alt": "Tribune di Old Trafford viste dal campo" },
+    { "src": "https://picsum.photos/seed/old-trafford-3/1600/900", "alt": "Panchina di Old Trafford" },
+    { "src": "https://picsum.photos/seed/old-trafford-4/1600/900", "alt": "Museo del Manchester United a Old Trafford" }
+  ],
+  "insiderTip": "I tour dello stadio non sono disponibili nei giorni di partita: controllate il calendario prima di prenotare. Abbinate il biglietto al museo per una tariffa scontata.",
+  "officialWebsite": "https://www.manutd.com",
+  "heroImage": { "src": "https://picsum.photos/seed/old-trafford-hero/1920/1080", "alt": "Old Trafford, stadio del Manchester United" }
+}

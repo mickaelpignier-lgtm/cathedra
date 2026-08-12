@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "siteName": "Cathedra",
+    "siteTagline": "La guida di viaggio alle cattedrali del calcio",
+    "homeDescription": "Cathedra vi porta nei più grandi stadi del mondo: come arrivarci, quando visitarli, cosa vedere e dove comprare i biglietti.",
+    "stadiumsDescription": "Esplora la nostra selezione di stadi leggendari in tutto il mondo, con tutte le informazioni pratiche per organizzare la tua visita."
+  },
+  "nav": {
+    "home": "Home",
+    "stadiums": "Stadi",
+    "menu": "Menu"
+  },
+  "home": {
+    "heroKicker": "La tua roadmap stadio per stadio",
+    "heroTitle": "Trova il tuo stadio. Sappi come arrivarci.",
+    "heroSubtitle": "Aeroporto più vicino, trasporti, orari intelligenti e prezzi dei biglietti: tutte le info pratiche per visitare le cattedrali del calcio senza perdere tempo sul posto.",
+    "heroCta": "Esplora gli stadi",
+    "heroSecondaryCta": "Vedi la mappa",
+    "statsStadiums": "stadi in catalogo",
+    "statsCountries": "paesi coperti",
+    "statsLanguages": "lingue disponibili",
+    "featuredTitle": "Stadi in evidenza",
+    "featuredSubtitle": "Una selezione di templi imperdibili per iniziare il tuo tour.",
+    "mapTitle": "La mappa degli stadi",
+    "mapSubtitle": "Individua lo stadio più vicino alla tua prossima tappa di viaggio.",
+    "exploreAll": "Vedi tutti gli stadi",
+    "howItWorksTitle": "Come funziona",
+    "howItWorksStep1Title": "Scegli uno stadio",
+    "howItWorksStep1Body": "Filtra per paese o campionato per trovare la tua prossima destinazione.",
+    "howItWorksStep2Title": "Pianifica il tragitto",
+    "howItWorksStep2Body": "Aeroporto, metro, tram: ti mostriamo il modo più semplice per arrivare in orario.",
+    "howItWorksStep3Title": "Vivi l'esperienza",
+    "howItWorksStep3Body": "Museo, spogliatoi, negozio ufficiale: non perderti nulla della tua visita."
+  },
+  "stadiumsList": {
+    "title": "Tutti gli stadi",
+    "subtitle": "Filtra per paese o club per organizzare la tua prossima visita.",
+    "filterCountry": "Paese",
+    "filterLeague": "Campionato",
+    "allCountries": "Tutti i paesi",
+    "allLeagues": "Tutti i campionati",
+    "searchPlaceholder": "Cerca uno stadio o un club...",
+    "resultsOne": "1 stadio trovato",
+    "resultsOther": "{count} stadi trovati",
+    "noResults": "Nessuno stadio corrisponde alla tua ricerca."
+  },
+  "stadium": {
+    "backToList": "Torna agli stadi",
+    "capacity": "Capienza",
+    "opened": "Anno di apertura",
+    "club": "Club residente",
+    "location": "Posizione",
+    "howToGetThereTitle": "Come arrivarci",
+    "nearestAirport": "Aeroporto più vicino",
+    "publicTransport": "Trasporto pubblico",
+    "fromAirport": "Dall'aeroporto",
+    "bestTimeTitle": "Momento migliore per la visita",
+    "ticketsTitle": "Biglietti",
+    "guidedTour": "Visita guidata",
+    "matchTickets": "Biglietti partita",
+    "priceFrom": "a partire da",
+    "buyTickets": "Prenota",
+    "whatToSeeTitle": "Cosa vedere",
+    "shopTitle": "Negozio ufficiale",
+    "shopFlagshipProducts": "Prodotti di punta",
+    "galleryTitle": "Galleria fotografica",
+    "insiderTipTitle": "Il consiglio dell'esperto",
+    "practicalInfoTitle": "Info pratiche",
+    "officialWebsite": "Sito ufficiale",
+    "shareLabel": "Condividi"
+  },
+  "languageSwitcher": {
+    "label": "Lingua"
+  },
+  "footer": {
+    "tagline": "La guida di viaggio alle cattedrali del calcio, nella tua lingua.",
+    "explore": "Esplora",
+    "about": "Chi siamo",
+    "rights": "Tutti i diritti riservati.",
+    "disclaimer": "Prezzi e orari sono indicativi: verificali con il club prima della visita."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "body": "Questo stadio potrebbe essersi trasferito... o non essere mai esistito.",
+    "cta": "Torna alla home"
+  }
+}

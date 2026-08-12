@@ -1,0 +1,52 @@
+{
+  "slug": "camp-nou",
+  "name": "Camp Nou",
+  "club": "FC Barcelona",
+  "city": "Barcelona",
+  "country": "Spain",
+  "countryCode": "ES",
+  "league": "LaLiga",
+  "coordinates": { "lat": 41.3809, "lng": 2.1228 },
+  "capacity": 105000,
+  "yearOpened": 1957,
+  "description": "Europe's largest stadium and the beating heart of FC Barcelona. Currently undergoing renovation (\"Espai Barça\"), Camp Nou remains a must-visit for any football fan in Barcelona.",
+  "howToGetThere": {
+    "nearestAirport": "Barcelona-El Prat Airport (BCN)",
+    "airportDistanceKm": 12,
+    "publicTransport": "Metro line L9 South or L10 South, Camp Nou station. Alternative: line L3, Palau Reial station, then a 10-minute walk. Buses H6, 54 and D20 also serve the stadium.",
+    "fromAirport": "Direct L9 South metro line from the airport to Camp Nou station, about 35 minutes with no transfer."
+  },
+  "bestTimeToVisit": "Go on a weekday morning outside school holidays to avoid crowds. Late afternoon light is ideal for photos of the stadium exterior.",
+  "tickets": {
+    "currency": "EUR",
+    "guidedTourPriceFrom": 28,
+    "guidedTourUrl": "https://www.fcbarcelona.com/camp-nou-experience",
+    "matchTicketPriceFrom": 39,
+    "matchTicketUrl": "https://www.fcbarcelona.com/tickets"
+  },
+  "whatToSee": [
+    "The FC Barcelona museum and its trophy collection",
+    "The pitch-side view from the touchline",
+    "The players' tunnel",
+    "The dressing rooms and press room",
+    "The panoramic viewpoint from the upper tiers"
+  ],
+  "shop": {
+    "description": "The Botiga Megastore, the official store next to the stadium, spans several floors with the club's full range of collections.",
+    "url": "https://store.fcbarcelona.com",
+    "flagshipProducts": [
+      { "name": "Official home shirt", "priceFrom": 90 },
+      { "name": "Club scarf", "priceFrom": 20 },
+      { "name": "Official printed ball", "priceFrom": 35 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/camp-nou-1/1600/900", "alt": "Exterior view of Camp Nou at sunset" },
+    { "src": "https://picsum.photos/seed/camp-nou-2/1600/900", "alt": "Camp Nou stands seen from the pitch" },
+    { "src": "https://picsum.photos/seed/camp-nou-3/1600/900", "alt": "Players' tunnel leading to the Camp Nou pitch" },
+    { "src": "https://picsum.photos/seed/camp-nou-4/1600/900", "alt": "FC Barcelona dressing room at Camp Nou" }
+  ],
+  "insiderTip": "Book your time slot online to skip the queue, and arrive right at opening on weekdays: some parts of the tour route are temporarily altered during the Espai Barça works.",
+  "officialWebsite": "https://www.fcbarcelona.com",
+  "heroImage": { "src": "https://picsum.photos/seed/camp-nou-hero/1920/1080", "alt": "Camp Nou seen from outside, home of FC Barcelona" }
+}

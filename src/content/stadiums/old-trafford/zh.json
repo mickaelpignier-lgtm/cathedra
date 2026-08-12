@@ -1,0 +1,52 @@
+{
+  "slug": "old-trafford",
+  "name": "老特拉福德球场",
+  "club": "曼彻斯特联足球俱乐部",
+  "city": "曼彻斯特",
+  "country": "英格兰",
+  "countryCode": "GB",
+  "league": "英超联赛",
+  "coordinates": { "lat": 53.4631, "lng": -2.2913 },
+  "capacity": 74310,
+  "yearOpened": 1910,
+  "description": "有“梦剧场”之称的老特拉福德，是英格兰最具标志性的球场之一，也是英国最大的俱乐部球场。",
+  "howToGetThere": {
+    "nearestAirport": "曼彻斯特机场 (MAN)",
+    "airportDistanceKm": 14,
+    "publicTransport": "乘坐 Metrolink 有轨电车至 Old Trafford 站（Altrincham/Trafford 线），或至 Trafford Bar 站后步行约15分钟。比赛日可乘火车至 Manchester United Football Ground 站。",
+    "fromAirport": "从机场乘火车直达曼彻斯特皮卡迪利站（约20分钟），再换乘 Metrolink 有轨电车至老特拉福德（约20分钟）。"
+  },
+  "bestTimeToVisit": "博物馆及球场导览在非比赛日的工作日上午9:30至下午4:30开放。建议清晨前往，避开学生团体高峰。",
+  "tickets": {
+    "currency": "GBP",
+    "guidedTourPriceFrom": 25,
+    "guidedTourUrl": "https://www.manutd.com/en/museum-tour",
+    "matchTicketPriceFrom": 35,
+    "matchTicketUrl": "https://www.manutd.com/en/tickets"
+  },
+  "whatToSee": [
+    "俱乐部博物馆及奖杯陈列",
+    "球员通道与球场草坪",
+    "教练席与技术区",
+    "更衣室",
+    "新闻发布厅"
+  ],
+  "shop": {
+    "description": "位于球场角落的 Megastore 旗舰店，是全球最大的曼联周边商品专卖店。",
+    "url": "https://store.manutd.com",
+    "flagshipProducts": [
+      { "name": "官方主场球衣", "priceFrom": 85 },
+      { "name": "俱乐部围巾", "priceFrom": 15 },
+      { "name": "印花迷你足球", "priceFrom": 12 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/old-trafford-1/1600/900", "alt": "白天的老特拉福德球场外观" },
+    { "src": "https://picsum.photos/seed/old-trafford-2/1600/900", "alt": "从草坪望向老特拉福德看台" },
+    { "src": "https://picsum.photos/seed/old-trafford-3/1600/900", "alt": "老特拉福德球场教练席" },
+    { "src": "https://picsum.photos/seed/old-trafford-4/1600/900", "alt": "老特拉福德的曼联博物馆" }
+  ],
+  "insiderTip": "比赛日不提供球场导览服务，预订前请先查看赛程表。将门票与博物馆套票捆绑购买可享优惠价格。",
+  "officialWebsite": "https://www.manutd.com",
+  "heroImage": { "src": "https://picsum.photos/seed/old-trafford-hero/1920/1080", "alt": "老特拉福德球场，曼联主场" }
+}

@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cathedra
 
-## Getting Started
+Guide de tourisme des stades de football mythiques, multilingue (FR/EN/IT/ZH). L'esprit du site : le "CityMapper des stades" — pour chaque stade, on répond d'abord à "comment j'y vais et quand", avant les infos billetterie/boutique/musée.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router) + TypeScript
+- **Tailwind CSS v4**
+- **next-intl** pour l'i18n (routes `/fr`, `/en`, `/it`, `/zh`, redirection automatique de `/`)
+- Contenu des stades en **JSON structuré**, un fichier par stade et par langue (`src/content/stadiums/<slug>/<locale>.json`) — facile à étendre, pas de base de données requise
+- **next/image** pour l'optimisation des photos (AVIF/WebP générés à la volée, lazy loading, `sizes` responsive)
+- Sitemap + robots.txt générés automatiquement, avec `hreflang` correct sur toutes les pages
+
+## Démarrage local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000) — la redirection vers `/fr` (langue par défaut) est automatique.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure du projet
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    [locale]/                 # toutes les pages, wrappées par next-intl
+      layout.tsx               # <html lang>, NextIntlClientProvider, Header/Footer, hreflang
+      page.tsx                 # accueil : hero, stades à la une, carte, "comment ça marche"
+      stades/page.tsx          # liste + filtres (pays, championnat, recherche)
+      stades/[slug]/page.tsx   # fiche détaillée d'un stade
+      not-found.tsx
+    sitemap.ts                 # sitemap.xml multilingue avec alternates hreflang
+    robots.ts
+  components/                  # StadiumCard, StadiumHero, TransitInfo, LanguageSwitcher, ...
+  content/stadiums/<slug>/     # 1 fichier JSON par stade et par langue (fr.json, en.json, it.json, zh.json)
+  i18n/                        # routing.ts (locales), navigation.ts, request.ts
+  lib/
+    stadiums.ts                # lecture/typage du contenu JSON
+    format.ts                  # formatage prix/nombres localisés, drapeaux, projection carte
+  proxy.ts                     # proxy/middleware next-intl (résolution de locale) — convention Next 16
+messages/                      # chaînes d'interface fr.json / en.json / it.json / zh.json
+```
 
-## Learn More
+## Ajouter un nouveau stade
 
-To learn more about Next.js, take a look at the following resources:
+1. Créer `src/content/stadiums/<slug>/fr.json` (et `en.json`, `it.json`, `zh.json`) sur le modèle des 3 fiches existantes (Camp Nou, Old Trafford, Santiago Bernabéu).
+2. Chaque fichier contient : nom, club, ville, pays, coordonnées GPS, capacité, comment y aller (aéroport, transports), meilleur moment pour visiter, billets (visite guidée + match), ce qu'il y a à voir, boutique officielle, galerie photo, conseil insider.
+3. Si une traduction manque pour une langue, le site retombe automatiquement sur le français (`defaultLocale`).
+4. Aucune autre étape : les pages liste/détail/sitemap se régénèrent automatiquement (le slug est découvert dynamiquement depuis le système de fichiers).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Variables d'environnement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Variable | Requis | Description |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Recommandé | URL canonique du site (ex. `https://cathedra.vercel.app` ou domaine custom), utilisée pour les balises `hreflang`, Open Graph et le sitemap. Sans elle, `https://cathedra.vercel.app` est utilisé par défaut. |
 
-## Deploy on Vercel
+Aucune clé API n'est requise pour le fonctionnement de base. La section "carte du monde" de l'accueil est une visualisation stylisée maison (projection des coordonnées GPS en CSS/SVG, sans dépendance externe) — si vous voulez une vraie carte interactive (Mapbox, Google Maps, MapLibre), il suffit de remplacer `src/components/WorldMapPreview.tsx` et d'ajouter la clé correspondante (ex. `NEXT_PUBLIC_MAPBOX_TOKEN`) dans les variables d'environnement Vercel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Images
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Les photos de démonstration utilisent [Lorem Picsum](https://picsum.photos) (`picsum.photos`) comme placeholder — à remplacer par de vraies photos de stades sous licence avant mise en production. Le domaine est déjà autorisé dans `next.config.ts` (`images.remotePatterns`) ; ajoutez-y le(s) domaine(s) de votre CDN/DAM si vous changez de source d'images.
+
+## Déploiement sur Vercel
+
+1. Pousser le repo sur GitHub/GitLab/Bitbucket.
+2. Sur [vercel.com/new](https://vercel.com/new), importer le repo — Next.js est détecté automatiquement, aucune configuration build nécessaire.
+3. Renseigner `NEXT_PUBLIC_SITE_URL` dans les Environment Variables du projet Vercel (ex. `https://cathedra.vercel.app` pour commencer, puis votre domaine custom une fois branché).
+4. Déployer. Le site est servi sur `<nom-du-projet>.vercel.app`.
+5. Pour un domaine custom : Project Settings → Domains, ajouter `votre-domaine.com`, suivre les instructions DNS, puis mettre à jour `NEXT_PUBLIC_SITE_URL` avec le nouveau domaine et redéployer (pour que sitemap/hreflang/OG pointent au bon endroit).
+
+En local, la CLI Vercel fonctionne aussi directement :
+
+```bash
+vercel        # déploiement preview
+vercel --prod # déploiement production
+```
+
+## Qualité
+
+```bash
+npm run lint    # ESLint (Next.js + a11y)
+npm run build   # build de production, génère toutes les pages statiques (SSG) par locale
+```
+
+Toutes les routes stades/langues sont pré-rendues statiquement (`generateStaticParams`) : 4 langues × (accueil + liste + 3 fiches stades) = 20 pages HTML statiques, servies depuis le CDN Vercel.

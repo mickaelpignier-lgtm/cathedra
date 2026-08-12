@@ -1,0 +1,52 @@
+{
+  "slug": "santiago-bernabeu",
+  "name": "Santiago Bernabéu",
+  "club": "Real Madrid",
+  "city": "Madrid",
+  "country": "Spain",
+  "countryCode": "ES",
+  "league": "LaLiga",
+  "coordinates": { "lat": 40.4530, "lng": -3.6883 },
+  "capacity": 85000,
+  "yearOpened": 1947,
+  "description": "Fully renovated with a futuristic new facade and retractable roof, the Santiago Bernabéu is Europe's most decorated stadium and a must-see in the heart of Madrid.",
+  "howToGetThere": {
+    "nearestAirport": "Madrid-Barajas Airport (MAD)",
+    "airportDistanceKm": 15,
+    "publicTransport": "Metro line 10, Santiago Bernabéu station, exits directly onto the stadium. Bus lines 27, 40 and 147.",
+    "fromAirport": "Metro line 8 from the airport to Nuevos Ministerios, then line 10 to Santiago Bernabéu, about 30 minutes total."
+  },
+  "bestTimeToVisit": "Visit in the late afternoon to see the new facade lit up at nightfall. During the day, go on a weekday for smoother access to the tour.",
+  "tickets": {
+    "currency": "EUR",
+    "guidedTourPriceFrom": 25,
+    "guidedTourUrl": "https://www.realmadrid.com/en/tickets/bernabeu-tour",
+    "matchTicketPriceFrom": 65,
+    "matchTicketUrl": "https://www.realmadrid.com/en/tickets"
+  },
+  "whatToSee": [
+    "The trophy room and its 15 Champions League cups",
+    "The pitch-level view of the field",
+    "The dressing rooms and players' tunnel",
+    "The panoramic terrace",
+    "The 360° screen and immersive experience of the new stadium"
+  ],
+  "shop": {
+    "description": "Real Madrid World, the flagship store next to the stadium, brings together every official collection across several floors.",
+    "url": "https://shop.realmadrid.com",
+    "flagshipProducts": [
+      { "name": "Official home shirt", "priceFrom": 100 },
+      { "name": "Club scarf", "priceFrom": 25 },
+      { "name": "Official cap", "priceFrom": 30 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/bernabeu-1/1600/900", "alt": "Illuminated exterior facade of the Santiago Bernabéu at night" },
+    { "src": "https://picsum.photos/seed/bernabeu-2/1600/900", "alt": "Santiago Bernabéu stands seen from the pitch" },
+    { "src": "https://picsum.photos/seed/bernabeu-3/1600/900", "alt": "Real Madrid trophy room" },
+    { "src": "https://picsum.photos/seed/bernabeu-4/1600/900", "alt": "Santiago Bernabéu panoramic terrace" }
+  ],
+  "insiderTip": "Buy timed-entry tickets online to skip the queue, which can get long during the day. The illuminated facade at night is worth seeing even without a guided tour.",
+  "officialWebsite": "https://www.realmadrid.com",
+  "heroImage": { "src": "https://picsum.photos/seed/bernabeu-hero/1920/1080", "alt": "The Santiago Bernabéu, Real Madrid's stadium, at night" }
+}

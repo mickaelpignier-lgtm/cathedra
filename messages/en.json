@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "siteName": "Cathedra",
+    "siteTagline": "The travel guide to football's cathedrals",
+    "homeDescription": "Cathedra takes you to the world's greatest football stadiums: how to get there, when to visit, what to see and where to buy tickets.",
+    "stadiumsDescription": "Explore our selection of legendary stadiums around the world, with all the practical info to plan your visit."
+  },
+  "nav": {
+    "home": "Home",
+    "stadiums": "Stadiums",
+    "menu": "Menu"
+  },
+  "home": {
+    "heroKicker": "Your stadium-by-stadium roadmap",
+    "heroTitle": "Find your stadium. Know how to get there.",
+    "heroSubtitle": "Nearest airport, transit, smart timing and ticket prices: every practical detail to visit football's cathedrals without wasting time on the ground.",
+    "heroCta": "Explore stadiums",
+    "heroSecondaryCta": "View the map",
+    "statsStadiums": "stadiums listed",
+    "statsCountries": "countries covered",
+    "statsLanguages": "languages available",
+    "featuredTitle": "Featured stadiums",
+    "featuredSubtitle": "A selection of must-see shrines to start your tour.",
+    "mapTitle": "The stadium map",
+    "mapSubtitle": "Spot the closest stadium to your next stop.",
+    "exploreAll": "See all stadiums",
+    "howItWorksTitle": "How it works",
+    "howItWorksStep1Title": "Pick a stadium",
+    "howItWorksStep1Body": "Filter by country or league to find your next destination.",
+    "howItWorksStep2Title": "Plan the journey",
+    "howItWorksStep2Body": "Airport, metro, tram: we show you the simplest way to arrive on time.",
+    "howItWorksStep3Title": "Live the experience",
+    "howItWorksStep3Body": "Museum, dressing rooms, official store: don't miss a thing on your visit."
+  },
+  "stadiumsList": {
+    "title": "All stadiums",
+    "subtitle": "Filter by country or club to plan your next visit.",
+    "filterCountry": "Country",
+    "filterLeague": "League",
+    "allCountries": "All countries",
+    "allLeagues": "All leagues",
+    "searchPlaceholder": "Search a stadium or club...",
+    "resultsOne": "1 stadium found",
+    "resultsOther": "{count} stadiums found",
+    "noResults": "No stadium matches your search."
+  },
+  "stadium": {
+    "backToList": "Back to stadiums",
+    "capacity": "Capacity",
+    "opened": "Year opened",
+    "club": "Home club",
+    "location": "Location",
+    "howToGetThereTitle": "How to get there",
+    "nearestAirport": "Nearest airport",
+    "publicTransport": "Public transport",
+    "fromAirport": "From the airport",
+    "bestTimeTitle": "Best time to visit",
+    "ticketsTitle": "Tickets",
+    "guidedTour": "Guided tour",
+    "matchTickets": "Match tickets",
+    "priceFrom": "from",
+    "buyTickets": "Book now",
+    "whatToSeeTitle": "What to see",
+    "shopTitle": "Official store",
+    "shopFlagshipProducts": "Flagship products",
+    "galleryTitle": "Photo gallery",
+    "insiderTipTitle": "Insider tip",
+    "practicalInfoTitle": "Practical info",
+    "officialWebsite": "Official website",
+    "shareLabel": "Share"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "footer": {
+    "tagline": "The travel guide to football's cathedrals, in your language.",
+    "explore": "Explore",
+    "about": "About",
+    "rights": "All rights reserved.",
+    "disclaimer": "Prices and schedules are indicative — please check with the club before your visit."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This stadium may have relocated... or never existed.",
+    "cta": "Back to home"
+  }
+}

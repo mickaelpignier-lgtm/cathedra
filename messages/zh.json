@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "siteName": "Cathedra",
+    "siteTagline": "足球圣殿旅行指南",
+    "homeDescription": "Cathedra 带您探索世界顶级足球场：如何抵达、最佳参观时间、必看亮点以及购票方式。",
+    "stadiumsDescription": "探索我们精选的世界传奇球场，获取规划参观所需的全部实用信息。"
+  },
+  "nav": {
+    "home": "首页",
+    "stadiums": "球场",
+    "menu": "菜单"
+  },
+  "home": {
+    "heroKicker": "为您逐一规划球场之旅",
+    "heroTitle": "找到您的球场，知道如何抵达。",
+    "heroSubtitle": "最近的机场、公共交通、最佳参观时段与票价，助您高效游览足球圣殿，不浪费时间。",
+    "heroCta": "探索球场",
+    "heroSecondaryCta": "查看地图",
+    "statsStadiums": "收录球场",
+    "statsCountries": "覆盖国家",
+    "statsLanguages": "支持语言",
+    "featuredTitle": "精选球场",
+    "featuredSubtitle": "开启旅程必看的传奇球场精选。",
+    "mapTitle": "球场地图",
+    "mapSubtitle": "找到离您下一站最近的球场。",
+    "exploreAll": "查看全部球场",
+    "howItWorksTitle": "使用方法",
+    "howItWorksStep1Title": "选择球场",
+    "howItWorksStep1Body": "按国家或联赛筛选，找到您的下一个目的地。",
+    "howItWorksStep2Title": "规划路线",
+    "howItWorksStep2Body": "机场、地铁、有轨电车——我们为您指明最简单的准时到达方式。",
+    "howItWorksStep3Title": "体验现场",
+    "howItWorksStep3Body": "博物馆、更衣室、官方商店——不错过参观的每个亮点。"
+  },
+  "stadiumsList": {
+    "title": "全部球场",
+    "subtitle": "按国家或俱乐部筛选，规划您的下一次参观。",
+    "filterCountry": "国家",
+    "filterLeague": "联赛",
+    "allCountries": "所有国家",
+    "allLeagues": "所有联赛",
+    "searchPlaceholder": "搜索球场或俱乐部...",
+    "resultsOne": "找到 1 个球场",
+    "resultsOther": "找到 {count} 个球场",
+    "noResults": "没有找到符合条件的球场。"
+  },
+  "stadium": {
+    "backToList": "返回球场列表",
+    "capacity": "容量",
+    "opened": "启用年份",
+    "club": "主队",
+    "location": "位置",
+    "howToGetThereTitle": "如何抵达",
+    "nearestAirport": "最近机场",
+    "publicTransport": "公共交通",
+    "fromAirport": "从机场出发",
+    "bestTimeTitle": "最佳参观时间",
+    "ticketsTitle": "门票",
+    "guidedTour": "导览参观",
+    "matchTickets": "比赛门票",
+    "priceFrom": "起价",
+    "buyTickets": "立即预订",
+    "whatToSeeTitle": "必看亮点",
+    "shopTitle": "官方商店",
+    "shopFlagshipProducts": "热销商品",
+    "galleryTitle": "图片库",
+    "insiderTipTitle": "内部人士建议",
+    "practicalInfoTitle": "实用信息",
+    "officialWebsite": "官方网站",
+    "shareLabel": "分享"
+  },
+  "languageSwitcher": {
+    "label": "语言"
+  },
+  "footer": {
+    "tagline": "用您的语言呈现的足球圣殿旅行指南。",
+    "explore": "探索",
+    "about": "关于我们",
+    "rights": "版权所有。",
+    "disclaimer": "价格和时间仅供参考，请在参观前向俱乐部核实。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "body": "这座球场可能已经搬迁……或者从未存在过。",
+    "cta": "返回首页"
+  }
+}

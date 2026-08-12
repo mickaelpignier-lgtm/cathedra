@@ -1,0 +1,52 @@
+{
+  "slug": "santiago-bernabeu",
+  "name": "Santiago Bernabéu",
+  "club": "Real Madrid",
+  "city": "Madrid",
+  "country": "Spagna",
+  "countryCode": "ES",
+  "league": "LaLiga",
+  "coordinates": { "lat": 40.4530, "lng": -3.6883 },
+  "capacity": 85000,
+  "yearOpened": 1947,
+  "description": "Completamente rinnovato con una nuova facciata futuristica e tetto retrattile, il Santiago Bernabéu è lo stadio più titolato d'Europa e una tappa obbligata nel cuore di Madrid.",
+  "howToGetThere": {
+    "nearestAirport": "Aeroporto di Madrid-Barajas (MAD)",
+    "airportDistanceKm": 15,
+    "publicTransport": "Metro linea 10, stazione Santiago Bernabéu, uscita diretta sullo stadio. Autobus linee 27, 40 e 147.",
+    "fromAirport": "Metro linea 8 dall'aeroporto fino a Nuevos Ministerios, poi linea 10 fino a Santiago Bernabéu, circa 30 minuti in totale."
+  },
+  "bestTimeToVisit": "Visitate nel tardo pomeriggio per vedere la nuova facciata illuminata al calar della notte. Di giorno, preferite un giorno feriale per un accesso più rapido al tour.",
+  "tickets": {
+    "currency": "EUR",
+    "guidedTourPriceFrom": 25,
+    "guidedTourUrl": "https://www.realmadrid.com/en/tickets/bernabeu-tour",
+    "matchTicketPriceFrom": 65,
+    "matchTicketUrl": "https://www.realmadrid.com/en/tickets"
+  },
+  "whatToSee": [
+    "La sala dei trofei con le sue 15 Champions League",
+    "La vista a bordo campo",
+    "Gli spogliatoi e il tunnel dei giocatori",
+    "La terrazza panoramica",
+    "Lo schermo a 360° e l'esperienza immersiva del nuovo stadio"
+  ],
+  "shop": {
+    "description": "Real Madrid World, il flagship store accanto allo stadio, riunisce tutte le collezioni ufficiali su più piani.",
+    "url": "https://shop.realmadrid.com",
+    "flagshipProducts": [
+      { "name": "Maglia home ufficiale", "priceFrom": 100 },
+      { "name": "Sciarpa del club", "priceFrom": 25 },
+      { "name": "Cappellino ufficiale", "priceFrom": 30 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/bernabeu-1/1600/900", "alt": "Facciata esterna illuminata del Santiago Bernabéu di notte" },
+    { "src": "https://picsum.photos/seed/bernabeu-2/1600/900", "alt": "Tribune del Santiago Bernabéu viste dal campo" },
+    { "src": "https://picsum.photos/seed/bernabeu-3/1600/900", "alt": "Sala dei trofei del Real Madrid" },
+    { "src": "https://picsum.photos/seed/bernabeu-4/1600/900", "alt": "Terrazza panoramica del Santiago Bernabéu" }
+  ],
+  "insiderTip": "Acquistate online i biglietti con fascia oraria per evitare la coda, spesso lunga durante il giorno. La facciata illuminata di notte merita una visita anche senza tour guidato.",
+  "officialWebsite": "https://www.realmadrid.com",
+  "heroImage": { "src": "https://picsum.photos/seed/bernabeu-hero/1920/1080", "alt": "Il Santiago Bernabéu, stadio del Real Madrid, di notte" }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "old-trafford",
+  "name": "Old Trafford",
+  "club": "Manchester United",
+  "city": "Manchester",
+  "country": "England",
+  "countryCode": "GB",
+  "league": "Premier League",
+  "coordinates": { "lat": 53.4631, "lng": -2.2913 },
+  "capacity": 74310,
+  "yearOpened": 1910,
+  "description": "Nicknamed \"the Theatre of Dreams\", Old Trafford is one of England's most iconic stadiums and the country's largest club ground.",
+  "howToGetThere": {
+    "nearestAirport": "Manchester Airport (MAN)",
+    "airportDistanceKm": 14,
+    "publicTransport": "Metrolink tram, Old Trafford stop (Altrincham/Trafford line) or Trafford Bar then a 15-minute walk. Train to Manchester United Football Ground station on matchdays.",
+    "fromAirport": "Direct train from the airport to Manchester Piccadilly (about 20 minutes), then Metrolink tram to Old Trafford (about 20 minutes)."
+  },
+  "bestTimeToVisit": "The museum and stadium tour run on weekdays from 9:30am to 4:30pm on non-matchdays. Arrive early in the morning to beat school group crowds.",
+  "tickets": {
+    "currency": "GBP",
+    "guidedTourPriceFrom": 25,
+    "guidedTourUrl": "https://www.manutd.com/en/museum-tour",
+    "matchTicketPriceFrom": 35,
+    "matchTicketUrl": "https://www.manutd.com/en/tickets"
+  },
+  "whatToSee": [
+    "The club museum and its trophies",
+    "The players' tunnel and the pitch",
+    "The dugout and technical area",
+    "The dressing rooms",
+    "The press conference room"
+  ],
+  "shop": {
+    "description": "The Megastore, on the corner of the stadium, holds the largest collection of Manchester United merchandise in the world.",
+    "url": "https://store.manutd.com",
+    "flagshipProducts": [
+      { "name": "Official home shirt", "priceFrom": 85 },
+      { "name": "Club scarf", "priceFrom": 15 },
+      { "name": "Printed mini ball", "priceFrom": 12 }
+    ]
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/seed/old-trafford-1/1600/900", "alt": "Exterior view of Old Trafford in daylight" },
+    { "src": "https://picsum.photos/seed/old-trafford-2/1600/900", "alt": "Old Trafford stands seen from the pitch" },
+    { "src": "https://picsum.photos/seed/old-trafford-3/1600/900", "alt": "Old Trafford dugout" },
+    { "src": "https://picsum.photos/seed/old-trafford-4/1600/900", "alt": "Manchester United museum at Old Trafford" }
+  ],
+  "insiderTip": "Stadium tours are not available on matchdays — check the fixture list before booking. Bundle your ticket with the museum for a discounted rate.",
+  "officialWebsite": "https://www.manutd.com",
+  "heroImage": { "src": "https://picsum.photos/seed/old-trafford-hero/1920/1080", "alt": "Old Trafford, home of Manchester United" }
+}
