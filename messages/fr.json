@@ -8,12 +8,14 @@
   "nav": {
     "home": "Accueil",
     "stadiums": "Stades",
-    "menu": "Menu"
+    "menu": "Menu",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire"
   },
   "home": {
     "heroKicker": "Votre feuille de route stade par stade",
-    "heroTitle": "Trouvez votre stade. Sachez comment y aller.",
-    "heroSubtitle": "Aéroport le plus proche, transports, horaires malins et prix des billets : toutes les infos pratiques pour visiter les temples du football, sans perdre de temps sur place.",
+    "heroTitle": "Le foot se visite",
+    "heroSubtitle": "Cathedra est le guide des stades du monde : comment y aller, quand y aller, ce qu'il faut voir une fois dedans. Écrit pour les fans qui voyagent.",
     "heroCta": "Explorer les stades",
     "heroSecondaryCta": "Voir la carte",
     "statsStadiums": "stades référencés",
@@ -21,16 +23,10 @@
     "statsLanguages": "langues disponibles",
     "featuredTitle": "Stades à la une",
     "featuredSubtitle": "Une sélection de sanctuaires incontournables pour commencer votre tournée.",
-    "mapTitle": "La carte des stades",
+    "mapKicker": "Point d'entrée",
+    "mapTitle": "Commencez par la carte",
     "mapSubtitle": "Repérez le stade le plus proche de votre prochaine étape de voyage.",
-    "exploreAll": "Voir tous les stades",
-    "howItWorksTitle": "Comment ça marche",
-    "howItWorksStep1Title": "Choisissez un stade",
-    "howItWorksStep1Body": "Filtrez par pays ou par championnat pour trouver votre prochaine destination.",
-    "howItWorksStep2Title": "Planifiez le trajet",
-    "howItWorksStep2Body": "Aéroport, métro, tram : on vous indique le chemin le plus simple pour arriver à l'heure.",
-    "howItWorksStep3Title": "Vivez l'expérience",
-    "howItWorksStep3Body": "Musée, vestiaires, boutique officielle : ne manquez rien de votre visite."
+    "exploreAll": "Voir tous les stades"
   },
   "stadiumsList": {
     "title": "Tous les stades",
@@ -67,12 +63,25 @@
     "insiderTipTitle": "Le conseil de l'initié",
     "practicalInfoTitle": "Infos pratiques",
     "officialWebsite": "Site officiel",
-    "shareLabel": "Partager"
+    "shareLabel": "Partager",
+    "navGallery": "Galerie",
+    "navTravel": "Y aller",
+    "navTickets": "Billets",
+    "navSee": "À voir",
+    "navShop": "Boutique",
+    "navMap": "Carte",
+    "heroCtaPrimary": "Voir les billets",
+    "heroCtaSecondary": "La boutique",
+    "swipeHint": "Faites glisser →",
+    "openDirections": "Ouvrir l'itinéraire",
+    "shopMetaText": "Retrait en boutique ou livraison",
+    "whenToComeTag": "Quand venir"
   },
   "languageSwitcher": {
     "label": "Langue"
   },
   "footer": {
+    "bigTitle": "Trouvez votre prochain stade",
     "tagline": "Le guide de voyage des temples du football, dans votre langue.",
     "explore": "Explorer",
     "about": "À propos",

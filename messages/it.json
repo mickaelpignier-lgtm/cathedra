@@ -8,12 +8,14 @@
   "nav": {
     "home": "Home",
     "stadiums": "Stadi",
-    "menu": "Menu"
+    "menu": "Menu",
+    "signIn": "Accedi",
+    "signUp": "Registrati"
   },
   "home": {
     "heroKicker": "La tua roadmap stadio per stadio",
-    "heroTitle": "Trova il tuo stadio. Sappi come arrivarci.",
-    "heroSubtitle": "Aeroporto più vicino, trasporti, orari intelligenti e prezzi dei biglietti: tutte le info pratiche per visitare le cattedrali del calcio senza perdere tempo sul posto.",
+    "heroTitle": "Il calcio si visita",
+    "heroSubtitle": "Cathedra è la guida agli stadi del mondo: come arrivarci, quando andarci, cosa guardare una volta dentro. Scritta per i tifosi che viaggiano.",
     "heroCta": "Esplora gli stadi",
     "heroSecondaryCta": "Vedi la mappa",
     "statsStadiums": "stadi in catalogo",
@@ -21,16 +23,10 @@
     "statsLanguages": "lingue disponibili",
     "featuredTitle": "Stadi in evidenza",
     "featuredSubtitle": "Una selezione di templi imperdibili per iniziare il tuo tour.",
-    "mapTitle": "La mappa degli stadi",
+    "mapKicker": "Punto di partenza",
+    "mapTitle": "Inizia dalla mappa",
     "mapSubtitle": "Individua lo stadio più vicino alla tua prossima tappa di viaggio.",
-    "exploreAll": "Vedi tutti gli stadi",
-    "howItWorksTitle": "Come funziona",
-    "howItWorksStep1Title": "Scegli uno stadio",
-    "howItWorksStep1Body": "Filtra per paese o campionato per trovare la tua prossima destinazione.",
-    "howItWorksStep2Title": "Pianifica il tragitto",
-    "howItWorksStep2Body": "Aeroporto, metro, tram: ti mostriamo il modo più semplice per arrivare in orario.",
-    "howItWorksStep3Title": "Vivi l'esperienza",
-    "howItWorksStep3Body": "Museo, spogliatoi, negozio ufficiale: non perderti nulla della tua visita."
+    "exploreAll": "Vedi tutti gli stadi"
   },
   "stadiumsList": {
     "title": "Tutti gli stadi",
@@ -67,12 +63,25 @@
     "insiderTipTitle": "Il consiglio dell'esperto",
     "practicalInfoTitle": "Info pratiche",
     "officialWebsite": "Sito ufficiale",
-    "shareLabel": "Condividi"
+    "shareLabel": "Condividi",
+    "navGallery": "Galleria",
+    "navTravel": "Come arrivare",
+    "navTickets": "Biglietti",
+    "navSee": "Cosa vedere",
+    "navShop": "Negozio",
+    "navMap": "Mappa",
+    "heroCtaPrimary": "Vedi i biglietti",
+    "heroCtaSecondary": "Il negozio",
+    "swipeHint": "Scorri →",
+    "openDirections": "Apri il percorso",
+    "shopMetaText": "Ritiro in negozio o spedizione",
+    "whenToComeTag": "Quando venire"
   },
   "languageSwitcher": {
     "label": "Lingua"
   },
   "footer": {
+    "bigTitle": "Trova il tuo prossimo stadio",
     "tagline": "La guida di viaggio alle cattedrali del calcio, nella tua lingua.",
     "explore": "Esplora",
     "about": "Chi siamo",

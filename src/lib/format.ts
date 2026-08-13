@@ -15,6 +15,7 @@ export function formatPrice(
   return new Intl.NumberFormat(localeToIntl[locale], {
     style: "currency",
     currency,
+    currencyDisplay: "narrowSymbol",
     maximumFractionDigits: 0,
   }).format(amount);
 }

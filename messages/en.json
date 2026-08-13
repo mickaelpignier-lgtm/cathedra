@@ -8,12 +8,14 @@
   "nav": {
     "home": "Home",
     "stadiums": "Stadiums",
-    "menu": "Menu"
+    "menu": "Menu",
+    "signIn": "Sign in",
+    "signUp": "Sign up"
   },
   "home": {
     "heroKicker": "Your stadium-by-stadium roadmap",
-    "heroTitle": "Find your stadium. Know how to get there.",
-    "heroSubtitle": "Nearest airport, transit, smart timing and ticket prices: every practical detail to visit football's cathedrals without wasting time on the ground.",
+    "heroTitle": "Football is a place",
+    "heroSubtitle": "Cathedra is the guide to the world's stadiums: how to get there, when to go, what to look at once you are inside. Written for fans who travel.",
     "heroCta": "Explore stadiums",
     "heroSecondaryCta": "View the map",
     "statsStadiums": "stadiums listed",
@@ -21,16 +23,10 @@
     "statsLanguages": "languages available",
     "featuredTitle": "Featured stadiums",
     "featuredSubtitle": "A selection of must-see shrines to start your tour.",
-    "mapTitle": "The stadium map",
+    "mapKicker": "Start here",
+    "mapTitle": "Begin with the map",
     "mapSubtitle": "Spot the closest stadium to your next stop.",
-    "exploreAll": "See all stadiums",
-    "howItWorksTitle": "How it works",
-    "howItWorksStep1Title": "Pick a stadium",
-    "howItWorksStep1Body": "Filter by country or league to find your next destination.",
-    "howItWorksStep2Title": "Plan the journey",
-    "howItWorksStep2Body": "Airport, metro, tram: we show you the simplest way to arrive on time.",
-    "howItWorksStep3Title": "Live the experience",
-    "howItWorksStep3Body": "Museum, dressing rooms, official store: don't miss a thing on your visit."
+    "exploreAll": "See all stadiums"
   },
   "stadiumsList": {
     "title": "All stadiums",
@@ -67,12 +63,25 @@
     "insiderTipTitle": "Insider tip",
     "practicalInfoTitle": "Practical info",
     "officialWebsite": "Official website",
-    "shareLabel": "Share"
+    "shareLabel": "Share",
+    "navGallery": "Gallery",
+    "navTravel": "Getting there",
+    "navTickets": "Tickets",
+    "navSee": "What to see",
+    "navShop": "Shop",
+    "navMap": "Map",
+    "heroCtaPrimary": "See tickets",
+    "heroCtaSecondary": "The shop",
+    "swipeHint": "Swipe →",
+    "openDirections": "Open directions",
+    "shopMetaText": "Pick up in store or ship",
+    "whenToComeTag": "When to come"
   },
   "languageSwitcher": {
     "label": "Language"
   },
   "footer": {
+    "bigTitle": "Find your next stadium",
     "tagline": "The travel guide to football's cathedrals, in your language.",
     "explore": "Explore",
     "about": "About",

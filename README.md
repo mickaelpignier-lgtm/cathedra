@@ -20,6 +20,16 @@ npm run dev
 
 Ouvrir [http://localhost:3000](http://localhost:3000) — la redirection vers `/fr` (langue par défaut) est automatique.
 
+## Direction artistique
+
+Charte reprise d'un handoff de design dédié (dossier `design_handoff_cathedra`, non versionné) :
+
+- **Couleurs** : fond sombre `#0B0B0C`, sections claires `#F2EFE9`, accent unique `#2E5BFF` exposé en variable CSS `--acc` (`src/app/globals.css`). Un seul token à changer pour retheme tout le site.
+- **Typographies** : **Anton** pour les titres (majuscules, interlignage serré), **IBM Plex Sans** pour le texte courant, **IBM Plex Mono** pour les labels/données (majuscules, tracking large). Chargées via `next/font/google` dans `src/app/[locale]/layout.tsx`. Le chinois retombe sur la police système CJK (pas de police CJK auto-hébergée, pour ne pas alourdir le bundle des autres langues).
+- **Rayon 0 partout**, sauf le sélecteur de langue et les puces de la carte (cercles).
+- **Interactions** : `src/components/Reveal.tsx` (apparition au scroll via IntersectionObserver), `Marquee.tsx` (bandeau défilant), `ParallaxImage.tsx` (parallaxe des heros) — toutes respectent `prefers-reduced-motion`.
+- La fiche stade utilise une sous-navigation collante (`StadiumSubNav`) sous le header fixe ; le calcul `-mt-[99px]` du hero fait passer l'image sous header (56px) + sous-nav (~43px), à ajuster ensemble si l'un des deux change de hauteur.
+
 ## Structure du projet
 
 ```
@@ -33,7 +43,8 @@ src/
       not-found.tsx
     sitemap.ts                 # sitemap.xml multilingue avec alternates hreflang
     robots.ts
-  components/                  # StadiumCard, StadiumHero, TransitInfo, LanguageSwitcher, ...
+  components/                  # StadiumCard, StadiumHero, TravelSection, LocationSection, FeaturedGrid,
+                                # StadiumSubNav, LanguageSwitcher, Reveal, Marquee, ParallaxImage, ...
   content/stadiums/<slug>/     # 1 fichier JSON par stade et par langue (fr.json, en.json, it.json, zh.json)
   i18n/                        # routing.ts (locales), navigation.ts, request.ts
   lib/
@@ -60,7 +71,10 @@ Aucune clé API n'est requise pour le fonctionnement de base. La section "carte 
 
 ## Images
 
-Les photos de démonstration utilisent [Lorem Picsum](https://picsum.photos) (`picsum.photos`) comme placeholder — à remplacer par de vraies photos de stades sous licence avant mise en production. Le domaine est déjà autorisé dans `next.config.ts` (`images.remotePatterns`) ; ajoutez-y le(s) domaine(s) de votre CDN/DAM si vous changez de source d'images.
+- **Camp Nou, Old Trafford, Santiago Bernabéu, San Siro** utilisent de vraies photos (Wikimedia Commons, licence CC BY / CC BY-SA), auto-hébergées dans `public/images/stadiums/<slug>/` (redimensionnées à 2400px max). Voir [PHOTO_CREDITS.md](./PHOTO_CREDITS.md) pour l'attribution obligatoire de chaque photo.
+- Les **22 autres stades** utilisent [Lorem Picsum](https://picsum.photos) comme placeholder — à remplacer par de vraies photos avant mise en production, en suivant le même modèle (télécharger + `scripts/update-photo-paths.ts` en exemple).
+- Le domaine `picsum.photos` est autorisé dans `next.config.ts` (`images.remotePatterns`) pour les placeholders ; les photos auto-hébergées n'ont besoin d'aucune configuration supplémentaire.
+- ⚠️ Ne pas référencer directement des URL `upload.wikimedia.org` en `remotePatterns` : Wikimedia limite (429) les requêtes du serveur d'optimisation d'images de Next.js faute de User-Agent reconnu. Toujours télécharger et auto-héberger.
 
 ## Déploiement sur Vercel
 

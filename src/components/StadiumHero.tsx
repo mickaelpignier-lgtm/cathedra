@@ -1,9 +1,8 @@
-import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import type { Stadium } from "@/lib/stadiums";
 import type { Locale } from "@/i18n/routing";
-import { countryCodeToFlag, formatNumber } from "@/lib/format";
-import { Link } from "@/i18n/navigation";
+import { formatNumber, formatPrice } from "@/lib/format";
+import { ParallaxImage } from "./ParallaxImage";
 
 interface StadiumHeroProps {
   stadium: Stadium;
@@ -13,62 +12,84 @@ export function StadiumHero({ stadium }: StadiumHeroProps) {
   const t = useTranslations("stadium");
   const locale = useLocale() as Locale;
 
+  const stats = [
+    { label: t("capacity"), value: formatNumber(stadium.capacity, locale) },
+    { label: t("opened"), value: String(stadium.yearOpened) },
+    {
+      label: t("guidedTour"),
+      value: formatPrice(
+        stadium.tickets.guidedTourPriceFrom,
+        stadium.tickets.currency,
+        locale
+      ),
+    },
+    { label: stadium.league, value: stadium.club },
+  ];
+
   return (
-    <section className="relative overflow-hidden">
-      <div className="relative h-[52vh] min-h-[360px] w-full">
-        <Image
-          src={stadium.heroImage.src}
-          alt={stadium.heroImage.alt}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/10" />
-      </div>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative -mt-24 rounded-2xl border border-white/10 bg-slate-900/90 p-6 shadow-xl backdrop-blur sm:p-8">
-          <Link
-            href="/stades"
-            className="mb-4 inline-flex items-center gap-1 text-sm font-medium text-emerald-400 hover:text-emerald-300"
-          >
-            &larr; {t("backToList")}
-          </Link>
-          <div className="flex flex-wrap items-start justify-between gap-4">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-emerald-400">
-                {stadium.league}
-              </p>
-              <h1 className="mt-1 text-3xl font-bold text-white sm:text-4xl">
-                {stadium.name}
-              </h1>
-              <p className="mt-2 flex items-center gap-2 text-slate-300">
-                <span aria-hidden="true" className="text-xl">
-                  {countryCodeToFlag(stadium.countryCode)}
-                </span>
-                {stadium.club} &middot; {stadium.city}, {stadium.country}
-              </p>
+    <section className="relative -mt-[99px] flex h-[100svh] min-h-[600px] flex-col justify-end overflow-hidden">
+      <ParallaxImage src={stadium.heroImage.src} alt={stadium.heroImage.alt} priority />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(120% 80% at 50% 10%, rgba(46,91,255,.16), transparent 60%), linear-gradient(180deg, rgba(11,11,12,.7) 0%, rgba(11,11,12,.05) 42%, rgba(11,11,12,.96) 92%)",
+        }}
+      />
+
+      <div className="relative px-[clamp(14px,3vw,34px)] pb-[clamp(20px,3vw,34px)]">
+        <div
+          className="mb-3.5 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[.22em]"
+          style={{ color: "var(--acc)" }}
+        >
+          <span
+            className="pulse-dot h-[7px] w-[7px] rounded-full"
+            style={{ background: "var(--acc)" }}
+          />
+          <span>
+            {stadium.country} · {stadium.league} · {stadium.city}
+          </span>
+        </div>
+        <h1
+          className="font-display uppercase leading-[.8] tracking-[-.02em]"
+          style={{ fontSize: "clamp(58px,15vw,220px)" }}
+        >
+          {stadium.name}
+        </h1>
+        <div
+          className="mt-3.5 text-[clamp(13px,1.6vw,17px)]"
+          style={{ color: "rgba(242,239,233,.62)" }}
+        >
+          {stadium.club}
+        </div>
+
+        <div className="mt-5 flex flex-wrap gap-[clamp(18px,4vw,54px)] border-t border-white/16 pt-4">
+          {stats.map((s) => (
+            <div key={s.label}>
+              <div className="font-mono text-[10px] uppercase tracking-[.18em] text-[#8E8E88]">
+                {s.label}
+              </div>
+              <div className="mt-1 font-display text-[clamp(19px,2.6vw,28px)] uppercase">
+                {s.value}
+              </div>
             </div>
-            <dl className="grid grid-cols-2 gap-x-8 gap-y-2 text-right">
-              <div>
-                <dt className="text-xs uppercase tracking-wide text-slate-500">
-                  {t("capacity")}
-                </dt>
-                <dd className="text-lg font-semibold text-white">
-                  {formatNumber(stadium.capacity, locale)}
-                </dd>
-              </div>
-              <div>
-                <dt className="text-xs uppercase tracking-wide text-slate-500">
-                  {t("opened")}
-                </dt>
-                <dd className="text-lg font-semibold text-white">
-                  {stadium.yearOpened}
-                </dd>
-              </div>
-            </dl>
-          </div>
-          <p className="mt-4 max-w-3xl text-slate-300">{stadium.description}</p>
+          ))}
+        </div>
+
+        <div className="mt-6 flex flex-wrap items-center gap-2.5">
+          <a
+            href="#billets"
+            className="px-6 py-3.5 text-[12.5px] font-semibold uppercase tracking-[.16em] transition-colors"
+            style={{ background: "var(--acc)", color: "#F2EFE9" }}
+          >
+            {t("heroCtaPrimary")}
+          </a>
+          <a
+            href="#boutique"
+            className="border border-white/35 px-6 py-3.5 text-[12.5px] font-semibold uppercase tracking-[.16em] text-[#F2EFE9] transition-colors hover:border-white hover:bg-white/8"
+          >
+            {t("heroCtaSecondary")}
+          </a>
         </div>
       </div>
     </section>

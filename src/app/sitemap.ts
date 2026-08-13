@@ -11,8 +11,8 @@ function buildLanguageAlternates(path: string) {
   );
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const slugs = getStadiumSlugs();
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const slugs = await getStadiumSlugs();
   const now = new Date();
 
   const staticPaths = ["", "/stades"];

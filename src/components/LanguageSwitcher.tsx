@@ -2,44 +2,53 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { locales, localeNames, type Locale } from "@/i18n/routing";
+import { locales, type Locale } from "@/i18n/routing";
 
-export function LanguageSwitcher() {
+const labels: Record<Locale, string> = {
+  fr: "FR",
+  en: "EN",
+  it: "IT",
+  zh: "中",
+};
+
+interface LanguageSwitcherProps {
+  dark?: boolean;
+}
+
+export function LanguageSwitcher({ dark = true }: LanguageSwitcherProps) {
   const t = useTranslations("languageSwitcher");
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const pathname = usePathname();
   const router = useRouter();
 
-  function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value as Locale;
-    router.replace(pathname, { locale: nextLocale });
-  }
-
   return (
-    <label className="group relative flex items-center">
-      <span className="sr-only">{t("label")}</span>
-      <select
-        aria-label={t("label")}
-        value={locale}
-        onChange={handleChange}
-        className="cursor-pointer appearance-none rounded-full border border-white/15 bg-white/5 py-2 pl-3 pr-8 text-sm font-medium text-slate-100 transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
-      >
-        {locales.map((loc) => (
-          <option key={loc} value={loc} className="text-slate-900">
-            {localeNames[loc]}
-          </option>
-        ))}
-      </select>
-      <svg
-        aria-hidden="true"
-        viewBox="0 0 20 20"
-        className="pointer-events-none absolute right-2.5 h-4 w-4 text-slate-300"
-      >
-        <path
-          fill="currentColor"
-          d="M5.5 7.5 10 12l4.5-4.5H5.5Z"
-        />
-      </svg>
-    </label>
+    <div
+      role="group"
+      aria-label={t("label")}
+      className={`flex items-center gap-0.5 rounded-full border p-[3px] ${
+        dark ? "border-white/18" : "border-[#0b0b0c]/20"
+      }`}
+    >
+      {locales.map((loc) => {
+        const active = loc === locale;
+        return (
+          <button
+            key={loc}
+            type="button"
+            onClick={() => router.replace(pathname, { locale: loc })}
+            aria-current={active ? "true" : undefined}
+            className={`rounded-full px-2.5 py-1.5 font-mono text-[11px] tracking-[.1em] transition-colors ${
+              active
+                ? "bg-[#f2efe9] text-[#0b0b0c]"
+                : dark
+                  ? "text-[#8E8E88] hover:text-[#f2efe9]"
+                  : "text-[#5E5E58] hover:text-[#0b0b0c]"
+            }`}
+          >
+            {labels[loc]}
+          </button>
+        );
+      })}
+    </div>
   );
 }

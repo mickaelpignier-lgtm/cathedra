@@ -1,20 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Anton, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { ClerkProvider } from "@clerk/nextjs";
+import { frFR, enUS, itIT, zhCN } from "@clerk/localizations";
 import { routing, type Locale } from "@/i18n/routing";
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 import "../globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const clerkLocalizations = { fr: frFR, en: enUS, it: itIT, zh: zhCN } as const;
+
+const anton = Anton({
+  variable: "--font-anton",
+  weight: "400",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const plexSans = IBM_Plex_Sans({
+  variable: "--font-plex-sans",
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+});
+
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
+  weight: ["400", "500"],
   subsets: ["latin"],
 });
 
@@ -77,14 +88,28 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${anton.variable} ${plexSans.variable} ${plexMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-slate-950 text-slate-100">
-        <NextIntlClientProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
+      <body className="flex min-h-full flex-col bg-[#0b0b0c] font-sans text-[#f2efe9]">
+        <ClerkProvider
+          localization={clerkLocalizations[locale as Locale]}
+          appearance={{
+            variables: {
+              colorPrimary: "#2E5BFF",
+              colorBackground: "#0b0b0c",
+              colorForeground: "#f2efe9",
+              colorInput: "#141517",
+              colorInputForeground: "#f2efe9",
+              borderRadius: "0px",
+              fontFamily: "var(--font-plex-sans)",
+            },
+          }}
+        >
+          <NextIntlClientProvider>
+            <Header />
+            <main className="flex-1">{children}</main>
+          </NextIntlClientProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

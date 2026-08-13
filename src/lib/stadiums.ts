@@ -1,9 +1,8 @@
-import fs from "node:fs";
-import path from "node:path";
+import { eq, inArray, asc, and } from "drizzle-orm";
+import { getDb } from "@/db";
+import { stadiums, stadiumTranslations } from "@/db/schema";
 import type { Locale } from "@/i18n/routing";
 import { defaultLocale, locales } from "@/i18n/routing";
-
-const CONTENT_DIR = path.join(process.cwd(), "src", "content", "stadiums");
 
 export interface StadiumTickets {
   currency: string;
@@ -62,47 +61,125 @@ export interface Stadium {
   heroImage: StadiumGalleryImage;
 }
 
-function readStadiumFile(slug: string, locale: Locale): Stadium | null {
-  const filePath = path.join(CONTENT_DIR, slug, `${locale}.json`);
-  if (!fs.existsSync(filePath)) {
-    return null;
-  }
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as Stadium;
+type StadiumRow = typeof stadiums.$inferSelect;
+type TranslationRow = typeof stadiumTranslations.$inferSelect;
+
+function toStadium(row: StadiumRow, t: TranslationRow): Stadium {
+  return {
+    slug: row.slug,
+    name: t.name,
+    club: t.club,
+    city: t.city,
+    country: t.country,
+    countryCode: row.countryCode,
+    league: t.league,
+    coordinates: { lat: row.lat, lng: row.lng },
+    capacity: row.capacity,
+    yearOpened: row.yearOpened,
+    description: t.description,
+    howToGetThere: {
+      nearestAirport: t.nearestAirport,
+      airportDistanceKm: row.airportDistanceKm,
+      publicTransport: t.publicTransport,
+      fromAirport: t.fromAirport,
+    },
+    bestTimeToVisit: t.bestTimeToVisit,
+    tickets: {
+      currency: row.currency,
+      guidedTourPriceFrom: row.guidedTourPriceFrom,
+      guidedTourUrl: row.guidedTourUrl,
+      matchTicketPriceFrom: row.matchTicketPriceFrom,
+      matchTicketUrl: row.matchTicketUrl,
+    },
+    whatToSee: t.whatToSee,
+    shop: {
+      description: t.shopDescription,
+      url: row.shopUrl,
+      flagshipProducts: t.shopProducts,
+    },
+    gallery: row.gallery.map((image, i) => ({
+      src: image.src,
+      alt: t.galleryAlts[i] ?? t.heroAlt,
+    })),
+    insiderTip: t.insiderTip,
+    officialWebsite: row.officialWebsite,
+    heroImage: { src: row.heroImageSrc, alt: t.heroAlt },
+  };
 }
 
-export function getStadiumSlugs(): string[] {
-  if (!fs.existsSync(CONTENT_DIR)) {
-    return [];
-  }
-  return fs
-    .readdirSync(CONTENT_DIR, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .sort();
-}
-
-export function getStadiumBySlug(
+function pickTranslation(
+  translations: TranslationRow[],
   slug: string,
   locale: Locale
-): Stadium | null {
-  return readStadiumFile(slug, locale) ?? readStadiumFile(slug, defaultLocale);
+): TranslationRow | null {
+  const forSlug = translations.filter((t) => t.stadiumSlug === slug);
+  return (
+    forSlug.find((t) => t.locale === locale) ??
+    forSlug.find((t) => t.locale === defaultLocale) ??
+    null
+  );
 }
 
-export function getAllStadiums(locale: Locale): Stadium[] {
-  return getStadiumSlugs()
-    .map((slug) => getStadiumBySlug(slug, locale))
+export async function getStadiumSlugs(): Promise<string[]> {
+  const rows = await getDb()
+    .select({ slug: stadiums.slug })
+    .from(stadiums)
+    .orderBy(asc(stadiums.slug));
+  return rows.map((row) => row.slug);
+}
+
+export async function getStadiumBySlug(
+  slug: string,
+  locale: Locale
+): Promise<Stadium | null> {
+  const db = getDb();
+  const [row] = await db
+    .select()
+    .from(stadiums)
+    .where(eq(stadiums.slug, slug))
+    .limit(1);
+  if (!row) return null;
+
+  const translationRows = await db
+    .select()
+    .from(stadiumTranslations)
+    .where(
+      and(
+        eq(stadiumTranslations.stadiumSlug, slug),
+        inArray(stadiumTranslations.locale, [locale, defaultLocale])
+      )
+    );
+
+  const translation = pickTranslation(translationRows, slug, locale);
+  if (!translation) return null;
+
+  return toStadium(row, translation);
+}
+
+export async function getAllStadiums(locale: Locale): Promise<Stadium[]> {
+  const db = getDb();
+  const rows = await db.select().from(stadiums).orderBy(asc(stadiums.slug));
+  const translationRows = await db
+    .select()
+    .from(stadiumTranslations)
+    .where(inArray(stadiumTranslations.locale, [locale, defaultLocale]));
+
+  return rows
+    .map((row) => {
+      const translation = pickTranslation(translationRows, row.slug, locale);
+      return translation ? toStadium(row, translation) : null;
+    })
     .filter((stadium): stadium is Stadium => stadium !== null);
 }
 
-export function getStadiumCountries(locale: Locale): string[] {
-  const stadiums = getAllStadiums(locale);
-  return Array.from(new Set(stadiums.map((s) => s.country))).sort();
+export async function getStadiumCountries(locale: Locale): Promise<string[]> {
+  const stadiumList = await getAllStadiums(locale);
+  return Array.from(new Set(stadiumList.map((s) => s.country))).sort();
 }
 
-export function getStadiumLeagues(locale: Locale): string[] {
-  const stadiums = getAllStadiums(locale);
-  return Array.from(new Set(stadiums.map((s) => s.league))).sort();
+export async function getStadiumLeagues(locale: Locale): Promise<string[]> {
+  const stadiumList = await getAllStadiums(locale);
+  return Array.from(new Set(stadiumList.map((s) => s.league))).sort();
 }
 
 export function isSupportedLocale(value: string): value is Locale {

@@ -1,44 +1,58 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-import { Link } from "@/i18n/navigation";
+import { ParallaxImage } from "./ParallaxImage";
 
-export function HomeHero() {
+interface HomeHeroProps {
+  stadiumCount: number;
+  countryCount: number;
+}
+
+export function HomeHero({ stadiumCount, countryCount }: HomeHeroProps) {
   const t = useTranslations("home");
 
   return (
-    <section className="relative overflow-hidden border-b border-white/10">
-      <div className="absolute inset-0">
-        <Image
-          src="https://picsum.photos/seed/cathedra-hero/1920/1080"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/85 to-slate-950" />
-      </div>
-      <div className="relative mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-24 sm:px-6 sm:py-32">
-        <p className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-1.5 text-sm font-medium text-emerald-300">
+    <section className="relative flex h-[100svh] min-h-[560px] flex-col justify-end overflow-hidden">
+      <ParallaxImage
+        src="https://picsum.photos/seed/cathedra-hero/1920/1080"
+        alt=""
+        priority
+        factor={0.22}
+      />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(11,11,12,.55) 0%, rgba(11,11,12,.1) 38%, rgba(11,11,12,.94) 88%)",
+        }}
+      />
+
+      <div className="relative px-[clamp(14px,3vw,34px)] pb-[clamp(18px,3vw,30px)]">
+        <div
+          className="mb-3.5 font-mono text-[11px] uppercase tracking-[.22em]"
+          style={{ color: "var(--acc)" }}
+        >
           {t("heroKicker")}
-        </p>
-        <h1 className="max-w-2xl text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+        </div>
+        <h1
+          className="max-w-[14ch] font-display uppercase leading-[.84] tracking-[-.015em]"
+          style={{ fontSize: "clamp(52px,13.5vw,190px)" }}
+        >
           {t("heroTitle")}
         </h1>
-        <p className="max-w-xl text-lg text-slate-300">{t("heroSubtitle")}</p>
-        <div className="flex flex-wrap gap-3 pt-2">
-          <Link
-            href="/stades"
-            className="rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold text-slate-950 transition-colors hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
+        <div className="mt-6 flex flex-wrap items-end justify-between gap-6 border-t border-white/16 pt-4">
+          <p
+            className="m-0 max-w-[46ch] text-[clamp(14px,1.6vw,17px)] leading-[1.5]"
+            style={{ color: "rgba(242,239,233,.74)" }}
           >
-            {t("heroCta")}
-          </Link>
-          <a
-            href="#map"
-            className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
-          >
-            {t("heroSecondaryCta")}
-          </a>
+            {t("heroSubtitle")}
+          </p>
+          <div className="flex gap-6 font-mono text-[11px] uppercase tracking-[.14em] text-[#8E8E88]">
+            <span>
+              {stadiumCount} {t("statsStadiums")}
+            </span>
+            <span>
+              {countryCount} {t("statsCountries")}
+            </span>
+          </div>
         </div>
       </div>
     </section>

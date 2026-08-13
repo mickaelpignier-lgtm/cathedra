@@ -10,31 +10,48 @@ export function WhatToSee({ stadium }: WhatToSeeProps) {
 
   return (
     <section
-      aria-labelledby="what-to-see-title"
-      className="rounded-2xl border border-white/10 bg-slate-900 p-6"
+      id="voir"
+      className="scroll-mt-[110px] px-[clamp(14px,3vw,34px)] py-[clamp(46px,6vw,100px)]"
+      style={{ background: "#F2EFE9", color: "#0B0B0C" }}
     >
-      <h2 id="what-to-see-title" className="text-xl font-bold text-white">
+      <h2
+        className="m-0 mb-[clamp(20px,2.6vw,38px)] font-display uppercase leading-[.88]"
+        style={{ fontSize: "clamp(34px,6.5vw,84px)" }}
+      >
         {t("whatToSeeTitle")}
       </h2>
-      <ul className="mt-4 space-y-3">
-        {stadium.whatToSee.map((item) => (
-          <li key={item} className="flex items-start gap-3 text-sm text-slate-200">
-            <svg
-              aria-hidden="true"
-              viewBox="0 0 20 20"
-              className="mt-0.5 h-5 w-5 shrink-0 text-emerald-400"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.4 7.4a1 1 0 0 1-1.4 0L3.3 9.5a1 1 0 1 1 1.4-1.4l3.9 3.9 6.7-6.7a1 1 0 0 1 1.4 0Z"
-                clipRule="evenodd"
-              />
-            </svg>
-            {item}
-          </li>
+
+      <div className="grid gap-0">
+        {stadium.whatToSee.map((item, i) => (
+          <div
+            key={item}
+            className="flex items-baseline gap-4 border-t py-3.5"
+            style={{ borderColor: "rgba(11,11,12,.2)" }}
+          >
+            <span className="flex-none font-mono text-[11px]" style={{ color: "var(--acc)" }}>
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <span className="font-display text-[clamp(18px,2vw,24px)] uppercase leading-[1.05]">
+              {item}
+            </span>
+          </div>
         ))}
-      </ul>
+      </div>
+
+      <div
+        className="mt-[clamp(26px,3.4vw,52px)] border-l-4 p-[clamp(24px,3.4vw,52px)]"
+        style={{ background: "#0B0B0C", color: "#F2EFE9", borderColor: "var(--acc)" }}
+      >
+        <div className="font-mono text-[10.5px] uppercase tracking-[.22em] opacity-80">
+          {t("insiderTipTitle")}
+        </div>
+        <blockquote
+          className="m-0 mt-3.5 max-w-[38ch] font-display uppercase leading-[1.05]"
+          style={{ fontSize: "clamp(22px,3vw,40px)" }}
+        >
+          {stadium.insiderTip}
+        </blockquote>
+      </div>
     </section>
   );
 }

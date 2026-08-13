@@ -1,44 +1,41 @@
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 
-export function Footer() {
+interface FooterProps {
+  variant?: "home" | "page";
+  meta?: string;
+}
+
+export function Footer({ variant = "page", meta }: FooterProps) {
   const t = useTranslations("footer");
-  const tNav = useTranslations("nav");
   const tMeta = useTranslations("meta");
 
+  if (variant === "home") {
+    return (
+      <footer className="border-t border-white/12 px-[clamp(14px,3vw,34px)] pb-10 pt-[clamp(40px,6vw,90px)]">
+        <div
+          className="font-display uppercase leading-[.86] tracking-[-.01em]"
+          style={{ fontSize: "clamp(40px,11vw,150px)" }}
+        >
+          {t("tagline")}
+        </div>
+        <div className="mt-6 flex flex-wrap justify-between gap-4 font-mono text-[11px] uppercase tracking-[.16em] text-[#8E8E88]">
+          <span>
+            © {new Date().getFullYear()} {tMeta("siteName")}
+          </span>
+          <span>FR · EN · IT · 中文</span>
+          <span>{t("rights")}</span>
+        </div>
+      </footer>
+    );
+  }
+
   return (
-    <footer className="border-t border-white/10 bg-slate-950">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
-          <div className="max-w-sm">
-            <p className="text-lg font-bold text-white">{tMeta("siteName")}</p>
-            <p className="mt-2 text-sm text-slate-400">{t("tagline")}</p>
-          </div>
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-slate-300">
-              {t("explore")}
-            </p>
-            <ul className="mt-3 space-y-2 text-sm text-slate-400">
-              <li>
-                <Link href="/" className="hover:text-emerald-400">
-                  {tNav("home")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/stades" className="hover:text-emerald-400">
-                  {tNav("stadiums")}
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-10 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-slate-500 sm:flex-row sm:justify-between">
-          <p>
-            &copy; {new Date().getFullYear()} {tMeta("siteName")}. {t("rights")}
-          </p>
-          <p>{t("disclaimer")}</p>
-        </div>
-      </div>
+    <footer className="flex flex-wrap justify-between gap-4 border-t border-white/12 px-[clamp(14px,3vw,34px)] py-8 font-mono text-[11px] uppercase tracking-[.16em] text-[#8E8E88]">
+      <span>
+        © {new Date().getFullYear()} {tMeta("siteName")}
+      </span>
+      <span>FR · EN · IT · 中文</span>
+      <span>{meta ?? t("disclaimer")}</span>
     </footer>
   );
 }

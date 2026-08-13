@@ -8,12 +8,14 @@
   "nav": {
     "home": "首页",
     "stadiums": "球场",
-    "menu": "菜单"
+    "menu": "菜单",
+    "signIn": "登录",
+    "signUp": "注册"
   },
   "home": {
     "heroKicker": "为您逐一规划球场之旅",
-    "heroTitle": "找到您的球场，知道如何抵达。",
-    "heroSubtitle": "最近的机场、公共交通、最佳参观时段与票价，助您高效游览足球圣殿，不浪费时间。",
+    "heroTitle": "足球值得一游",
+    "heroSubtitle": "Cathedra 是一份世界球场指南：怎么去、何时去、进场后该看什么。为爱旅行的球迷而写。",
     "heroCta": "探索球场",
     "heroSecondaryCta": "查看地图",
     "statsStadiums": "收录球场",
@@ -21,16 +23,10 @@
     "statsLanguages": "支持语言",
     "featuredTitle": "精选球场",
     "featuredSubtitle": "开启旅程必看的传奇球场精选。",
-    "mapTitle": "球场地图",
+    "mapKicker": "从这里开始",
+    "mapTitle": "先看地图",
     "mapSubtitle": "找到离您下一站最近的球场。",
-    "exploreAll": "查看全部球场",
-    "howItWorksTitle": "使用方法",
-    "howItWorksStep1Title": "选择球场",
-    "howItWorksStep1Body": "按国家或联赛筛选，找到您的下一个目的地。",
-    "howItWorksStep2Title": "规划路线",
-    "howItWorksStep2Body": "机场、地铁、有轨电车——我们为您指明最简单的准时到达方式。",
-    "howItWorksStep3Title": "体验现场",
-    "howItWorksStep3Body": "博物馆、更衣室、官方商店——不错过参观的每个亮点。"
+    "exploreAll": "查看全部球场"
   },
   "stadiumsList": {
     "title": "全部球场",
@@ -67,12 +63,25 @@
     "insiderTipTitle": "内部人士建议",
     "practicalInfoTitle": "实用信息",
     "officialWebsite": "官方网站",
-    "shareLabel": "分享"
+    "shareLabel": "分享",
+    "navGallery": "图库",
+    "navTravel": "如何抵达",
+    "navTickets": "门票",
+    "navSee": "必看亮点",
+    "navShop": "商店",
+    "navMap": "地图",
+    "heroCtaPrimary": "查看门票",
+    "heroCtaSecondary": "官方商店",
+    "swipeHint": "滑动查看 →",
+    "openDirections": "打开路线",
+    "shopMetaText": "店内自取或配送",
+    "whenToComeTag": "最佳时间"
   },
   "languageSwitcher": {
     "label": "语言"
   },
   "footer": {
+    "bigTitle": "找到你的下一座球场",
     "tagline": "用您的语言呈现的足球圣殿旅行指南。",
     "explore": "探索",
     "about": "关于我们",
