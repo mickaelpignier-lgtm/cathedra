@@ -9,6 +9,7 @@ import { StadiumGallery } from "@/components/StadiumGallery";
 import { TravelSection } from "@/components/TravelSection";
 import { TicketsCard } from "@/components/TicketsCard";
 import { WhatToSee } from "@/components/WhatToSee";
+import { HistorySection } from "@/components/HistorySection";
 import { NearbySection } from "@/components/NearbySection";
 import { ShopSection } from "@/components/ShopSection";
 import { LocationSection } from "@/components/LocationSection";
@@ -102,6 +103,7 @@ export default async function StadiumPage({
       <TravelSection stadium={stadium} />
       <TicketsCard stadium={stadium} />
       <WhatToSee stadium={stadium} />
+      <HistorySection stadium={stadium} />
       <NearbySection stadium={stadium} />
       <ShopSection stadium={stadium} />
       <LocationSection stadium={stadium} />

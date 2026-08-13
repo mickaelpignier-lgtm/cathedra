@@ -82,7 +82,11 @@
     "nearbyHotels": "Hotels",
     "nearbyAirbnbs": "Short-term rentals",
     "nearbyRestaurants": "Restaurants",
-    "nearbyDisclaimer": "Indicative selection near the stadium — check availability and book via your usual platforms (Booking, Airbnb, TripAdvisor...) before your stay."
+    "nearbyDisclaimer": "Indicative selection near the stadium — check availability and book via your usual platforms (Booking, Airbnb, TripAdvisor...) before your stay.",
+    "historyTitle": "Architecture",
+    "initialArchitectLabel": "Original architect",
+    "renovationsLabel": "Renovations",
+    "noRenovations": "No major renovation documented since opening."
   },
   "languageSwitcher": {
     "label": "Language"

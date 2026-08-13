@@ -29,6 +29,11 @@ export interface TransitLine {
   network: string;
 }
 
+export interface Renovation {
+  year: number;
+  architect: string;
+}
+
 export const stadiums = pgTable("stadiums", {
   slug: text("slug").primaryKey(),
   countryCode: text("country_code").notNull(),
@@ -50,6 +55,8 @@ export const stadiums = pgTable("stadiums", {
   nearbyAirbnbs: jsonb("nearby_airbnbs").$type<NearbyPlace[]>().notNull().default([]),
   nearbyRestaurants: jsonb("nearby_restaurants").$type<NearbyPlace[]>().notNull().default([]),
   transitLines: jsonb("transit_lines").$type<TransitLine[]>().notNull().default([]),
+  initialArchitect: text("initial_architect").notNull().default(""),
+  renovations: jsonb("renovations").$type<Renovation[]>().notNull().default([]),
   createdAt: timestamp("created_at", { withTimezone: true })
     .notNull()
     .defaultNow(),

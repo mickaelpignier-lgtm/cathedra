@@ -82,7 +82,11 @@
     "nearbyHotels": "酒店",
     "nearbyAirbnbs": "短租民宿",
     "nearbyRestaurants": "餐厅",
-    "nearbyDisclaimer": "以上为球场附近的参考推荐，出行前请通过常用平台（Booking、Airbnb、猫途鹰等）核实可订状态并完成预订。"
+    "nearbyDisclaimer": "以上为球场附近的参考推荐，出行前请通过常用平台（Booking、Airbnb、猫途鹰等）核实可订状态并完成预订。",
+    "historyTitle": "建筑设计",
+    "initialArchitectLabel": "原始设计师",
+    "renovationsLabel": "翻修历史",
+    "noRenovations": "自启用以来未有重大翻修记录。"
   },
   "languageSwitcher": {
     "label": "语言"

@@ -82,7 +82,11 @@
     "nearbyHotels": "Hotel",
     "nearbyAirbnbs": "Affitti brevi",
     "nearbyRestaurants": "Ristoranti",
-    "nearbyDisclaimer": "Selezione indicativa nei pressi dello stadio: verificate disponibilità e prenotate tramite le piattaforme abituali (Booking, Airbnb, TripAdvisor...) prima del soggiorno."
+    "nearbyDisclaimer": "Selezione indicativa nei pressi dello stadio: verificate disponibilità e prenotate tramite le piattaforme abituali (Booking, Airbnb, TripAdvisor...) prima del soggiorno.",
+    "historyTitle": "Architettura",
+    "initialArchitectLabel": "Architetto originale",
+    "renovationsLabel": "Ristrutturazioni",
+    "noRenovations": "Nessuna ristrutturazione importante documentata dall'apertura."
   },
   "languageSwitcher": {
     "label": "Lingua"
