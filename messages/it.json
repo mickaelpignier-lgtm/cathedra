@@ -92,7 +92,8 @@
     "initialArchitectLabel": "Architetto originale",
     "renovationsLabel": "Ristrutturazioni",
     "noRenovations": "Nessuna ristrutturazione importante documentata dall'apertura.",
-    "recordAttendanceLabel": "Record di affluenza"
+    "recordAttendanceLabel": "Record di affluenza",
+    "ownerLabel": "Proprietario"
   },
   "languageSwitcher": {
     "label": "Lingua"

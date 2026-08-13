@@ -70,6 +70,7 @@ export interface Stadium {
   renovations: Renovation[];
   recordAttendance: number | null;
   recordMatchLabel: string;
+  owner: string;
 }
 
 type StadiumRow = typeof stadiums.$inferSelect;
@@ -123,6 +124,7 @@ function toStadium(row: StadiumRow, t: TranslationRow): Stadium {
     renovations: row.renovations,
     recordAttendance: row.recordAttendance,
     recordMatchLabel: t.recordMatchLabel,
+    owner: t.owner,
   };
 }
 

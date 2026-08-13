@@ -23,7 +23,7 @@ export function HistorySection({ stadium }: HistorySectionProps) {
         {t("historyTitle")}
       </h2>
 
-      <div className="grid gap-px border border-white/12 bg-white/12 sm:grid-cols-3">
+      <div className="grid gap-px border border-white/12 bg-white/12 sm:grid-cols-2 lg:grid-cols-4">
         <div className="p-[clamp(20px,2.2vw,30px)]" style={{ background: "#0B0B0C" }}>
           <div className="font-mono text-[10.5px] uppercase tracking-[.2em] text-[#8E8E88]">
             {t("initialArchitectLabel")}
@@ -70,6 +70,14 @@ export function HistorySection({ stadium }: HistorySectionProps) {
             <p className="mt-2 text-[13.5px] leading-[1.4] text-[#F2EFE9]">
               {stadium.recordMatchLabel}
             </p>
+          </div>
+        )}
+        {stadium.owner && (
+          <div className="p-[clamp(20px,2.2vw,30px)]" style={{ background: "#0B0B0C" }}>
+            <div className="font-mono text-[10.5px] uppercase tracking-[.2em] text-[#8E8E88]">
+              {t("ownerLabel")}
+            </div>
+            <p className="mt-2 text-[16px] leading-[1.4]">{stadium.owner}</p>
           </div>
         )}
       </div>
