@@ -1,0 +1,78 @@
+{
+  "generated": "2026-08-13",
+  "note": "Squelette initial basé sur connaissance générale des championnats (structure stable, saison 2025-26). Chaque agent sous-région DOIT vérifier ces noms de championnat via Wikidata/Wikipédia avant extraction des clubs, et corriger 'verified' + 'sources' en conséquence. Ne pas faire confiance aveuglément à ce fichier pour division_tier=2 dans les micro-fédérations.",
+  "subregions": {
+    "europe_ouest": ["France", "Belgique", "Pays-Bas", "Luxembourg", "Allemagne", "Autriche", "Suisse", "Liechtenstein"],
+    "iles_britanniques": ["Angleterre", "Écosse", "Pays de Galles", "Irlande du Nord", "République d'Irlande"],
+    "europe_sud": ["Espagne", "Italie", "Portugal", "Andorre", "Saint-Marin", "Malte"],
+    "europe_nord": ["Danemark", "Norvège", "Suède", "Finlande", "Islande", "Îles Féroé"],
+    "europe_est": ["Pologne", "République tchèque", "Slovaquie", "Hongrie", "Roumanie"],
+    "balkans": ["Croatie", "Serbie", "Slovénie", "Bosnie-Herzégovine", "Monténégro", "Macédoine du Nord", "Albanie", "Kosovo", "Grèce", "Bulgarie"],
+    "ex_urss": ["Ukraine", "Russie", "Biélorussie", "Estonie", "Lettonie", "Lituanie", "Géorgie", "Arménie", "Azerbaïdjan", "Moldavie", "Kazakhstan"],
+    "turquie_chypre": ["Turquie", "Chypre", "Israël", "Gibraltar"]
+  },
+  "federations": [
+    { "country": "France", "subregion": "europe_ouest", "league_tier1": "Ligue 1", "league_tier2": "Ligue 2", "verified": false },
+    { "country": "Belgique", "subregion": "europe_ouest", "league_tier1": "Belgian Pro League", "league_tier2": "Challenger Pro League", "verified": false },
+    { "country": "Pays-Bas", "subregion": "europe_ouest", "league_tier1": "Eredivisie", "league_tier2": "Eerste Divisie", "verified": false },
+    { "country": "Luxembourg", "subregion": "europe_ouest", "league_tier1": "Luxembourg National Division", "league_tier2": "Éierepromotioun", "verified": false },
+    { "country": "Allemagne", "subregion": "europe_ouest", "league_tier1": "Bundesliga", "league_tier2": "2. Bundesliga", "verified": false },
+    { "country": "Autriche", "subregion": "europe_ouest", "league_tier1": "Bundesliga (Autriche)", "league_tier2": "2. Liga", "verified": false },
+    { "country": "Suisse", "subregion": "europe_ouest", "league_tier1": "Swiss Super League", "league_tier2": "Challenge League", "verified": false },
+    { "country": "Liechtenstein", "subregion": "europe_ouest", "league_tier1": null, "league_tier2": null, "verified": false, "notes": "Pas de championnat domestique — clubs évoluent dans le système suisse. Coupe du Liechtenstein qualificative UEFA." },
+
+    { "country": "Angleterre", "subregion": "iles_britanniques", "league_tier1": "Premier League", "league_tier2": "EFL Championship", "verified": false },
+    { "country": "Écosse", "subregion": "iles_britanniques", "league_tier1": "Scottish Premiership", "league_tier2": "Scottish Championship", "verified": false },
+    { "country": "Pays de Galles", "subregion": "iles_britanniques", "league_tier1": "Cymru Premier", "league_tier2": "Cymru North / Cymru South", "verified": false },
+    { "country": "Irlande du Nord", "subregion": "iles_britanniques", "league_tier1": "NIFL Premiership", "league_tier2": "NIFL Championship", "verified": false },
+    { "country": "République d'Irlande", "subregion": "iles_britanniques", "league_tier1": "League of Ireland Premier Division", "league_tier2": "League of Ireland First Division", "verified": false },
+
+    { "country": "Espagne", "subregion": "europe_sud", "league_tier1": "La Liga", "league_tier2": "Segunda División", "verified": false },
+    { "country": "Italie", "subregion": "europe_sud", "league_tier1": "Serie A", "league_tier2": "Serie B", "verified": false },
+    { "country": "Portugal", "subregion": "europe_sud", "league_tier1": "Primeira Liga", "league_tier2": "Liga Portugal 2", "verified": false },
+    { "country": "Andorre", "subregion": "europe_sud", "league_tier1": "Primera Divisió", "league_tier2": "Segona Divisió", "verified": false },
+    { "country": "Saint-Marin", "subregion": "europe_sud", "league_tier1": "Campionato Sammarinese", "league_tier2": null, "verified": false, "notes": "Championnat à division unique." },
+    { "country": "Malte", "subregion": "europe_sud", "league_tier1": "Maltese Premier League", "league_tier2": "Maltese Challenge League", "verified": false },
+
+    { "country": "Danemark", "subregion": "europe_nord", "league_tier1": "Superliga", "league_tier2": "1. Division", "verified": false },
+    { "country": "Norvège", "subregion": "europe_nord", "league_tier1": "Eliteserien", "league_tier2": "OBOS-ligaen", "verified": false },
+    { "country": "Suède", "subregion": "europe_nord", "league_tier1": "Allsvenskan", "league_tier2": "Superettan", "verified": false },
+    { "country": "Finlande", "subregion": "europe_nord", "league_tier1": "Veikkausliiga", "league_tier2": "Ykkösliiga", "verified": false },
+    { "country": "Islande", "subregion": "europe_nord", "league_tier1": "Besta deild karla", "league_tier2": "1. deild karla", "verified": false },
+    { "country": "Îles Féroé", "subregion": "europe_nord", "league_tier1": "Betri deildin", "league_tier2": "1. deild", "verified": false },
+
+    { "country": "Pologne", "subregion": "europe_est", "league_tier1": "Ekstraklasa", "league_tier2": "I Liga", "verified": false },
+    { "country": "République tchèque", "subregion": "europe_est", "league_tier1": "Chance Liga", "league_tier2": "FNL (2. Liga)", "verified": false },
+    { "country": "Slovaquie", "subregion": "europe_est", "league_tier1": "Niké Liga", "league_tier2": "2. Liga", "verified": false },
+    { "country": "Hongrie", "subregion": "europe_est", "league_tier1": "NB I", "league_tier2": "NB II", "verified": false },
+    { "country": "Roumanie", "subregion": "europe_est", "league_tier1": "Superliga", "league_tier2": "Liga II", "verified": false },
+
+    { "country": "Croatie", "subregion": "balkans", "league_tier1": "HNL", "league_tier2": "Prva NL", "verified": false },
+    { "country": "Serbie", "subregion": "balkans", "league_tier1": "Serbian SuperLiga", "league_tier2": "Serbian First League", "verified": false },
+    { "country": "Slovénie", "subregion": "balkans", "league_tier1": "Slovenian PrvaLiga", "league_tier2": "Slovenian Second League", "verified": false },
+    { "country": "Bosnie-Herzégovine", "subregion": "balkans", "league_tier1": "Premijer Liga BiH", "league_tier2": "Prva Liga (FBiH/RS)", "verified": false, "notes": "Structure historique en deux entités sous la Premijer Liga — à vérifier." },
+    { "country": "Monténégro", "subregion": "balkans", "league_tier1": "Montenegrin First League", "league_tier2": "Montenegrin Second League", "verified": false },
+    { "country": "Macédoine du Nord", "subregion": "balkans", "league_tier1": "Macedonian First League", "league_tier2": "Macedonian Second League", "verified": false },
+    { "country": "Albanie", "subregion": "balkans", "league_tier1": "Kategoria Superiore", "league_tier2": "Kategoria e Parë", "verified": false },
+    { "country": "Kosovo", "subregion": "balkans", "league_tier1": "Superliga e Kosovës", "league_tier2": "First Football League of Kosovo", "verified": false },
+    { "country": "Grèce", "subregion": "balkans", "league_tier1": "Super League Greece", "league_tier2": "Super League Greece 2", "verified": false },
+    { "country": "Bulgarie", "subregion": "balkans", "league_tier1": "First League (Bulgarie)", "league_tier2": "Second League (Bulgarie)", "verified": false },
+
+    { "country": "Ukraine", "subregion": "ex_urss", "league_tier1": "Ukrainian Premier League", "league_tier2": "Ukrainian First League", "verified": false },
+    { "country": "Russie", "subregion": "ex_urss", "league_tier1": "Russian Premier League", "league_tier2": "Russian First League", "verified": false, "notes": "Fédération suspendue par l'UEFA depuis 2022 — inclure quand même pour la couverture géographique du dataset." },
+    { "country": "Biélorussie", "subregion": "ex_urss", "league_tier1": "Belarusian Premier League", "league_tier2": "Belarusian First League", "verified": false },
+    { "country": "Estonie", "subregion": "ex_urss", "league_tier1": "Meistriliiga", "league_tier2": "Esiliiga", "verified": false },
+    { "country": "Lettonie", "subregion": "ex_urss", "league_tier1": "Virslīga", "league_tier2": "1. līga", "verified": false },
+    { "country": "Lituanie", "subregion": "ex_urss", "league_tier1": "A Lyga", "league_tier2": "I Lyga", "verified": false },
+    { "country": "Géorgie", "subregion": "ex_urss", "league_tier1": "Erovnuli Liga", "league_tier2": "Erovnuli Liga 2", "verified": false },
+    { "country": "Arménie", "subregion": "ex_urss", "league_tier1": "Armenian Premier League", "league_tier2": "Armenian First League", "verified": false },
+    { "country": "Azerbaïdjan", "subregion": "ex_urss", "league_tier1": "Azerbaijan Premier League", "league_tier2": "Azerbaijan First Division", "verified": false },
+    { "country": "Moldavie", "subregion": "ex_urss", "league_tier1": "Moldovan Super Liga", "league_tier2": "Moldovan Divizia Națională", "verified": false },
+    { "country": "Kazakhstan", "subregion": "ex_urss", "league_tier1": "Kazakhstan Premier League", "league_tier2": "Kazakhstan First Division", "verified": false },
+
+    { "country": "Turquie", "subregion": "turquie_chypre", "league_tier1": "Süper Lig", "league_tier2": "TFF 1. Lig", "verified": false },
+    { "country": "Chypre", "subregion": "turquie_chypre", "league_tier1": "Cypriot First Division", "league_tier2": "Cypriot Second Division", "verified": false },
+    { "country": "Israël", "subregion": "turquie_chypre", "league_tier1": "Ligat Ha'Al", "league_tier2": "Liga Leumit", "verified": false },
+    { "country": "Gibraltar", "subregion": "turquie_chypre", "league_tier1": "Gibraltar National League", "league_tier2": null, "verified": false, "notes": "Championnat à division unique." }
+  ]
+}
