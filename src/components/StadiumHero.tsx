@@ -1,7 +1,8 @@
 import { useTranslations, useLocale } from "next-intl";
 import type { Stadium } from "@/lib/stadiums";
 import type { Locale } from "@/i18n/routing";
-import { formatNumber, formatPrice } from "@/lib/format";
+import { formatNumber, formatPrice, contrastTextColor } from "@/lib/format";
+import { clubBadges } from "@/lib/clubBadges";
 import { ParallaxImage } from "./ParallaxImage";
 import { ShareButtons } from "./ShareButtons";
 
@@ -58,10 +59,23 @@ export function StadiumHero({ stadium }: StadiumHeroProps) {
           {stadium.name}
         </h1>
         <div
-          className="mt-3.5 text-[clamp(13px,1.6vw,17px)]"
+          className="mt-3.5 flex items-center gap-2.5 text-[clamp(13px,1.6vw,17px)]"
           style={{ color: "rgba(242,239,233,.62)" }}
         >
-          {stadium.club}
+          {(clubBadges[stadium.slug] ?? []).map((badge) => (
+            <span
+              key={badge.initials}
+              className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-[8px] font-semibold"
+              style={{
+                background: badge.color,
+                color: contrastTextColor(badge.color),
+              }}
+              title={badge.initials}
+            >
+              {badge.initials.slice(0, 3)}
+            </span>
+          ))}
+          <span>{stadium.club}</span>
         </div>
 
         <div className="mt-5 flex flex-wrap gap-[clamp(18px,4vw,54px)] border-t border-white/16 pt-4">
