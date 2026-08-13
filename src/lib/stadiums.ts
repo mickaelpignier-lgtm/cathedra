@@ -1,8 +1,11 @@
 import { eq, inArray, asc, and } from "drizzle-orm";
 import { getDb } from "@/db";
 import { stadiums, stadiumTranslations } from "@/db/schema";
+import type { NearbyPlace } from "@/db/schema";
 import type { Locale } from "@/i18n/routing";
 import { defaultLocale, locales } from "@/i18n/routing";
+
+export type { NearbyPlace };
 
 export interface StadiumTickets {
   currency: string;
@@ -59,6 +62,9 @@ export interface Stadium {
   insiderTip: string;
   officialWebsite: string;
   heroImage: StadiumGalleryImage;
+  nearbyHotels: NearbyPlace[];
+  nearbyAirbnbs: NearbyPlace[];
+  nearbyRestaurants: NearbyPlace[];
 }
 
 type StadiumRow = typeof stadiums.$inferSelect;
@@ -104,6 +110,9 @@ function toStadium(row: StadiumRow, t: TranslationRow): Stadium {
     insiderTip: t.insiderTip,
     officialWebsite: row.officialWebsite,
     heroImage: { src: row.heroImageSrc, alt: t.heroAlt },
+    nearbyHotels: row.nearbyHotels,
+    nearbyAirbnbs: row.nearbyAirbnbs,
+    nearbyRestaurants: row.nearbyRestaurants,
   };
 }
 

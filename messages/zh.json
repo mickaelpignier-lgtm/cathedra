@@ -68,6 +68,7 @@
     "navTravel": "如何抵达",
     "navTickets": "门票",
     "navSee": "必看亮点",
+    "navStay": "住宿与美食",
     "navShop": "商店",
     "navMap": "地图",
     "heroCtaPrimary": "查看门票",
@@ -75,7 +76,13 @@
     "swipeHint": "滑动查看 →",
     "openDirections": "打开路线",
     "shopMetaText": "店内自取或配送",
-    "whenToComeTag": "最佳时间"
+    "whenToComeTag": "最佳时间",
+    "nearbyTitle": "住宿与美食推荐",
+    "nearbyPriceHint": "价位指数 1 至 3",
+    "nearbyHotels": "酒店",
+    "nearbyAirbnbs": "短租民宿",
+    "nearbyRestaurants": "餐厅",
+    "nearbyDisclaimer": "以上为球场附近的参考推荐，出行前请通过常用平台（Booking、Airbnb、猫途鹰等）核实可订状态并完成预订。"
   },
   "languageSwitcher": {
     "label": "语言"

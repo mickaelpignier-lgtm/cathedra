@@ -68,6 +68,7 @@
     "navTravel": "Come arrivare",
     "navTickets": "Biglietti",
     "navSee": "Cosa vedere",
+    "navStay": "Dormire & mangiare",
     "navShop": "Negozio",
     "navMap": "Mappa",
     "heroCtaPrimary": "Vedi i biglietti",
@@ -75,7 +76,13 @@
     "swipeHint": "Scorri →",
     "openDirections": "Apri il percorso",
     "shopMetaText": "Ritiro in negozio o spedizione",
-    "whenToComeTag": "Quando venire"
+    "whenToComeTag": "Quando venire",
+    "nearbyTitle": "Dove dormire & mangiare",
+    "nearbyPriceHint": "Prezzo indicativo da 1 a 3",
+    "nearbyHotels": "Hotel",
+    "nearbyAirbnbs": "Affitti brevi",
+    "nearbyRestaurants": "Ristoranti",
+    "nearbyDisclaimer": "Selezione indicativa nei pressi dello stadio: verificate disponibilità e prenotate tramite le piattaforme abituali (Booking, Airbnb, TripAdvisor...) prima del soggiorno."
   },
   "languageSwitcher": {
     "label": "Lingua"

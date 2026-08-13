@@ -34,6 +34,20 @@ export function countryCodeToFlag(countryCode: string): string {
     );
 }
 
+const currencySymbols: Record<string, string> = {
+  EUR: "€",
+  GBP: "£",
+  USD: "$",
+};
+
+export function currencySymbol(currency: string): string {
+  return currencySymbols[currency] ?? currency;
+}
+
+export function priceTierLabel(tier: number, currency: string): string {
+  return currencySymbol(currency).repeat(tier);
+}
+
 export function projectCoordinates(lat: number, lng: number) {
   const x = ((lng + 180) / 360) * 100;
   const y = ((90 - lat) / 180) * 100;

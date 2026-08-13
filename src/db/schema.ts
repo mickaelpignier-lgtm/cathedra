@@ -17,6 +17,12 @@ export interface ShopProduct {
   priceFrom: number;
 }
 
+export interface NearbyPlace {
+  name: string;
+  tier: 1 | 2 | 3;
+  distanceLabel: string;
+}
+
 export const stadiums = pgTable("stadiums", {
   slug: text("slug").primaryKey(),
   countryCode: text("country_code").notNull(),
@@ -34,6 +40,9 @@ export const stadiums = pgTable("stadiums", {
   heroImageSrc: text("hero_image_src").notNull(),
   gallery: jsonb("gallery").$type<GalleryImage[]>().notNull(),
   airportDistanceKm: integer("airport_distance_km").notNull(),
+  nearbyHotels: jsonb("nearby_hotels").$type<NearbyPlace[]>().notNull().default([]),
+  nearbyAirbnbs: jsonb("nearby_airbnbs").$type<NearbyPlace[]>().notNull().default([]),
+  nearbyRestaurants: jsonb("nearby_restaurants").$type<NearbyPlace[]>().notNull().default([]),
   createdAt: timestamp("created_at", { withTimezone: true })
     .notNull()
     .defaultNow(),
