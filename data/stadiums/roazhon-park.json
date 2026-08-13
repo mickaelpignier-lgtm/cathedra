@@ -1,0 +1,43 @@
+{
+  "slug": "roazhon-park",
+  "name": "Roazhon Park",
+  "official_name": "Roazhon Park",
+  "clubs": ["Stade Rennais FC"],
+  "city": "Rennes",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 29778,
+  "opening_year": 1912,
+  "coordinates": { "lat": 48.1075, "lng": 1.7128 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1939, "architects": null },
+      { "year": 1957, "architects": null },
+      { "year": 1987, "architects": null },
+      { "year": 2004, "architects": ["Bruno Gaudin"] }
+    ]
+  },
+  "attendance_record": { "value": 29842, "context": "RC Vannes - FC Grenoble, rugby, 16 novembre 2025 (record football historique antérieur)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Rennes-Saint-Jacques", "distance_km": 6, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Stade situé dans le quartier de Bourg-l'Évesque ; détails de desserte en transports en commun non précisés dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Galerie des Légendes"],
+    "insider_tip": "Visites guidées proposées depuis le 16 juillet 2020 via la 'Galerie des Légendes' du club."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Roazhon_Park"],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

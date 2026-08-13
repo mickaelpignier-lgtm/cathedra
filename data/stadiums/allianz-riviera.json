@@ -1,0 +1,38 @@
+{
+  "slug": "allianz-riviera",
+  "name": "Allianz Riviera",
+  "official_name": "Allianz Riviera",
+  "clubs": ["OGC Nice"],
+  "city": "Nice",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 35624,
+  "opening_year": 2013,
+  "coordinates": { "lat": 43.7050, "lng": 7.1925 },
+  "architecture": {
+    "initial_architect": "Jean-Michel Wilmotte",
+    "renovations": []
+  },
+  "attendance_record": { "value": 35596, "context": "OGC Nice - AS Saint-Étienne, Ligue 1, 7 mai 2016" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Nice Côte d'Azur (NCE)", "distance_km": 8, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Tramway ligne 3 de Nice, deux arrêts desservent le stade depuis novembre 2019. Parking souterrain de 1 450 places."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Allianz_Riviera"],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "stade-pierre-mauroy",
+  "name": "Stade Pierre-Mauroy",
+  "official_name": "Decathlon Arena - Stade Pierre-Mauroy",
+  "clubs": ["LOSC Lille"],
+  "city": "Villeneuve-d'Ascq (métropole lilloise)",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 50187,
+  "opening_year": 2012,
+  "coordinates": { "lat": 50.6119, "lng": 3.1306 },
+  "architecture": {
+    "initial_architect": "Pierre Ferret, Valode et Pistre",
+    "renovations": []
+  },
+  "attendance_record": { "value": 49712, "context": "LOSC Lille - Paris Saint-Germain, Ligue 1, 14 avril 2019" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Lille-Lesquin", "distance_km": 12, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro, stations 'Quatre Cantons - Stade Pierre-Mauroy' et 'Cité Scientifique - Professeur Gabillard'."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Stade modulable : le toit rétractable permet de transformer l'arène en salle de spectacle/concert (record de 67 500 spectateurs pour un concert d'Indochine en 2022)."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stade_Pierre-Mauroy"],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

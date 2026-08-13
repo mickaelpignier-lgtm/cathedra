@@ -1,0 +1,42 @@
+{
+  "slug": "stade-geoffroy-guichard",
+  "name": "Stade Geoffroy-Guichard",
+  "official_name": "Stade Geoffroy-Guichard",
+  "clubs": ["AS Saint-Étienne"],
+  "city": "Saint-Étienne",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 2",
+  "division_tier": 1,
+  "capacity": 41965,
+  "opening_year": 1931,
+  "coordinates": { "lat": 45.4608, "lng": 4.3903 },
+  "architecture": {
+    "initial_architect": "Meyer et Saidoun",
+    "renovations": [
+      { "year": 1984, "architects": null },
+      { "year": 1998, "architects": ["Berger et Jallon"] },
+      { "year": 2014, "architects": ["Chaix et Morel", "AAGROUP"] }
+    ]
+  },
+  "attendance_record": { "value": 47747, "context": "ASSE - LOSC Lille, quart de finale Coupe de France, 11 mai 1985 (avant la mise en configuration tout-assis)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Saint-Étienne–Bouthéon", "distance_km": 15, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Surnommé 'Le Chaudron' (ou 'Le Chaudron vert'), l'un des stades à l'identité historique la plus forte du football français malgré la relégation actuelle du club en Ligue 2."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stade_Geoffroy-Guichard"],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

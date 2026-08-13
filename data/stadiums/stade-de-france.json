@@ -1,0 +1,41 @@
+{
+  "slug": "stade-de-france",
+  "name": "Stade de France",
+  "official_name": "Stade de France",
+  "clubs": ["Équipe de France de football (national)"],
+  "city": "Saint-Denis (banlieue nord de Paris)",
+  "country": "France",
+  "continent": "Europe",
+  "league": "National",
+  "division_tier": 1,
+  "capacity": 80698,
+  "opening_year": 1998,
+  "coordinates": { "lat": 48.9244, "lng": 2.3601 },
+  "architecture": {
+    "initial_architect": "Michel Macary, Aymeric Zublena, Michel Régembal, Claude Costantini",
+    "renovations": []
+  },
+  "attendance_record": { "value": 80430, "context": "Finale Coupe du monde de rugby 2007 (record football: 80 056, finale Coupe de France 2009)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Paris-Charles de Gaulle (CDG)", "distance_km": null, "route": "Accessible via connexions RER depuis l'aéroport" },
+    "public_transport": "RER B, station 'La Plaine - Stade de France' (500m) ; RER D, station 'Stade de France - Saint-Denis' (~1,1km) ; Métro ligne 13, station Saint-Denis - Porte de Paris (300m) ; Métro ligne 14, station Saint-Denis Pleyel (~1,5km). Parking de 3 000 places ; 80% des spectateurs utilisent les transports en commun."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 11,
+    "tour_booking_url": "https://www.stadefrance.com/en/tour-pass",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Tribunes", "Vestiaires", "Tunnel des joueurs", "Podium de remise des trophées", "Musée du Stade de France (accès inclus)"],
+    "insider_tip": "Visite guidée d'1h30 avec accès gratuit au musée du stade inclus ; départs porte H, horaires variables selon saison (11h/14h/16h)."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Stade_de_France",
+      "https://www.stadefrance.com/en/tour-pass"
+    ],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

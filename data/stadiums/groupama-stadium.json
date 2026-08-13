@@ -1,0 +1,41 @@
+{
+  "slug": "groupama-stadium",
+  "name": "Groupama Stadium",
+  "official_name": "Parc Olympique Lyonnais",
+  "clubs": ["Olympique Lyonnais"],
+  "city": "Décines-Charpieu (agglomération de Lyon)",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 59186,
+  "opening_year": 2016,
+  "coordinates": { "lat": 45.7652, "lng": 4.9822 },
+  "architecture": {
+    "initial_architect": "Populous",
+    "renovations": []
+  },
+  "attendance_record": { "value": 58741, "context": "Stade Toulousain - Aviron Bayonnais, demi-finale Top 14, 20 juin 2025 (record football: 58 257, OL-PSG, 9 novembre 2025)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Lyon-Saint Exupéry (LYS)", "distance_km": 10, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Tramway ligne T7 (depuis février 2021) et ligne de bus 85 ; navettes spéciales les jours de match. Accès routier via la Rocade Est (RN346), échangeur n°7. Parking de 7 000 places sur site."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 20,
+    "tour_booking_url": "https://www.olvallee.fr/visite-du-groupama-stadium-et-ol-musee-profitez-de-tarifs-preferentiels-grace-aux-visites-de-groupe/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Loges VIP", "Salle de presse", "Zone mixte", "Vestiaires", "Tunnel des joueurs", "Bord de pelouse", "OL Le Musée (1300m²)"],
+    "insider_tip": "Visite classique + musée à 20€ adulte / 11€ enfant ; visite VIP à 39€ adulte / 16€ enfant."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Groupama_Stadium",
+      "https://www.olvallee.fr/visite-du-groupama-stadium-et-ol-musee-profitez-de-tarifs-preferentiels-grace-aux-visites-de-groupe/"
+    ],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

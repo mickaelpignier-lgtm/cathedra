@@ -1,0 +1,41 @@
+{
+  "slug": "orange-velodrome",
+  "name": "Vélodrome",
+  "official_name": "CEPAC Vélodrome (nom sponsorisé depuis 2026 ; Orange Vélodrome 2016-2026 ; Stade Vélodrome nom d'usage historique)",
+  "clubs": ["Olympique de Marseille"],
+  "city": "Marseille",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 67394,
+  "opening_year": 1937,
+  "coordinates": { "lat": 43.2696, "lng": 5.3959 },
+  "architecture": {
+    "initial_architect": "Henri Ploquin",
+    "renovations": [
+      { "year": 1998, "architects": ["Jean-Pierre Buffi"] },
+      { "year": 2014, "architects": ["SCAU architecture"] }
+    ]
+  },
+  "attendance_record": { "value": 66818, "context": "Rugby Club Toulonnais - Stade Toulousain, Top 14, 10 mai 2025" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Marseille Provence (MRS)", "distance_km": 25, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro ligne 2 de Marseille, deux stations desservent le stade (Rond-Point du Prado / Sainte-Marguerite Dromel)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Orange_V%C3%A9lodrome"],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

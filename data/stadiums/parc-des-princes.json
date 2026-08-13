@@ -1,0 +1,44 @@
+{
+  "slug": "parc-des-princes",
+  "name": "Parc des Princes",
+  "official_name": "Parc des Princes",
+  "clubs": ["Paris Saint-Germain"],
+  "city": "Paris",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 47929,
+  "opening_year": 1972,
+  "coordinates": { "lat": 48.8414, "lng": 2.2530 },
+  "architecture": {
+    "initial_architect": "Roger Taillibert (avec Berdje Agopyan)",
+    "renovations": [
+      { "year": 1998, "architects": null },
+      { "year": 2016, "architects": ["Jean-Claude Blanc"] }
+    ]
+  },
+  "attendance_record": { "value": 50370, "context": "XV de France - Pays de Galles, 18 février 1989 (Tournoi des Cinq Nations, avant la reconstruction en enceinte tout-assis)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Paris-Orly (ORY)", "distance_km": 10, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro ligne 9, station Porte de Saint-Cloud ou Exelmans ; adresse 24 rue du Commandant-Guilbaud, 75016 Paris."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 27.5,
+    "tour_booking_url": "https://stadiumtour.psg.fr/fr/offres/stadium-tour-classic",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Tribunes", "Banc des remplaçants", "Espaces VIP", "Tunnel des joueurs", "Salle de conférence de presse", "Vestiaires"],
+    "insider_tip": "Tarif enfant/senior à 17,50€ ; Premium Pass à 45,50€ avec jetons de réalité virtuelle supplémentaires."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Parc_des_Princes",
+      "https://stadiumtour.psg.fr/fr/offres/stadium-tour-classic"
+    ],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}
