@@ -23,6 +23,12 @@ export interface NearbyPlace {
   distanceLabel: string;
 }
 
+export interface TransitLine {
+  label: string;
+  color: string;
+  network: string;
+}
+
 export const stadiums = pgTable("stadiums", {
   slug: text("slug").primaryKey(),
   countryCode: text("country_code").notNull(),
@@ -43,6 +49,7 @@ export const stadiums = pgTable("stadiums", {
   nearbyHotels: jsonb("nearby_hotels").$type<NearbyPlace[]>().notNull().default([]),
   nearbyAirbnbs: jsonb("nearby_airbnbs").$type<NearbyPlace[]>().notNull().default([]),
   nearbyRestaurants: jsonb("nearby_restaurants").$type<NearbyPlace[]>().notNull().default([]),
+  transitLines: jsonb("transit_lines").$type<TransitLine[]>().notNull().default([]),
   createdAt: timestamp("created_at", { withTimezone: true })
     .notNull()
     .defaultNow(),

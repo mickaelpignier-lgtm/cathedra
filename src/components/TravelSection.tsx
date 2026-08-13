@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import type { Stadium } from "@/lib/stadiums";
+import { contrastTextColor } from "@/lib/format";
 
 interface TravelSectionProps {
   stadium: Stadium;
@@ -56,6 +57,25 @@ export function TravelSection({ stadium }: TravelSectionProps) {
               <p className="mt-2 text-[13.5px] leading-[1.55]" style={{ color: "#3A3A36" }}>
                 {card.note}
               </p>
+            )}
+            {i === 1 && stadium.transitLines.length > 0 && (
+              <div className="mt-3.5 flex flex-wrap gap-2">
+                {stadium.transitLines.map((line) => (
+                  <span
+                    key={line.label + line.network}
+                    className="inline-flex items-center gap-1.5 rounded-full px-3 py-1"
+                    style={{
+                      background: line.color,
+                      color: contrastTextColor(line.color),
+                    }}
+                    title={line.network}
+                  >
+                    <span className="font-display text-[12px] uppercase leading-none">
+                      {line.label}
+                    </span>
+                  </span>
+                ))}
+              </div>
             )}
           </div>
         ))}
