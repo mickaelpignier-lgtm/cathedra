@@ -3,6 +3,7 @@ import type { Stadium } from "@/lib/stadiums";
 import type { Locale } from "@/i18n/routing";
 import { formatNumber, formatPrice } from "@/lib/format";
 import { ParallaxImage } from "./ParallaxImage";
+import { ShareButtons } from "./ShareButtons";
 
 interface StadiumHeroProps {
   stadium: Stadium;
@@ -90,6 +91,10 @@ export function StadiumHero({ stadium }: StadiumHeroProps) {
           >
             {t("heroCtaSecondary")}
           </a>
+        </div>
+
+        <div className="mt-5">
+          <ShareButtons title={stadium.name} />
         </div>
       </div>
     </section>
