@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Anton, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -7,6 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { frFR, enUS, itIT, zhCN } from "@clerk/localizations";
 import { routing, type Locale } from "@/i18n/routing";
 import { Header } from "@/components/Header";
+import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import "../globals.css";
 
 const clerkLocalizations = { fr: frFR, en: enUS, it: itIT, zh: zhCN } as const;
@@ -55,6 +56,11 @@ export async function generateMetadata({
       template: `%s — ${t("siteName")}`,
     },
     description: t("homeDescription"),
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: "black-translucent",
+      title: t("siteName"),
+    },
     alternates: {
       canonical: `${siteUrl}/${locale}`,
       languages: { ...languages, "x-default": `${siteUrl}/${routing.defaultLocale}` },
@@ -69,6 +75,10 @@ export async function generateMetadata({
     },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: "#0B0B0C",
+};
 
 export default async function LocaleLayout({
   children,
@@ -108,6 +118,7 @@ export default async function LocaleLayout({
           <NextIntlClientProvider>
             <Header />
             <main className="flex-1">{children}</main>
+            <ServiceWorkerRegistration />
           </NextIntlClientProvider>
         </ClerkProvider>
       </body>
