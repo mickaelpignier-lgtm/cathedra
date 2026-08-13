@@ -12,7 +12,7 @@ export function HomeHero({ stadiumCount, countryCount }: HomeHeroProps) {
   return (
     <section className="relative flex h-[100svh] min-h-[560px] flex-col justify-end overflow-hidden">
       <ParallaxImage
-        src="https://picsum.photos/seed/cathedra-hero/1920/1080"
+        src="/images/home/maracana-hero.jpg"
         alt=""
         priority
         factor={0.22}

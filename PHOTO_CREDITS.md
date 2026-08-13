@@ -1,5 +1,11 @@
 # Crédits photo
 
+## Accueil
+
+| Fichier | Auteur | Licence |
+| --- | --- | --- |
+| `public/images/home/maracana-hero.jpg` — [Maracanã a Noite.jpg](https://commons.wikimedia.org/wiki/File:Maracana_a_Noite.jpg) | Alexandre Cabus | CC BY-SA 4.0 |
+
 Les photos de Camp Nou, Old Trafford, Santiago Bernabéu et San Siro proviennent de [Wikimedia Commons](https://commons.wikimedia.org), sous licence Creative Commons (CC BY / CC BY-SA). Conformément à ces licences, l'attribution ci-dessous doit être conservée si ces images sont réutilisées. Les fichiers sont auto-hébergés dans `public/images/stadiums/` (redimensionnés à 2400px max, qualité 82) pour éviter la limitation anti-hotlinking de Wikimedia.
 
 Les 22 autres stades du site utilisent des images de substitution ([Lorem Picsum](https://picsum.photos)), à remplacer par de vraies photos avant mise en production.
