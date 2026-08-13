@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { AuthControls } from "./AuthControls";
+import { CurrencyPicker } from "./CurrencyPicker";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -39,6 +40,7 @@ export function Header() {
         </nav>
       </div>
       <div className="flex items-center gap-3.5">
+        <CurrencyPicker />
         <AuthControls />
         <LanguageSwitcher />
       </div>

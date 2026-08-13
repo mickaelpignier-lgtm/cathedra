@@ -10,7 +10,9 @@
     "stadiums": "Stadi",
     "menu": "Menu",
     "signIn": "Accedi",
-    "signUp": "Registrati"
+    "signUp": "Registrati",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Valuta"
   },
   "home": {
     "heroKicker": "La tua roadmap stadio per stadio",

@@ -2,6 +2,7 @@ import { useLocale, useTranslations } from "next-intl";
 import type { Stadium } from "@/lib/stadiums";
 import type { Locale } from "@/i18n/routing";
 import { formatPrice } from "@/lib/format";
+import { ConvertedPrice } from "./ConvertedPrice";
 
 interface TicketsCardProps {
   stadium: Stadium;
@@ -52,11 +53,14 @@ export function TicketsCard({ stadium }: TicketsCardProps) {
             <div className="font-display text-[clamp(22px,3vw,34px)] uppercase leading-[1]">
               {offer.label}
             </div>
-            <div
-              className="font-mono text-[15px] sm:justify-self-end"
-              style={{ color: "var(--acc)" }}
-            >
-              {t("priceFrom")} {formatPrice(offer.price, stadium.tickets.currency, locale)}
+            <div className="flex flex-col gap-1 sm:items-end">
+              <div
+                className="font-mono text-[15px]"
+                style={{ color: "var(--acc)" }}
+              >
+                {t("priceFrom")} {formatPrice(offer.price, stadium.tickets.currency, locale)}
+              </div>
+              <ConvertedPrice amount={offer.price} currency={stadium.tickets.currency} />
             </div>
             <div className="col-span-2 mt-2 border border-white/30 px-4 py-2.5 text-center font-mono text-[10.5px] uppercase tracking-[.18em] text-[#F2EFE9] transition-colors group-hover:border-[#f2efe9] group-hover:bg-white/8 sm:col-span-1 sm:mt-0">
               {t("buyTickets")}

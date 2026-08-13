@@ -10,7 +10,9 @@
     "stadiums": "球场",
     "menu": "菜单",
     "signIn": "登录",
-    "signUp": "注册"
+    "signUp": "注册",
+    "currencyLabel": "货币",
+    "currencyPlaceholder": "货币"
   },
   "home": {
     "heroKicker": "为您逐一规划球场之旅",

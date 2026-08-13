@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Stadium } from "@/lib/stadiums";
 import type { Locale } from "@/i18n/routing";
 import { formatPrice } from "@/lib/format";
+import { ConvertedPrice } from "./ConvertedPrice";
 
 interface ShopSectionProps {
   stadium: Stadium;
@@ -55,8 +56,11 @@ export function ShopSection({ stadium }: ShopSectionProps) {
             </div>
             <div className="flex items-baseline justify-between gap-2.5 p-3.5">
               <span className="text-[14px]">{product.name}</span>
-              <span className="whitespace-nowrap font-mono text-[13px]" style={{ color: "var(--acc)" }}>
-                {formatPrice(product.priceFrom, stadium.tickets.currency, locale)}
+              <span className="flex shrink-0 flex-col items-end gap-0.5">
+                <span className="whitespace-nowrap font-mono text-[13px]" style={{ color: "var(--acc)" }}>
+                  {formatPrice(product.priceFrom, stadium.tickets.currency, locale)}
+                </span>
+                <ConvertedPrice amount={product.priceFrom} currency={stadium.tickets.currency} />
               </span>
             </div>
           </a>

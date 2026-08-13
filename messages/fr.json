@@ -10,7 +10,9 @@
     "stadiums": "Stades",
     "menu": "Menu",
     "signIn": "Se connecter",
-    "signUp": "S'inscrire"
+    "signUp": "S'inscrire",
+    "currencyLabel": "Devise",
+    "currencyPlaceholder": "Devise"
   },
   "home": {
     "heroKicker": "Votre feuille de route stade par stade",
