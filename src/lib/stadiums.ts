@@ -68,6 +68,8 @@ export interface Stadium {
   transitLines: TransitLine[];
   initialArchitect: string;
   renovations: Renovation[];
+  recordAttendance: number | null;
+  recordMatchLabel: string;
 }
 
 type StadiumRow = typeof stadiums.$inferSelect;
@@ -119,6 +121,8 @@ function toStadium(row: StadiumRow, t: TranslationRow): Stadium {
     transitLines: row.transitLines,
     initialArchitect: row.initialArchitect,
     renovations: row.renovations,
+    recordAttendance: row.recordAttendance,
+    recordMatchLabel: t.recordMatchLabel,
   };
 }
 

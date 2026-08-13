@@ -86,7 +86,8 @@
     "historyTitle": "建筑设计",
     "initialArchitectLabel": "原始设计师",
     "renovationsLabel": "翻修历史",
-    "noRenovations": "自启用以来未有重大翻修记录。"
+    "noRenovations": "自启用以来未有重大翻修记录。",
+    "recordAttendanceLabel": "最高上座纪录"
   },
   "languageSwitcher": {
     "label": "语言"

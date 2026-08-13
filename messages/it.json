@@ -86,7 +86,8 @@
     "historyTitle": "Architettura",
     "initialArchitectLabel": "Architetto originale",
     "renovationsLabel": "Ristrutturazioni",
-    "noRenovations": "Nessuna ristrutturazione importante documentata dall'apertura."
+    "noRenovations": "Nessuna ristrutturazione importante documentata dall'apertura.",
+    "recordAttendanceLabel": "Record di affluenza"
   },
   "languageSwitcher": {
     "label": "Lingua"

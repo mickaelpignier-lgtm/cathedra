@@ -57,6 +57,7 @@ export const stadiums = pgTable("stadiums", {
   transitLines: jsonb("transit_lines").$type<TransitLine[]>().notNull().default([]),
   initialArchitect: text("initial_architect").notNull().default(""),
   renovations: jsonb("renovations").$type<Renovation[]>().notNull().default([]),
+  recordAttendance: integer("record_attendance"),
   createdAt: timestamp("created_at", { withTimezone: true })
     .notNull()
     .defaultNow(),
@@ -85,6 +86,9 @@ export const stadiumTranslations = pgTable(
     galleryAlts: jsonb("gallery_alts").$type<string[]>().notNull(),
     heroAlt: text("hero_alt").notNull(),
     insiderTip: text("insider_tip").notNull(),
+    recordMatchLabel: text("record_match_label").notNull().default(""),
+    owner: text("owner").notNull().default(""),
+    anecdote: text("anecdote").notNull().default(""),
   },
   (table) => [primaryKey({ columns: [table.stadiumSlug, table.locale] })]
 );

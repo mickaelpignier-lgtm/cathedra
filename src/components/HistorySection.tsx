@@ -1,5 +1,7 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import type { Stadium } from "@/lib/stadiums";
+import type { Locale } from "@/i18n/routing";
+import { formatNumber } from "@/lib/format";
 
 interface HistorySectionProps {
   stadium: Stadium;
@@ -7,6 +9,7 @@ interface HistorySectionProps {
 
 export function HistorySection({ stadium }: HistorySectionProps) {
   const t = useTranslations("stadium");
+  const locale = useLocale() as Locale;
 
   return (
     <section
@@ -20,7 +23,7 @@ export function HistorySection({ stadium }: HistorySectionProps) {
         {t("historyTitle")}
       </h2>
 
-      <div className="grid gap-px border border-white/12 bg-white/12 sm:grid-cols-2">
+      <div className="grid gap-px border border-white/12 bg-white/12 sm:grid-cols-3">
         <div className="p-[clamp(20px,2.2vw,30px)]" style={{ background: "#0B0B0C" }}>
           <div className="font-mono text-[10.5px] uppercase tracking-[.2em] text-[#8E8E88]">
             {t("initialArchitectLabel")}
@@ -56,6 +59,19 @@ export function HistorySection({ stadium }: HistorySectionProps) {
             </p>
           )}
         </div>
+        {stadium.recordAttendance && (
+          <div className="p-[clamp(20px,2.2vw,30px)]" style={{ background: "#0B0B0C" }}>
+            <div className="font-mono text-[10.5px] uppercase tracking-[.2em] text-[#8E8E88]">
+              {t("recordAttendanceLabel")}
+            </div>
+            <p className="mt-2 font-display text-[26px] leading-none" style={{ color: "var(--acc)" }}>
+              {formatNumber(stadium.recordAttendance, locale)}
+            </p>
+            <p className="mt-2 text-[13.5px] leading-[1.4] text-[#F2EFE9]">
+              {stadium.recordMatchLabel}
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
