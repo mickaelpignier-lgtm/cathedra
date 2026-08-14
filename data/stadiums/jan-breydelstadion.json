@@ -1,0 +1,41 @@
+{
+  "slug": "jan-breydelstadion",
+  "name": "Jan Breydelstadion",
+  "official_name": "Jan Breydelstadion",
+  "clubs": ["Club Brugge KV", "Cercle Brugge KSV"],
+  "city": "Bruges (quartier Sint-Andries)",
+  "country": "Belgique",
+  "continent": "Europe",
+  "league": "Belgian Pro League",
+  "division_tier": 1,
+  "capacity": 29062,
+  "opening_year": 1975,
+  "coordinates": { "lat": 51.19333, "lng": 3.18056 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1998, "architects": null },
+      { "year": 2016, "architects": null }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Bruxelles (BRU)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Adresse: Koning Leopold III-laan 50, Bruges. Détails de desserte en transports en commun non précisés dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Stade partagé par deux rivaux locaux, Club Brugge et Cercle Brugge ; anciennement nommé Olympiastadion jusqu'en 1999, renommé avant l'Euro 2000 en hommage à Jan Breydel, figure de la révolte des Matines de Bruges (1302)."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Jan_Breydel_Stadium"],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

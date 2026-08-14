@@ -1,0 +1,40 @@
+{
+  "slug": "lotto-park",
+  "name": "Lotto Park",
+  "official_name": "Lotto Park",
+  "clubs": ["RSC Anderlecht"],
+  "city": "Anderlecht (Bruxelles)",
+  "country": "Belgique",
+  "continent": "Europe",
+  "league": "Belgian Pro League",
+  "division_tier": 1,
+  "capacity": 22500,
+  "opening_year": 1918,
+  "coordinates": { "lat": 50.83500, "lng": 4.29806 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1991, "architects": null, "note": "Rénovation majeure 1983-1991, coût 1,5 milliard de francs belges" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Bruxelles (BRU)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro, station Saint-Guidon. Accès voiture via la sortie Westland Shopping Center. Adresse : Avenue Théo Verbeeck 2, 1070 Anderlecht."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Anciennement Stade Constant Vanden Stock (1983-2019) puis Stade Émile Versé (1917-1983) ; a accueilli la finale du Championnat d'Europe des Nations 1972 ; a reçu le premier prix du CIO pour l'architecture sportive."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Lotto_Park"],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "camp-nou",
+  "name": "Camp Nou",
+  "official_name": "Spotify Camp Nou",
+  "clubs": ["FC Barcelone"],
+  "city": "Barcelone",
+  "country": "Espagne",
+  "continent": "Europe",
+  "league": "La Liga",
+  "division_tier": 1,
+  "capacity": 105000,
+  "opening_year": 1957,
+  "coordinates": { "lat": 41.3808, "lng": 2.1228 },
+  "architecture": {
+    "initial_architect": "Francesc Mitjans, Josep Soteras et Lorenzo García-Barbón",
+    "renovations": [
+      { "year": 1982, "architects": [] },
+      { "year": 1994, "architects": [] },
+      { "year": 2023, "architects": ["Nikken Sekkei", "Pascual i Ausió Arquitectes"] }
+    ]
+  },
+  "attendance_record": { "value": 120000, "context": "FC Barcelone – IFK Göteborg, quart de finale de Coupe des clubs champions européens, 16 avril 1986" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Barcelone-El Prat (BCN)", "distance_km": 12, "route": null },
+    "public_transport": "Métro ligne 3, stations Palau Reial, Maria Cristina ou Les Corts ; lignes 5/9/10, station Collblanc. Tramway Trambaix (T1/T2/T3), arrêt Avinguda de Xile."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 28,
+    "tour_booking_url": "https://go.fcbarcelona.com/Museu/BarcaImmersiveTour/CampNouExperience/EN",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.fcbarcelona.com/en/tickets/football",
+    "highlights": ["Musée du FC Barcelone", "Point de vue sur le chantier de rénovation Espai Barça", "Capacité visée de 105 000 places à l'achèvement des travaux (2027)"],
+    "insider_tip": "Le stade est en travaux de rénovation (Espai Barça) depuis 2023 ; l'accès et la capacité opérationnelle varient selon l'avancement du chantier — vérifier l'état actuel avant visite."
+  },
+  "shop": { "url": "https://store.fcbarcelona.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Camp_Nou",
+      "https://www.fcbarcelona.com/en/club/camp-nou/tour",
+      "https://www.dezeen.com/2016/03/09/new-camp-nou-stadium-renovation-fc-barcelona-football-club-nikken-sekkei-pascual-i-ausio-arquitectes-competition-winning-design/"
+    ],
+    "last_checked": "2026-08-13",
+    "confidence": "medium"
+  }
+}

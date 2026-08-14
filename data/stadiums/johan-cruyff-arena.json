@@ -1,0 +1,40 @@
+{
+  "slug": "johan-cruyff-arena",
+  "name": "Johan Cruyff Arena",
+  "official_name": "Johan Cruijff ArenA",
+  "clubs": ["AFC Ajax"],
+  "city": "Amsterdam",
+  "country": "Pays-Bas",
+  "continent": "Europe",
+  "league": "Eredivisie",
+  "division_tier": 1,
+  "capacity": 55865,
+  "opening_year": 1996,
+  "coordinates": { "lat": 52.31417, "lng": 4.94194 },
+  "architecture": {
+    "initial_architect": "Rob Schuurman",
+    "renovations": [
+      { "year": 2020, "architects": null, "note": "Rénovation majeure 2015-2020" }
+    ]
+  },
+  "attendance_record": { "value": 51837, "context": "Johan Cruyff Shield (Supercoupe des Pays-Bas), 27 juillet 2019" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Amsterdam Schiphol (AMS)", "distance_km": 10, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro lignes 50 et 54, station Amsterdam Bijlmer ArenA. Parking couvert de 500 places et 12 000 places extérieures supplémentaires."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Ajax Museum (au sein du stade)", "Toit rétractable"],
+    "insider_tip": "Anciennement Amsterdam ArenA (1996-2018), renommé en hommage à Johan Cruyff décédé en 2016 ; a accueilli la finale de la Ligue des champions 1998 et des matches de l'Euro 2000 et de l'Euro 2020."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Johan_Cruyff_Arena"],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "philips-stadion",
+  "name": "Philips Stadion",
+  "official_name": "Philips Stadion",
+  "clubs": ["PSV Eindhoven"],
+  "city": "Eindhoven",
+  "country": "Pays-Bas",
+  "continent": "Europe",
+  "league": "Eredivisie",
+  "division_tier": 1,
+  "capacity": 35119,
+  "opening_year": 1910,
+  "coordinates": { "lat": 51.44167, "lng": 5.46750 },
+  "architecture": {
+    "initial_architect": "Toon van Aken",
+    "renovations": [
+      { "year": 2002, "architects": null, "note": "Rénovations majeures 1988-2002 (dont préparation Euro 2000) ; autres rénovations en 1916, 1933, 1938, 1941, 1958, 1977, 1993, 1996" }
+    ]
+  },
+  "attendance_record": { "value": 35292, "context": "PSV Eindhoven - Manchester United, 15 septembre 2015" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Eindhoven Airport", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Adresse : Frederiklaan 10, 5616 NH Eindhoven. Détails de desserte non précisés dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Anciennement Philips SportPark (1913-1990), entièrement financé à l'origine par l'entreprise Philips fondée à Eindhoven ; a accueilli l'Euro 2000, la finale de la Coupe UEFA 2005-06 et la finale de la Ligue des champions féminine 2022-23."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Philips_Stadion"],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}

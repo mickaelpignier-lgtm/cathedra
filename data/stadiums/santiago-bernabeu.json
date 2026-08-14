@@ -1,0 +1,47 @@
+{
+  "slug": "santiago-bernabeu",
+  "name": "Santiago Bernabéu",
+  "official_name": "Estadio Santiago Bernabéu",
+  "clubs": ["Real Madrid"],
+  "city": "Madrid",
+  "country": "Espagne",
+  "continent": "Europe",
+  "league": "La Liga",
+  "division_tier": 1,
+  "capacity": 83186,
+  "opening_year": 1947,
+  "coordinates": { "lat": 40.45306, "lng": -3.68835 },
+  "architecture": {
+    "initial_architect": "Manuel Muñoz Monasterio et Luis Alemany Soler",
+    "renovations": [
+      { "year": 1982, "architects": ["Rafael Luis Alemany", "Manuel Salinas"] },
+      { "year": 2006, "architects": [] },
+      { "year": 2024, "architects": ["L35 Arquitectos", "gmp Architekten", "Ribas & Ribas"] }
+    ]
+  },
+  "attendance_record": { "value": 129690, "context": "Real Madrid – AC Milan, Coupe des clubs champions européens, 19 avril 1956" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Madrid-Barajas (MAD)", "distance_km": 13, "route": null },
+    "public_transport": "Métro ligne 10, station Santiago Bernabéu, sortie directe. Bus lignes 14, 27, 40, 43, 120, 147, 150."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 56,
+    "tour_booking_url": "https://ticketstourbernabeu.realmadrid.com/en/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.realmadrid.com/en-US/tickets",
+    "highlights": ["Vue panoramique depuis les niveaux supérieurs", "Musée du club et salle des trophées", "Toit rétractable et façade en acier ajouré (rénovation 2019-2024)"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://shop.realmadrid.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bernab%C3%A9u_(stadium)",
+      "https://fr.wikipedia.org/wiki/Stade_Santiago-Bernab%C3%A9u",
+      "https://www.realmadrid.com/en-US/tour-bernabeu",
+      "https://archeyes.com/transforming-santiago-bernabeu-stadium-an-urban-icon-by-l35-architects-gmp-and-ribas-ribas/"
+    ],
+    "last_checked": "2026-08-13",
+    "confidence": "high"
+  }
+}
