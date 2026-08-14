@@ -1,0 +1,41 @@
+{
+  "slug": "deutsche-bank-park",
+  "name": "Deutsche Bank Park",
+  "official_name": "Deutsche Bank Park (anciennement Waldstadion, 1925-2005)",
+  "clubs": ["Eintracht Frankfurt"],
+  "city": "Francfort-sur-le-Main",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 60100,
+  "opening_year": 1925,
+  "coordinates": { "lat": 50.068611, "lng": 8.645278 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1974, "architects": null, "note": "Première rénovation 1972-1974" },
+      { "year": 2005, "architects": ["Gerkan, Marg und Partner"], "note": "Reconstruction majeure 2002-2005, coût 126 M€, réouverture le 15 juin 2005" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Francfort (FRA)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Gare « Frankfurt Stadion », directement attenante au stade."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "A accueilli les Coupes du monde 1974 et 2006, l'Euro 1988 et l'Euro 2024 ; sert aussi de salle de concert (jusqu'à 55 000 places)."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Deutsche_Bank_Park"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

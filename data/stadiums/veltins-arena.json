@@ -1,0 +1,38 @@
+{
+  "slug": "veltins-arena",
+  "name": "Veltins-Arena",
+  "official_name": "Veltins-Arena (Arena AufSchalke)",
+  "clubs": ["FC Schalke 04"],
+  "city": "Gelsenkirchen",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "2. Bundesliga",
+  "division_tier": 2,
+  "capacity": 62271,
+  "opening_year": 2001,
+  "coordinates": { "lat": 51.554444, "lng": 7.0675 },
+  "architecture": {
+    "initial_architect": "Günter Kus (Hentrich, Petschnigg und Partner)",
+    "renovations": []
+  },
+  "attendance_record": { "value": 52000, "context": "Matchs de la Coupe du monde 2006" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Dortmund (DTM)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Toit rétractable en fibre de verre teflonée"],
+    "insider_tip": "Coût de construction de 191 M€ ; dispose d'une pelouse mobile qui peut être sortie du stade sur rails."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Veltins-Arena"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

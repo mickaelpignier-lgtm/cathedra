@@ -1,0 +1,41 @@
+{
+  "slug": "rheinenergiestadion",
+  "name": "RheinEnergieStadion",
+  "official_name": "RheinEnergieStadion",
+  "clubs": ["1. FC Köln"],
+  "city": "Cologne",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 50076,
+  "opening_year": 1923,
+  "coordinates": { "lat": 50.9336, "lng": 6.875 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1975, "architects": null, "note": "Première grande rénovation 1972-1975" },
+      { "year": 2004, "architects": ["gmp - von Gerkan, Marg und Partner"], "note": "Rénovation complète 2002-2004, coût 119,5 M€ (ingénierie : Schlaich Bergermann & Partner)" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Cologne-Bonn (CGN)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Anciennement Müngersdorfer Stadion, renommé RheinEnergieStadion en 2002 ; a accueilli des matchs de l'Euro 2024."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/RheinEnergieStadion"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

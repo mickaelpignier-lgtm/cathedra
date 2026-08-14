@@ -1,0 +1,40 @@
+{
+  "slug": "volksparkstadion",
+  "name": "Volksparkstadion",
+  "official_name": "Volksparkstadion",
+  "clubs": ["Hamburger SV"],
+  "city": "Hambourg",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 57274,
+  "opening_year": 1953,
+  "coordinates": { "lat": 53.586944, "lng": 9.898611 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2000, "architects": null, "note": "Reconstruction complète 1998-2000, coût 64 M€ ; stade reconstruit sur le site du Bahrenfelder Stadion (1925)" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Hambourg (HAM)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Successivement nommé AOL Arena (2001-2007), HSH Nordbank Arena (2007-2010) puis Imtech Arena (2010-2015) avant de reprendre son nom d'origine ; le Hamburger SV, seul club n'ayant jamais été relégué de Bundesliga jusqu'en 2018, y est revenu en première division en 2025."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Volksparkstadion"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

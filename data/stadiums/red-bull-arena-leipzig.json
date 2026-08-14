@@ -1,0 +1,42 @@
+{
+  "slug": "red-bull-arena-leipzig",
+  "name": "Red Bull Arena Leipzig",
+  "official_name": "Red Bull Arena (anciennement Zentralstadion)",
+  "clubs": ["RB Leipzig"],
+  "city": "Leipzig",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 47069,
+  "opening_year": 2004,
+  "coordinates": { "lat": 51.345833, "lng": 12.348056 },
+  "architecture": {
+    "initial_architect": "Wirth+Wirth / Glöckner Architekten",
+    "renovations": [
+      { "year": 2004, "architects": null, "note": "Reconstruction complète 2000-2004 (90,6 M€) à l'intérieur de l'ancien Zentralstadion (1956, capacité 100 000)" },
+      { "year": 2015, "architects": null, "note": "Rénovation, capacité ramenée à 42 959" },
+      { "year": 2021, "architects": null, "note": "Capacité portée à 47 069" }
+    ]
+  },
+  "attendance_record": { "value": 44337, "context": "Tunisie - Australie, Coupe des Confédérations, 21 juin 2005" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Leipzig-Halle (LEJ)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "L'ancien Zentralstadion (1956) avait été construit avec 1,5 million de m³ de gravats de la Seconde Guerre mondiale ; le stade actuel a été bâti à l'intérieur de son enceinte d'origine."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}
