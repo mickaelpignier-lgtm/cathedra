@@ -1,0 +1,42 @@
+{
+  "slug": "cardiff-city-stadium",
+  "name": "Cardiff City Stadium",
+  "official_name": "Cardiff City Stadium",
+  "clubs": ["Cardiff City FC"],
+  "city": "Cardiff",
+  "country": "Pays de Galles",
+  "continent": "Europe",
+  "league": "EFL League One",
+  "division_tier": 3,
+  "capacity": 33280,
+  "opening_year": 2009,
+  "coordinates": { "lat": 51.47278, "lng": -3.20306 },
+  "architecture": {
+    "initial_architect": "Arup Associates",
+    "renovations": [
+      { "year": 2014, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 33280, "context": "Pays de Galles – Belgique, qualifications Euro 2016, 12 juin 2015" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Cardiff (CWL)", "distance_km": 17, "route": null },
+    "public_transport": "Gares de Ninian Park et Grangetown à proximité. Bus Cardiff Bus ligne 95."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://www.cardiffcityfc.co.uk/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.cardiffcityfc.co.uk/",
+    "highlights": ["Situé dans le quartier de Leckwith, au sud de Cardiff", "Extension du Ninian Stand en 2014", "Accueille aussi les matchs de l'équipe du Pays de Galles"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cardiff_City_Stadium"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "principality-stadium",
+  "name": "Principality Stadium",
+  "official_name": "Principality Stadium (anciennement Millennium Stadium, 1999-2016)",
+  "clubs": ["Équipe du Pays de Galles (rugby)", "Équipe du Pays de Galles (football, occasionnellement)"],
+  "city": "Cardiff",
+  "country": "Pays de Galles",
+  "continent": "Europe",
+  "league": null,
+  "division_tier": 1,
+  "capacity": 73931,
+  "opening_year": 1999,
+  "coordinates": { "lat": 51.47806, "lng": -3.1825 },
+  "architecture": {
+    "initial_architect": "Rod Sheard (Bligh Lobb Sports Architecture, devenu Populous)",
+    "renovations": []
+  },
+  "attendance_record": { "value": 78000, "context": "Anthony Joshua – Carlos Takam, combat de boxe poids lourds, 28 octobre 2017" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Cardiff (CWL)", "distance_km": 18, "route": null },
+    "public_transport": "Gare de Cardiff Central à quelques minutes à pied du stade."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://principalitystadium.wales/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://principalitystadium.wales/",
+    "highlights": ["Toit rétractable, l'un des premiers grands stades européens à en être équipé", "A accueilli la finale de la Ligue des champions 2017 (Real Madrid – Juventus)", "Temple du rugby gallois en plein centre-ville de Cardiff"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Principality_Stadium"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}
