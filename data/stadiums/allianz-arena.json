@@ -1,0 +1,41 @@
+{
+  "slug": "allianz-arena",
+  "name": "Allianz Arena",
+  "official_name": "Allianz Arena",
+  "clubs": ["FC Bayern Munich"],
+  "city": "Munich",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 75024,
+  "opening_year": 2005,
+  "coordinates": { "lat": 48.218611, "lng": 11.624444 },
+  "architecture": {
+    "initial_architect": "Herzog & de Meuron",
+    "renovations": [
+      { "year": 2012, "architects": null, "note": "Ajout de deux rangées de sièges (+2000 places)" },
+      { "year": 2014, "architects": null, "note": "Nouveau système d'éclairage de la façade (millions de couleurs)" }
+    ]
+  },
+  "attendance_record": { "value": 75000, "context": "Matchs de la Coupe du monde 2006" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Munich Airport (MUC)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro U6, station Fröttmaning, agrandie spécialement pour desservir le stade."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 25,
+    "tour_booking_url": "https://tickets-allianz-arena-museum.fcbayern.com/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Salle de presse", "Tunnel des joueurs", "Vestiaires", "FC Bayern Museum inclus dans le billet combiné"],
+    "insider_tip": "La façade est composée de 2874 coussins gonflables à l'air (ETFE) qui s'illuminent selon l'équipe qui joue ; privilégier une visite en semaine, tôt le matin, hors jours de match."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Allianz_Arena", "https://tickets-allianz-arena-museum.fcbayern.com/", "https://thebettervacation.com/munich/allianz-arena-tour/"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

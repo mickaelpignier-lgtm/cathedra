@@ -1,0 +1,43 @@
+{
+  "slug": "signal-iduna-park",
+  "name": "Signal Iduna Park",
+  "official_name": "Westfalenstadion (Signal Iduna Park par accord de naming ; BVB Stadion Dortmund en compétitions UEFA)",
+  "clubs": ["Borussia Dortmund"],
+  "city": "Dortmund",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 81365,
+  "opening_year": 1974,
+  "coordinates": { "lat": 51.4925, "lng": 7.451667 },
+  "architecture": {
+    "initial_architect": "Planungsgruppe Drahtler",
+    "renovations": [
+      { "year": 1992, "architects": null, "note": "Conversion de places debout en places assises selon les exigences UEFA" },
+      { "year": 1999, "architects": null, "note": "Extension des tribunes Est et Ouest (1995-1999)" },
+      { "year": 2003, "architects": null, "note": "Agrandissement des tribunes Sud et Nord (2002-2003)" },
+      { "year": 2006, "architects": null, "note": "Extension avant la Coupe du monde 2006, coût total ~200 M€" }
+    ]
+  },
+  "attendance_record": { "value": 83000, "context": "Atteint à six reprises ; moyenne de 81 365 spectateurs sur la saison 2013-2014" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Dortmund (DTM)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 14,
+    "tour_booking_url": "https://www.bvb.de/de/en/signal-iduna-park/stadium-tours/public.html",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Südtribüne, le « Mur Jaune » (24 454 places debout)", "Borusseum, le musée du club"],
+    "insider_tip": "Le Südtribüne est la plus grande tribune debout d'Europe, connue sous le nom de « Gelbe Wand » (Mur Jaune) ; billet combiné musée Borusseum disponible."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Signal_Iduna_Park", "https://www.bvb.de/de/en/signal-iduna-park/stadium-tours/public.html"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

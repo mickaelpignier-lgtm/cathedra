@@ -1,0 +1,40 @@
+{
+  "slug": "de-kuip",
+  "name": "De Kuip",
+  "official_name": "Stadion Feijenoord",
+  "clubs": ["Feyenoord Rotterdam"],
+  "city": "Rotterdam",
+  "country": "Pays-Bas",
+  "continent": "Europe",
+  "league": "Eredivisie",
+  "division_tier": 1,
+  "capacity": 47500,
+  "opening_year": 1937,
+  "coordinates": { "lat": 51.893889, "lng": 4.523333 },
+  "architecture": {
+    "initial_architect": "Leendert van der Vlugt & Johannes Brinkman",
+    "renovations": [
+      { "year": 1994, "architects": ["Broekbakema", "Zwarts & Jansma"], "note": "Rénovation majeure : nouvelle toiture et tribunes" }
+    ]
+  },
+  "attendance_record": { "value": 67000, "context": "SVV - SC Heerenveen, 4 juin 1949" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Rotterdam The Hague Airport", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Tram, arrêt « Stadion Feijenoord » ; gare ferroviaire « Rotterdam Stadion » (ouverte en 1937, en service les jours de match)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 18.5,
+    "tour_booking_url": "https://www.dekuip.com/en/tour-museum/tours/stadium-tour",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Tunnel des joueurs historique et actuel", "Bâtiment olympique d'origine", "Vue depuis la tribune d'honneur"],
+    "insider_tip": "Stade classé 4 étoiles UEFA, il a accueilli la finale de l'Euro 2000 (France - Italie) ; la visite guidée dure environ 90 minutes."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stadion_Feijenoord", "https://www.dekuip.com/en/tour-museum/tours/stadium-tour"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

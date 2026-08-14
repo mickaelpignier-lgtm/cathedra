@@ -1,0 +1,41 @@
+{
+  "slug": "olympiastadion-berlin",
+  "name": "Olympiastadion Berlin",
+  "official_name": "Olympiastadion Berlin",
+  "clubs": ["Hertha BSC"],
+  "city": "Berlin",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "2. Bundesliga",
+  "division_tier": 2,
+  "capacity": 74475,
+  "opening_year": 1936,
+  "coordinates": { "lat": 52.514722, "lng": 13.239444 },
+  "architecture": {
+    "initial_architect": "Werner March",
+    "renovations": [
+      { "year": 1974, "architects": ["Friedrich Wilhelm Krahe"], "note": "Ajout d'une toiture partielle sur les tribunes latérales" },
+      { "year": 2004, "architects": ["Gerkan, Marg and Partner"], "note": "Rénovation complète 2000-2004 (242 M€), toiture complète sur toutes les tribunes" }
+    ]
+  },
+  "attendance_record": { "value": 75550, "context": "Italie - France, finale de la Coupe du monde 2006, 9 juillet 2006" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Berlin Brandenburg Airport (BER)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Métro U2, station Olympia-Stadion ; S-Bahn S5, station Berlin Olympiastadion."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Architecture monumentale des années 1930", "Cloche olympique", "Anneau des Maréchaux"],
+    "insider_tip": "Stade emblématique des Jeux Olympiques de 1936, classé monument historique ; a accueilli la finale de la Coupe du monde 2006 et de nombreuses finales de Ligue des champions."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stade_olympique_de_Berlin"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}
