@@ -1,0 +1,41 @@
+{
+  "slug": "ernst-happel-stadion",
+  "name": "Ernst-Happel-Stadion",
+  "official_name": "Ernst-Happel-Stadion",
+  "clubs": ["Équipe d'Autriche de football"],
+  "city": "Vienne",
+  "country": "Autriche",
+  "continent": "Europe",
+  "league": "Bundesliga (Autriche)",
+  "division_tier": null,
+  "capacity": 53008,
+  "opening_year": 1931,
+  "coordinates": { "lat": 48.207222, "lng": 16.420556 },
+  "architecture": {
+    "initial_architect": "Otto Ernst Schweizer",
+    "renovations": [
+      { "year": 1986, "architects": null, "note": "Ajout d'une toiture" },
+      { "year": 2005, "architects": null, "note": "Rénovation, coût 39,6 M€" }
+    ]
+  },
+  "attendance_record": { "value": 60000, "context": "Concert de Bruce Springsteen, 25 juin 2003" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Vienne-Schwechat (VIE)", "distance_km": 20, "route": "Liaison ferroviaire directe, environ 30 minutes" },
+    "public_transport": "Bus, tram, et depuis 2007 la ligne de métro U2."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Stade officiel de l'équipe nationale d'Autriche, il a accueilli la finale de l'Euro 2008 (Espagne - Allemagne, 1-0) ; le Rapid Vienne y a joué de 2014 à 2016 durant la construction de son nouveau stade."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Ernst-Happel-Stadion"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

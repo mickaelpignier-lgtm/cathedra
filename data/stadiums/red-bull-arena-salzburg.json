@@ -1,0 +1,40 @@
+{
+  "slug": "red-bull-arena-salzburg",
+  "name": "Red Bull Arena Salzburg",
+  "official_name": "Red Bull Arena (EM-Stadion Wals-Siezenheim)",
+  "clubs": ["FC Red Bull Salzburg", "FC Liefering"],
+  "city": "Wals-Siezenheim (Salzbourg)",
+  "country": "Autriche",
+  "continent": "Europe",
+  "league": "Bundesliga (Autriche)",
+  "division_tier": 1,
+  "capacity": 30188,
+  "opening_year": 2003,
+  "coordinates": { "lat": 47.816667, "lng": 12.999167 },
+  "architecture": {
+    "initial_architect": "Schuster Architekten / Atelier Albert Wimmer",
+    "renovations": [
+      { "year": 2007, "architects": null, "note": "Extension majeure 2006-2007 pour l'Euro 2008" }
+    ]
+  },
+  "attendance_record": { "value": 31063, "context": "Matchs de l'Euro 2008, 10, 14 et 18 juin" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Salzbourg (SZG)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Stade entièrement non-fumeur depuis 2020 ; site de 15 hectares avec équipements de loisirs autour du stade."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Red_Bull_Arena_(Salzbourg)"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

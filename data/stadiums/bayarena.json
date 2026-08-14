@@ -1,0 +1,41 @@
+{
+  "slug": "bayarena",
+  "name": "BayArena",
+  "official_name": "BayArena (anciennement Ulrich-Haberland-Stadion, 1958-1998)",
+  "clubs": ["Bayer 04 Leverkusen"],
+  "city": "Leverkusen",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 30210,
+  "opening_year": 1958,
+  "coordinates": { "lat": 51.038333, "lng": 7.002222 },
+  "architecture": {
+    "initial_architect": "Max Bögl",
+    "renovations": [
+      { "year": 1996, "architects": null, "note": "Extension à 22 500 places assises, chauffage de la pelouse" },
+      { "year": 2009, "architects": null, "note": "Rénovation majeure (2008-2009), réouverture le 10 août 2009" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Cologne-Bonn (CGN)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "A accueilli la Coupe du monde féminine 2011 et les finales de la Ligapokal (1997-2000)."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/BayArena"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

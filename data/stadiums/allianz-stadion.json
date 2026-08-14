@@ -1,0 +1,38 @@
+{
+  "slug": "allianz-stadion",
+  "name": "Allianz Stadion",
+  "official_name": "Allianz Stadion",
+  "clubs": ["Rapid Vienne"],
+  "city": "Vienne",
+  "country": "Autriche",
+  "continent": "Europe",
+  "league": "Bundesliga (Autriche)",
+  "division_tier": 1,
+  "capacity": 28345,
+  "opening_year": 2016,
+  "coordinates": { "lat": 48.198056, "lng": 16.265278 },
+  "architecture": {
+    "initial_architect": "ARC - Architektur Concept",
+    "renovations": []
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Vienne-Schwechat (VIE)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées. Situé dans le quartier de Hütteldorf (14e arrondissement)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Construit entre 2014 et 2016 (53 M€) sur le site de l'ancien Stade Gerhard-Hanappi (1977-2013), démoli pour laisser place au nouveau stade."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Allianz_Stadion"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

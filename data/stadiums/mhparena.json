@@ -1,0 +1,43 @@
+{
+  "slug": "mhparena",
+  "name": "MHPArena",
+  "official_name": "MHPArena (anciennement Neckarstadion, Gottlieb-Daimler-Stadion, Mercedes-Benz Arena)",
+  "clubs": ["VfB Stuttgart"],
+  "city": "Stuttgart",
+  "country": "Allemagne",
+  "continent": "Europe",
+  "league": "Bundesliga",
+  "division_tier": 1,
+  "capacity": 60058,
+  "opening_year": 1933,
+  "coordinates": { "lat": 48.792222, "lng": 9.231944 },
+  "architecture": {
+    "initial_architect": "Paul Bonatz",
+    "renovations": [
+      { "year": 1973, "architects": ["Siegel, Wonneberg & Partner"], "note": "Grande rénovation 1971-1973 pour la Coupe du monde 1974" },
+      { "year": 1993, "architects": ["Schlaich, Bergermann & Partner"], "note": "Modernisation de la toiture pour les Championnats du monde d'athlétisme" },
+      { "year": 2005, "architects": null, "note": "Rénovation de 51 M€ pour la Coupe du monde 2006" },
+      { "year": 2011, "architects": null, "note": "Restructuration 2008-2011, coût 63,5 M€" }
+    ]
+  },
+  "attendance_record": { "value": 68900, "context": "Affluence maximale mentionnée pour un match à domicile" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Stuttgart (STR)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Non précisé dans les sources consultées."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Conçu à l'origine par Paul Bonatz, architecte notamment de la gare centrale de Stuttgart ; a accueilli les Coupes du monde 1974 et 2006."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/MHPArena"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}
