@@ -1,0 +1,41 @@
+{
+  "slug": "aviva-stadium",
+  "name": "Aviva Stadium",
+  "official_name": "Aviva Stadium (« Dublin Arena » lors des compétitions UEFA)",
+  "clubs": ["République d'Irlande (football)", "Irlande (rugby)"],
+  "city": "Dublin",
+  "country": "République d'Irlande",
+  "continent": "Europe",
+  "league": null,
+  "division_tier": 1,
+  "capacity": 51711,
+  "opening_year": 2010,
+  "coordinates": { "lat": 53.33528, "lng": -6.22833 },
+  "architecture": {
+    "initial_architect": "Populous (ex-HOK Sport) et Scott Tallon Walker",
+    "renovations": []
+  },
+  "attendance_record": { "value": 51700, "context": "Irlande – France, Tournoi des Six Nations de rugby, 2011" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Dublin (DUB)", "distance_km": 10, "route": null },
+    "public_transport": "Gare de Lansdowne Road (DART) juste à côté du stade."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://www.avivastadium.ie/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.avivastadium.ie/",
+    "highlights": ["Construit sur le site historique de Lansdowne Road, plus ancien stade international du monde", "Stade partagé entre football (FAI) et rugby (IRFU)", "Architecture ondulante signée Populous"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aviva_Stadium",
+      "https://www.avivastadium.ie/"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

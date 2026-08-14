@@ -1,0 +1,44 @@
+{
+  "slug": "windsor-park",
+  "name": "Windsor Park",
+  "official_name": "National Football Stadium at Windsor Park",
+  "clubs": ["Équipe d'Irlande du Nord", "Linfield FC"],
+  "city": "Belfast",
+  "country": "Irlande du Nord",
+  "continent": "Europe",
+  "league": "NIFL Premiership",
+  "division_tier": 1,
+  "capacity": 18434,
+  "opening_year": 1905,
+  "coordinates": { "lat": 54.5825, "lng": -5.95528 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1930, "architects": ["Archibald Leitch"] },
+      { "year": 1980, "architects": [] },
+      { "year": 2016, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": null, "context": "Affluence moyenne de 17 504 spectateurs pour l'équipe d'Irlande du Nord sur l'année 2023 ; record historique non confirmé par les sources consultées" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "George Best Belfast City Airport (BHD)", "distance_km": 7, "route": null },
+    "public_transport": "Gare d'Adelaide (NI Railways) à proximité. Arrêts de bus Metro sur Windsor Avenue et Tate's Avenue."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.irishfa.com/",
+    "highlights": ["Stade national de l'Irlande du Nord depuis 1910, partagé avec Linfield FC", "Reconstruction complète entre 2014 et 2016", "Ambiance intense lors des matchs de l'équipe nationale"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Windsor_Park"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

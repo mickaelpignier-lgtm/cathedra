@@ -1,0 +1,44 @@
+{
+  "slug": "hampden-park",
+  "name": "Hampden Park",
+  "official_name": "Barclays Hampden (nom commercial)",
+  "clubs": ["Équipe d'Écosse", "Queen's Park FC"],
+  "city": "Glasgow",
+  "country": "Écosse",
+  "continent": "Europe",
+  "league": null,
+  "division_tier": 1,
+  "capacity": 51866,
+  "opening_year": 1903,
+  "coordinates": { "lat": 55.82583, "lng": -4.25194 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch (terrassements) et James Miller (tribunes jumelles)",
+    "renovations": [
+      { "year": 1986, "architects": [] },
+      { "year": 1999, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 149415, "context": "Écosse – Angleterre, 17 avril 1937, record européen pour un match international de football" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Glasgow Airport (GLA)", "distance_km": 12, "route": null },
+    "public_transport": "Gares de Mount Florida et King's Park (ScotRail) à quelques minutes à pied. Bus depuis Buchanan Bus Station."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://hampdenpark.co.uk/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.scottishfa.co.uk/",
+    "highlights": ["Stade national de l'Écosse, l'un des plus anciens grands stades du monde encore en activité", "Scottish Football Museum installé dans l'enceinte", "Ancien record du monde d'affluence pour un match international (149 415 spectateurs en 1937)"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hampden_Park",
+      "https://hampdenpark.co.uk/"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "ibrox-stadium",
+  "name": "Ibrox Stadium",
+  "official_name": "Ibrox Stadium",
+  "clubs": ["Rangers FC"],
+  "city": "Glasgow",
+  "country": "Écosse",
+  "continent": "Europe",
+  "league": "Scottish Premiership",
+  "division_tier": 1,
+  "capacity": 51700,
+  "opening_year": 1899,
+  "coordinates": { "lat": 55.85306, "lng": -4.30917 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1928, "architects": ["Archibald Leitch"] },
+      { "year": 1981, "architects": ["The Miller Partnership"] },
+      { "year": 1991, "architects": ["Gareth Hutchison"] },
+      { "year": 2024, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 118567, "context": "Rangers – Celtic, Old Firm, janvier 1939 — record encore aujourd'hui pour un match de championnat britannique" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Glasgow Airport (GLA)", "distance_km": 8, "route": null },
+    "public_transport": "Métro de Glasgow, stations Ibrox et Govan. À environ 3 km des gares Central et Queen Street. Bus First Glasgow sur Paisley Road West."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://www.rangers.co.uk/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.rangers.co.uk/",
+    "highlights": ["Façade historique en briques rouges du Main Stand (Archibald Leitch, 1928)", "Tribune Bill Struth Main Stand, monument classé", "Ambiance électrique lors des Old Firm face au Celtic"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.rangers.co.uk/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ibrox_Stadium"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

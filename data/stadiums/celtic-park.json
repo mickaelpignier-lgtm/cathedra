@@ -1,0 +1,45 @@
+{
+  "slug": "celtic-park",
+  "name": "Celtic Park",
+  "official_name": "Celtic Park",
+  "clubs": ["Celtic FC"],
+  "city": "Glasgow",
+  "country": "Écosse",
+  "continent": "Europe",
+  "league": "Scottish Premiership",
+  "division_tier": 1,
+  "capacity": 60411,
+  "opening_year": 1892,
+  "coordinates": { "lat": 55.84972, "lng": -4.20556 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1929, "architects": ["Duncan and Kerr"] },
+      { "year": 1998, "architects": ["Percy Johnson-Marshall Associates"] },
+      { "year": 2016, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 83500, "context": "Celtic – Rangers, Old Firm, 1er janvier 1938 (environ 10 000 supporters supplémentaires seraient restés hors du stade)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Glasgow Airport (GLA)", "distance_km": 14, "route": null },
+    "public_transport": "Gare de Dalmarnock (ScotRail) à environ 10 minutes à pied ; gares de Duke Street, Bellgrove et Bridgeton également accessibles. Bus First Glasgow lignes 2, 8, 61, 64, 240, 255."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://www.celticfc.com/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.celticfc.com/",
+    "highlights": ["Surnommé « Paradise » par les supporters", "Ambiance légendaire du Celtic Song avant les Old Firm face aux Rangers", "Lisbon Lions Stand avec zone de rail seating depuis 2016"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.celticfc.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Celtic_Park",
+      "https://fr.wikipedia.org/wiki/Celtic_Park"
+    ],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}
