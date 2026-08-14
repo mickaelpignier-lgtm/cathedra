@@ -1,0 +1,38 @@
+{
+  "slug": "wembley-stadium",
+  "name": "Wembley Stadium",
+  "official_name": "Wembley Stadium connected by EE",
+  "clubs": ["Angleterre (équipe nationale)"],
+  "city": "Londres",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": null,
+  "division_tier": null,
+  "capacity": 90000,
+  "opening_year": 2007,
+  "coordinates": { "lat": 51.5560, "lng": -0.2795 },
+  "architecture": {
+    "initial_architect": "Populous (ex-HOK Sport) et Foster and Partners",
+    "renovations": []
+  },
+  "attendance_record": { "value": 89874, "context": "Finale de la FA Cup 2008, Portsmouth – Cardiff City" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": null, "distance_km": null, "route": null },
+    "public_transport": "Stations Wembley Park (Jubilee et Metropolitan lines), Wembley Central (Bakerloo line et London Overground), et Wembley Stadium (National Rail)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "https://www.wembleystadiumtours.com/",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.thefa.com/tickets",
+    "highlights": ["Reconstruit entre 2003 et 2007 sur le site de l'ancien Empire Stadium (1923)", "Arche emblématique de 133 mètres visible depuis tout Londres", "Hôte des finales de la FA Cup et des matchs de l'équipe nationale d'Angleterre"],
+    "insider_tip": null
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Wembley_Stadium"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

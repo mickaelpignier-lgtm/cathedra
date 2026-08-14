@@ -1,0 +1,41 @@
+{
+  "slug": "stamford-bridge",
+  "name": "Stamford Bridge",
+  "official_name": "Stamford Bridge",
+  "clubs": ["Chelsea FC"],
+  "city": "Londres",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 40044,
+  "opening_year": 1877,
+  "coordinates": { "lat": 51.481667, "lng": -0.191111 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1974, "architects": [] },
+      { "year": 1997, "architects": ["KSS Design Group"] }
+    ]
+  },
+  "attendance_record": { "value": 82905, "context": "Chelsea – Arsenal, championnat, 12 octobre 1935" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": null, "distance_km": null, "route": null },
+    "public_transport": "Station de métro Fulham Broadway (District Line), à environ 300 m, avec entrée dédiée les jours de match."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.chelseafc.com/en/tickets",
+    "highlights": ["Attraction « Chelsea World of Sport » et musée du club (ouvert en 2011)", "Un des plus anciens stades du football anglais encore en activité"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.chelseafc.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Stamford_Bridge_(stadium)"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

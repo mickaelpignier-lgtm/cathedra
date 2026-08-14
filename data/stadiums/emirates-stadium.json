@@ -1,0 +1,40 @@
+{
+  "slug": "emirates-stadium",
+  "name": "Emirates Stadium",
+  "official_name": "Emirates Stadium (Arsenal Stadium en compétitions UEFA)",
+  "clubs": ["Arsenal FC"],
+  "city": "Londres",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 60704,
+  "opening_year": 2006,
+  "coordinates": { "lat": 51.555, "lng": -0.10833 },
+  "architecture": {
+    "initial_architect": "Populous (ex-HOK Sport)",
+    "renovations": [
+      { "year": 2022, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 60383, "context": "Arsenal – Wolverhampton Wanderers, Premier League, 2 novembre 2019" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": null, "distance_km": null, "route": null },
+    "public_transport": "Station de métro Arsenal (accès nord), Highbury & Islington (accès sud). Gare de Drayton Park adjacente (fermée les jours de match)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.arsenal.com/tickets",
+    "highlights": ["Situé à 450 mètres de l'ancien stade Highbury", "Pelouse surnommée « the Carpet » pour sa qualité", "Programme « Arsenalisation » : fresques et statues du club"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.arsenal.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Emirates_Stadium"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "anfield",
+  "name": "Anfield",
+  "official_name": "Anfield",
+  "clubs": ["Liverpool FC"],
+  "city": "Liverpool",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 61276,
+  "opening_year": 1884,
+  "coordinates": { "lat": 53.43083, "lng": -2.96083 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1895, "architects": ["Archibald Leitch"] },
+      { "year": 2016, "architects": ["Carillion"] },
+      { "year": 2024, "architects": ["Buckingham Group", "Rayner Rowen Construction"] }
+    ]
+  },
+  "attendance_record": { "value": 61905, "context": "Liverpool – Wolverhampton Wanderers, FA Cup, 2 février 1952" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Liverpool John Lennon Airport (LPL)", "distance_km": null, "route": null },
+    "public_transport": "Gare de Kirkdale (Merseyrail, ligne Northern), à environ 1,6 km du stade. Gare de Sandhills également à proximité."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.liverpoolfc.com/tickets",
+    "highlights": ["The Kop, l'une des tribunes les plus emblématiques du football anglais", "Panneau « This Is Anfield » au-dessus du tunnel des joueurs", "Musée du club (LFC Story)"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.liverpoolfc.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Anfield"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

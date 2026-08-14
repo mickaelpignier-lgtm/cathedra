@@ -1,0 +1,38 @@
+{
+  "slug": "tottenham-hotspur-stadium",
+  "name": "Tottenham Hotspur Stadium",
+  "official_name": "Tottenham Hotspur Stadium",
+  "clubs": ["Tottenham Hotspur"],
+  "city": "Londres",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 62850,
+  "opening_year": 2019,
+  "coordinates": { "lat": 51.6044, "lng": -0.0664 },
+  "architecture": {
+    "initial_architect": "Populous (Christopher Lee)",
+    "renovations": []
+  },
+  "attendance_record": { "value": 62027, "context": "Tottenham Hotspur – Arsenal, Premier League, 12 mai 2022" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": null, "distance_km": null, "route": null },
+    "public_transport": "London Overground : stations White Hart Lane et Bruce Grove. National Rail : Northumberland Park. Victoria Line/Overground : Seven Sisters et Tottenham Hale."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.tottenhamhotspur.com/tickets/",
+    "highlights": ["A remplacé White Hart Lane (1899-2017), construit en deux phases pour maintenir l'ancien stade en activité", "Attraction « Dare Skywalk », marche sur l'extérieur du stade avec passerelle vitrée", "Pelouse rétractable double (football/NFL) unique en Europe"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://shop.tottenhamhotspur.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

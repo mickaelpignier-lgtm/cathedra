@@ -1,0 +1,42 @@
+{
+  "slug": "etihad-stadium",
+  "name": "Etihad Stadium",
+  "official_name": "City of Manchester Stadium",
+  "clubs": ["Manchester City"],
+  "city": "Manchester",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 61038,
+  "opening_year": 2003,
+  "coordinates": { "lat": 53.483144, "lng": -2.200390 },
+  "architecture": {
+    "initial_architect": "Arup Group",
+    "renovations": [
+      { "year": 2003, "architects": ["Laing O'Rourke"] },
+      { "year": 2015, "architects": ["Populous"] },
+      { "year": 2026, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 60332, "context": "Manchester City – Aston Villa, 24 mai 2026" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Manchester Airport (MAN)", "distance_km": null, "route": null },
+    "public_transport": "Arrêt de tram Etihad Campus (Metrolink, East Manchester Line), à environ 10 minutes de Piccadilly Gardens."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.mancity.com/tickets",
+    "highlights": ["Construit à l'origine pour les Jeux du Commonwealth 2002 puis converti en stade de football", "Extension du North Stand en cours (projet à 300 millions £)"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://shop.mancity.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/City_of_Manchester_Stadium"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

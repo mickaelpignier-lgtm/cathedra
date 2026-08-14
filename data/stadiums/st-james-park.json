@@ -1,0 +1,42 @@
+{
+  "slug": "st-james-park",
+  "name": "St James' Park",
+  "official_name": "St James' Park",
+  "clubs": ["Newcastle United"],
+  "city": "Newcastle upon Tyne",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 52769,
+  "opening_year": 1892,
+  "coordinates": { "lat": 54.975556, "lng": -1.621667 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1987, "architects": [] },
+      { "year": 1995, "architects": [] },
+      { "year": 2000, "architects": ["TTH Architects"] }
+    ]
+  },
+  "attendance_record": { "value": 68386, "context": "Newcastle United – Chelsea, 1930 (avant conversion en stade tout assis)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Newcastle International Airport (NCL)", "distance_km": null, "route": null },
+    "public_transport": "Station de métro St James (Tyne & Wear Metro), à environ 250 m. Gare centrale de Newcastle à environ 500 m."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.nufc.co.uk/tickets/",
+    "highlights": ["Un des plus anciens stades de haut niveau d'Angleterre, situé en plein centre-ville", "Vue dominante depuis les hauteurs de Newcastle"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://www.nufcdirect.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/St_James%27_Park"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

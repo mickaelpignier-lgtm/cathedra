@@ -1,0 +1,43 @@
+{
+  "slug": "old-trafford",
+  "name": "Old Trafford",
+  "official_name": "Old Trafford",
+  "clubs": ["Manchester United"],
+  "city": "Manchester",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 74158,
+  "opening_year": 1910,
+  "coordinates": { "lat": 53.463056, "lng": -2.291389 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1965, "architects": [] },
+      { "year": 1995, "architects": [] },
+      { "year": 2000, "architects": [] },
+      { "year": 2006, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 76962, "context": "Wolverhampton Wanderers – Grimsby Town, demi-finale de la FA Cup, 25 mars 1939 (record toutes affluences confondues, terrain debout)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Manchester Airport (MAN)", "distance_km": null, "route": null },
+    "public_transport": "Manchester Metrolink : stations Wharfside, Old Trafford et Exchange Quay, toutes à moins de 10 minutes à pied. Gare ferroviaire Manchester United Football Ground juste à côté de la tribune Sir Bobby Charlton."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.manutd.com/en/tickets",
+    "highlights": ["Surnommé « The Theatre of Dreams »", "Musée du club et visite guidée des vestiaires", "Statue de Sir Alex Ferguson et Trinity Statue devant le stade"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.manutd.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Old_Trafford"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}
