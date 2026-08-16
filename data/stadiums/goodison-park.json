@@ -1,0 +1,44 @@
+{
+  "slug": "goodison-park",
+  "name": "Goodison Park",
+  "official_name": "Goodison Park",
+  "clubs": ["Everton FC"],
+  "city": "Liverpool",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Women's Super League",
+  "division_tier": 1,
+  "capacity": 39414,
+  "opening_year": 1892,
+  "coordinates": { "lat": 53.438888, "lng": -2.966389 },
+  "architecture": {
+    "initial_architect": "Kelly Brothers / Henry Hartley",
+    "renovations": [
+      { "year": 1909, "architects": ["Archibald Leitch"] },
+      { "year": 1926, "architects": ["Archibald Leitch"] },
+      { "year": 1938, "architects": ["Archibald Leitch"] },
+      { "year": 1971, "architects": [] },
+      { "year": 1994, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 78299, "context": "Everton – Liverpool, 18 septembre 1948" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Liverpool John Lennon Airport (LPL)", "distance_km": null, "route": null },
+    "public_transport": "Gare de Kirkdale (Merseyrail, ligne Northern), à environ 800 m."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.evertonfc.com/tickets",
+    "highlights": ["Domicile historique d'Everton FC (1892-2025), avant le déménagement au nouveau Everton Stadium (Bramley-Moore Dock)", "Depuis la saison 2025-26, devient le plus grand stade dédié au football féminin du Royaume-Uni, domicile de l'équipe féminine d'Everton"],
+    "insider_tip": "Une page se tourne : Goodison Park reste un lieu de pèlerinage pour les fans du club malgré le départ de l'équipe masculine."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Goodison_Park"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

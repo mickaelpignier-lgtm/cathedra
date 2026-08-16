@@ -1,0 +1,40 @@
+{
+  "slug": "st-jakob-park",
+  "name": "St. Jakob-Park",
+  "official_name": "St. Jakob-Park (Parc Saint-Jacques)",
+  "clubs": ["FC Basel"],
+  "city": "Bâle",
+  "country": "Suisse",
+  "continent": "Europe",
+  "league": "Swiss Super League",
+  "division_tier": 1,
+  "capacity": 38512,
+  "opening_year": 2001,
+  "coordinates": { "lat": 47.541389, "lng": 7.62 },
+  "architecture": {
+    "initial_architect": "Herzog & de Meuron",
+    "renovations": [
+      { "year": 2007, "architects": null, "note": "Extension 2006-2007, capacité portée de 33 433 à 38 512 (42 500 pour les grands tournois)" }
+    ]
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "EuroAirport Bâle-Mulhouse-Fribourg (BSL)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Réseau de tram de Bâle (ligne 14), bus, et gare centrale de Bâle à proximité."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": ["Entrée mythique sur le terrain surnommée « le tube moutarde »", "Banc des remplaçants"],
+    "insider_tip": "Stade classé catégorie 4 UEFA, coût de construction d'environ 220 millions de francs suisses ; a accueilli le match d'ouverture et une demi-finale de l'Euro 2008, ainsi que la finale de la Ligue Europa 2016."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/St._Jakob-Park", "https://www.myswitzerland.com/en-us/experiences/tour-of-st-jakob-park-basel/"],
+    "last_checked": "2026-08-14",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "villa-park",
+  "name": "Villa Park",
+  "official_name": "Villa Park",
+  "clubs": ["Aston Villa"],
+  "city": "Birmingham",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 42918,
+  "opening_year": 1897,
+  "coordinates": { "lat": 52.509167, "lng": -1.884722 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1922, "architects": [] },
+      { "year": 1994, "architects": [] },
+      { "year": 2000, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 76588, "context": "Aston Villa – Derby County, FA Cup (6e tour), 2 mars 1946" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Birmingham Airport (BHX)", "distance_km": null, "route": null },
+    "public_transport": "Gare de Witton (environ 500 m) et gare d'Aston (environ 1,5 km). Bus lignes 7 et 11."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.avfc.co.uk/tickets/",
+    "highlights": ["Tribune Trinity Road, chef-d'œuvre d'Archibald Leitch reconstruite en 2001", "Un des plus anciens stades du football anglais en usage continu"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://superstore.avfc.co.uk/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Villa_Park"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

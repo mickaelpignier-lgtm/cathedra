@@ -1,0 +1,43 @@
+{
+  "slug": "elland-road",
+  "name": "Elland Road",
+  "official_name": "Elland Road Stadium",
+  "clubs": ["Leeds United"],
+  "city": "Leeds",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 37645,
+  "opening_year": 1897,
+  "coordinates": { "lat": 53.77778, "lng": -1.57222 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1956, "architects": [] },
+      { "year": 1974, "architects": [] },
+      { "year": 1993, "architects": [] },
+      { "year": 2012, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 57892, "context": "Leeds United – Sunderland, FA Cup (5e tour, rejoué), 15 mars 1967" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Leeds Bradford Airport (LBA)", "distance_km": null, "route": null },
+    "public_transport": "Gares de Cottingley et de Leeds (National Rail). Service de bus Park and Ride."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.leedsunited.com/tickets",
+    "highlights": ["Stade historique de Leeds United, promu en Premier League pour la saison 2025-26", "Ambiance réputée parmi les plus intenses d'Angleterre"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://store.leedsunited.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Elland_Road"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

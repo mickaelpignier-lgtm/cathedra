@@ -1,0 +1,38 @@
+{
+  "slug": "stade-de-luxembourg",
+  "name": "Stade de Luxembourg",
+  "official_name": "Stade de Luxembourg",
+  "clubs": ["Équipe du Luxembourg de football (national)"],
+  "city": "Luxembourg",
+  "country": "Luxembourg",
+  "continent": "Europe",
+  "league": null,
+  "division_tier": null,
+  "capacity": 9385,
+  "opening_year": 2021,
+  "coordinates": { "lat": 49.577222, "lng": 6.114722 },
+  "architecture": {
+    "initial_architect": "Gerkan, Marg und Partner (gmp) / BENG Associés Architectes",
+    "renovations": []
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Luxembourg (LUX)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Terminus de tramway « Cloche d'Or » adjacent au stade ; bus urbains ; parking-relais de 2000 places à proximité."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Stade national polyvalent (football et rugby à XV), classé catégorie 4 UEFA, construit entre Gasperich et Kockelscheuer pour 76,7 M€ ; certains clubs du championnat luxembourgeois y disputent leurs matchs européens faute d'infrastructures homologuées ailleurs."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stade_de_Luxembourg"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

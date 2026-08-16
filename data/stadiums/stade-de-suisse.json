@@ -1,0 +1,38 @@
+{
+  "slug": "stade-de-suisse",
+  "name": "Stade de Suisse",
+  "official_name": "Stade de Suisse Wankdorf Bern",
+  "clubs": ["BSC Young Boys"],
+  "city": "Berne",
+  "country": "Suisse",
+  "continent": "Europe",
+  "league": "Swiss Super League",
+  "division_tier": 1,
+  "capacity": 31783,
+  "opening_year": 2005,
+  "coordinates": { "lat": 46.963056, "lng": 7.464722 },
+  "architecture": {
+    "initial_architect": "Rodolphe Luscher, Jean-Pierre Schwaar, Felix Rebmann",
+    "renovations": []
+  },
+  "attendance_record": { "value": 30776, "context": "Matchs de l'Euro 2008" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aéroport de Berne-Belp (BRN)", "distance_km": null, "route": "Non précisé dans les sources consultées" },
+    "public_transport": "Situé dans le quartier de Wankdorf, Berne."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": null,
+    "highlights": null,
+    "insider_tip": "Construit entre 2003 et 2005 (350 M CHF) sur le site de l'ancien stade du Wankdorf (1925), démoli en 2001 ; a accueilli trois matchs de groupe de l'Euro 2008 dont ceux des Pays-Bas."
+  },
+  "shop": { "url": null, "sample_products": null },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://fr.wikipedia.org/wiki/Stade_de_Suisse"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

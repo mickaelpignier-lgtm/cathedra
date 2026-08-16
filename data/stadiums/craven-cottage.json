@@ -1,0 +1,42 @@
+{
+  "slug": "craven-cottage",
+  "name": "Craven Cottage",
+  "official_name": "Craven Cottage",
+  "clubs": ["Fulham FC"],
+  "city": "Londres",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 28107,
+  "opening_year": 1896,
+  "coordinates": { "lat": 51.475, "lng": -0.221667 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1972, "architects": [] },
+      { "year": 2004, "architects": [] },
+      { "year": 2024, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 49335, "context": "Fulham – Millwall, Division Two, 8 octobre 1938" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": null, "distance_km": null, "route": null },
+    "public_transport": "Station de métro Putney Bridge, la plus proche. Hammersmith, Parsons Green et East Putney également accessibles."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.fulhamfc.com/tickets",
+    "highlights": ["Situé au bord de la Tamise, dans un cadre verdoyant unique en Premier League", "Le Cottage, petit pavillon historique classé, toujours visible dans le stade"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://shop.fulhamfc.com/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Craven_Cottage"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}

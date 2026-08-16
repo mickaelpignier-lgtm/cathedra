@@ -1,0 +1,42 @@
+{
+  "slug": "molineux",
+  "name": "Molineux",
+  "official_name": "Molineux Stadium",
+  "clubs": ["Wolverhampton Wanderers"],
+  "city": "Wolverhampton",
+  "country": "Angleterre",
+  "continent": "Europe",
+  "league": "Premier League",
+  "division_tier": 1,
+  "capacity": 31750,
+  "opening_year": 1889,
+  "coordinates": { "lat": 52.59028, "lng": -2.13028 },
+  "architecture": {
+    "initial_architect": "Archibald Leitch",
+    "renovations": [
+      { "year": 1979, "architects": [] },
+      { "year": 1993, "architects": [] },
+      { "year": 2012, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 61315, "context": "Wolverhampton Wanderers – Liverpool, First Division, 11 février 1939" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Birmingham Airport (BHX)", "distance_km": null, "route": null },
+    "public_transport": "Arrêt de tram Wolverhampton St George's (Midland Metro, à 1 km) et gare de Wolverhampton (à 1,1 km)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "https://www.wolves.co.uk/tickets/",
+    "highlights": ["Un des plus vieux stades du football anglais, fondateur de la Football League en 1888"],
+    "insider_tip": null
+  },
+  "shop": { "url": "https://shop.wolves.co.uk/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Molineux_Stadium"],
+    "last_checked": "2026-08-14",
+    "confidence": "medium"
+  }
+}
