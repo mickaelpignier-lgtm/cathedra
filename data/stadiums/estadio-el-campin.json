@@ -1,0 +1,49 @@
+{
+  "slug": "estadio-el-campin",
+  "name": "El Campín",
+  "official_name": "Estadio Distrital Metropolitano de Bogotá",
+  "clubs": ["Millonarios", "Santa Fe"],
+  "city": "Bogotá",
+  "country": "Colombie",
+  "continent": "Amérique du Sud",
+  "league": "Categoría Primera A",
+  "division_tier": 1,
+  "capacity": 36000,
+  "opening_year": 1938,
+  "coordinates": { "lat": 4.7183, "lng": -74.0552 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1995, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 36000, "context": "Millonarios vs Santa Fe" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "El Dorado International Airport (BOG)", "distance_km": 15, "route": "Taxi/Uber ~25 minutes. Bus aussi." },
+    "public_transport": "Transmilenio (bus métro) près du stade. Centre-ville Bogotá très accessible (15-20 minutes)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 15,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 12,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade historique au cœur de Bogotá depuis 1938",
+      "Home de Millonarios (légende colombienne) et Santa Fe",
+      "Capacité respectable (36 000 places)",
+      "Centro de Bogotá avec musée du football très proche",
+      "Ambiance festive lors du Derby Capitalino"
+    ],
+    "insider_tip": "Bogotá à 2640m d'altitude – acclimatez-vous. El Campín central très sûr. Derby Capitalino (Millonarios vs Santa Fe) événement majeur."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Distrital_Metropolitano_de_Bogot%C3%A1",
+      "https://www.wikidata.org/wiki/Q1199149"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "avellaneda",
+  "name": "Avellaneda",
+  "official_name": "Estadio Presidente Juan Domingo Perón",
+  "clubs": ["Racing Club"],
+  "city": "Avellaneda",
+  "country": "Argentine",
+  "continent": "Amérique du Sud",
+  "league": "Primera División",
+  "division_tier": 1,
+  "capacity": 46827,
+  "opening_year": 1913,
+  "coordinates": { "lat": -34.6600, "lng": -58.3700 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2000, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 46827, "context": "Racing Club matchs" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Ministro Pistarini International Airport (EZE)", "distance_km": 35, "route": "Taxi/Uber ~45 minutes." },
+    "public_transport": "Métro ligne H, station Avellaneda. Quartier très accessible. Bus aussi nombreux."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 18,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 16,
+    "match_ticket_url": "https://www.racing.com.ar/",
+    "highlights": [
+      "Stade historique de Racing Club (fondé 1903, un des plus grands clubs argentins)",
+      "Capacité imposante (46 827 places)",
+      "Architecture classique restaurée",
+      "Quartier Avellaneda industriel mais authentique",
+      "Ambiance passionnée des supporters"
+    ],
+    "insider_tip": "Racing a une belle histoire. Métro direct. Quartier moins touristique que La Boca/Núñez mais très authentique argentin."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Presidente_Juan_Domingo_Per%C3%B3n",
+      "https://www.wikidata.org/wiki/Q922652"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

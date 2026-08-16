@@ -1,0 +1,49 @@
+{
+  "slug": "atanasio-girardot",
+  "name": "Atanasio Girardot",
+  "official_name": "Estadio Atanasio Girardot",
+  "clubs": ["Atlético Nacional", "Independiente Medellín"],
+  "city": "Medellín",
+  "country": "Colombie",
+  "continent": "Amérique du Sud",
+  "league": "Categoría Primera A",
+  "division_tier": 1,
+  "capacity": 45000,
+  "opening_year": 1946,
+  "coordinates": { "lat": 6.2420, "lng": -75.5636 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2004, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 45000, "context": "Atlético Nacional vs Independiente Medellín" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "José María Córdova International Airport (MDE)", "distance_km": 30, "route": "Taxi/Uber ~40 minutes. Cable car métro aussi." },
+    "public_transport": "Métro de Medellín (innovant) très proche. Téléphérique aussi. Centre touristique accessible facilement."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 16,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 13,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade historique depuis 1946",
+      "Home de Atlético Nacional (légendaire colombien, 2 Copa Libertadores)",
+      "Partagé avec Independiente Medellín",
+      "Capacité imposante (45 000 places)",
+      "Derby Paisa atmosphère incomparable"
+    ],
+    "insider_tip": "Medellín transformation spectaculaire dernières années. El Atanasio cœur de la ville. Derby Paisa (Nacional vs Independiente) très intense. Métro innovant unique."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Atanasio_Girardot",
+      "https://www.wikidata.org/wiki/Q1209892"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}
