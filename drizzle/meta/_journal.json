@@ -8,6 +8,13 @@
       "when": 1786897749298,
       "tag": "0000_cheerful_groot",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1786899551311,
+      "tag": "0001_narrow_blockbuster",
+      "breakpoints": true
     }
   ]
 }

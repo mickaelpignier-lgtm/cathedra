@@ -1,0 +1,396 @@
+{
+  "id": "e7a71eca-e61d-4ad4-9439-211f677ae0a2",
+  "prevId": "186232fb-0198-4f8b-b908-7d84fcaf0a74",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.stadium_translations": {
+      "name": "stadium_translations",
+      "schema": "",
+      "columns": {
+        "stadium_slug": {
+          "name": "stadium_slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "locale": {
+          "name": "locale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "club": {
+          "name": "club",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "city": {
+          "name": "city",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "country": {
+          "name": "country",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "league": {
+          "name": "league",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nearest_airport": {
+          "name": "nearest_airport",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "public_transport": {
+          "name": "public_transport",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "from_airport": {
+          "name": "from_airport",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "best_time_to_visit": {
+          "name": "best_time_to_visit",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "what_to_see": {
+          "name": "what_to_see",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "shop_description": {
+          "name": "shop_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "shop_products": {
+          "name": "shop_products",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gallery_alts": {
+          "name": "gallery_alts",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "hero_alt": {
+          "name": "hero_alt",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "insider_tip": {
+          "name": "insider_tip",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "record_match_label": {
+          "name": "record_match_label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        },
+        "owner": {
+          "name": "owner",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        },
+        "anecdote": {
+          "name": "anecdote",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "stadium_translations_stadium_slug_stadiums_slug_fk": {
+          "name": "stadium_translations_stadium_slug_stadiums_slug_fk",
+          "tableFrom": "stadium_translations",
+          "tableTo": "stadiums",
+          "columnsFrom": [
+            "stadium_slug"
+          ],
+          "columnsTo": [
+            "slug"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "stadium_translations_stadium_slug_locale_pk": {
+          "name": "stadium_translations_stadium_slug_locale_pk",
+          "columns": [
+            "stadium_slug",
+            "locale"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.stadiums": {
+      "name": "stadiums",
+      "schema": "",
+      "columns": {
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "country_code": {
+          "name": "country_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "lat": {
+          "name": "lat",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "lng": {
+          "name": "lng",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "capacity": {
+          "name": "capacity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "year_opened": {
+          "name": "year_opened",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "currency": {
+          "name": "currency",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "guided_tour_price_from": {
+          "name": "guided_tour_price_from",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "guided_tour_url": {
+          "name": "guided_tour_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "match_ticket_price_from": {
+          "name": "match_ticket_price_from",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "match_ticket_url": {
+          "name": "match_ticket_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "official_website": {
+          "name": "official_website",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "shop_url": {
+          "name": "shop_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "hero_image_src": {
+          "name": "hero_image_src",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gallery": {
+          "name": "gallery",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "airport_distance_km": {
+          "name": "airport_distance_km",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nearby_hotels": {
+          "name": "nearby_hotels",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "nearby_airbnbs": {
+          "name": "nearby_airbnbs",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "nearby_restaurants": {
+          "name": "nearby_restaurants",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "transit_lines": {
+          "name": "transit_lines",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "initial_architect": {
+          "name": "initial_architect",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        },
+        "renovations": {
+          "name": "renovations",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "record_attendance": {
+          "name": "record_attendance",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "club_logo_url": {
+          "name": "club_logo_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "club_color_primary": {
+          "name": "club_color_primary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "club_color_secondary": {
+          "name": "club_color_secondary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "airport_name": {
+          "name": "airport_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "airport_logo_url": {
+          "name": "airport_logo_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "metro_line_names": {
+          "name": "metro_line_names",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "'[]'::jsonb"
+        },
+        "metro_line_colors": {
+          "name": "metro_line_colors",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "'[]'::jsonb"
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
