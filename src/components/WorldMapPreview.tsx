@@ -54,8 +54,8 @@ export function WorldMapPreview({ stadiums }: WorldMapPreviewProps) {
       <Reveal className="mt-8">
         <div
           id="map"
-          className="dot-grid relative aspect-video overflow-hidden"
-          style={{ background: "#0B0B0C" }}
+          className="dot-grid relative overflow-hidden"
+          style={{ background: "#0B0B0C", aspectRatio: "2 / 1" }}
         >
           {stadiums.map((stadium) => {
             const { x, y } = projectCoordinates(
