@@ -12,7 +12,7 @@ export const clubBadges: Record<string, ClubBadge[]> = {
   "celtic-park": [{ initials: "CF", color: "#018749" }],
   "craven-cottage": [{ initials: "FFC", color: "#000000" }],
   "de-kuip": [{ initials: "FEY", color: "#E31937" }],
-  "emirat es-stadium": [{ initials: "AFC", color: "#EF0107" }],
+  "emirates-stadium": [{ initials: "AFC", color: "#EF0107" }],
   "estadio-da-luz": [{ initials: "SLB", color: "#E31B23" }],
   "estadio-jose-alvalade": [{ initials: "SCP", color: "#00693C" }],
   "estadio-monumental": [{ initials: "RP", color: "#FFFFFF" }],
@@ -44,12 +44,11 @@ export const clubBadges: Record<string, ClubBadge[]> = {
   "stade-du-roudourou": [{ initials: "EA", color: "#C8102E" }],
   "stade-geoffroy-guichard": [{ initials: "ASSE", color: "#1BA0D6" }],
   "stade-velodrome": [{ initials: "OM", color: "#0055CC" }],
-  "stadio-della-juventus": [{ initials: "JUV", color: "#000000" }],
   "stadio-olimpico": [
     { initials: "ASR", color: "#8E1F2F" },
     { initials: "SS", color: "#87D8F7" },
   ],
   "stamford-bridge": [{ initials: "CFC", color: "#034694" }],
-  "tottenham-hotspur-stadium": [{ initials: "THFC", color: "#132257" }],
-  "wanda-metropolitano": [{ initials: "ATM", color: "#CB3524" }],
+  "tottenham-stadium": [{ initials: "THFC", color: "#132257" }],
+  "estadio-metropolitano": [{ initials: "ATM", color: "#CB3524" }],
 };
