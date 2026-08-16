@@ -58,11 +58,6 @@ export const stadiums = pgTable("stadiums", {
   initialArchitect: text("initial_architect").notNull().default(""),
   renovations: jsonb("renovations").$type<Renovation[]>().notNull().default([]),
   recordAttendance: integer("record_attendance"),
-  clubLogoUrl: text("club_logo_url").notNull().default(""),
-  clubColorPrimary: text("club_color_primary").notNull().default(""),
-  clubColorSecondary: text("club_color_secondary").notNull().default(""),
-  airportName: text("airport_name").notNull().default(""),
-  airportLogoUrl: text("airport_logo_url").notNull().default(""),
   createdAt: timestamp("created_at", { withTimezone: true })
     .notNull()
     .defaultNow(),
@@ -94,8 +89,6 @@ export const stadiumTranslations = pgTable(
     recordMatchLabel: text("record_match_label").notNull().default(""),
     owner: text("owner").notNull().default(""),
     anecdote: text("anecdote").notNull().default(""),
-    metroLineNames: jsonb("metro_line_names").$type<string[]>().notNull().default([]),
-    metroLineColors: jsonb("metro_line_colors").$type<string[]>().notNull().default([]),
   },
   (table) => [primaryKey({ columns: [table.stadiumSlug, table.locale] })]
 );
