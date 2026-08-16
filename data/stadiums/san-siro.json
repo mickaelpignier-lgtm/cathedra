@@ -1,0 +1,48 @@
+{
+  "slug": "san-siro",
+  "name": "San Siro",
+  "official_name": "San Siro",
+  "clubs": [
+    "AC Milan / Inter Milan"
+  ],
+  "city": "Milan",
+  "country": "Italie",
+  "continent": "Europe",
+  "league": "Serie A",
+  "division_tier": 1,
+  "capacity": 75817,
+  "opening_year": 1926,
+  "coordinates": {
+    "lat": 45.4781,
+    "lng": 9.124
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

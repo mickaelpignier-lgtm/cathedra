@@ -1,0 +1,48 @@
+{
+  "slug": "stadio-ferraris",
+  "name": "Stadio Ferraris",
+  "official_name": "Stadio Ferraris",
+  "clubs": [
+    "Genoa CFC / Sampdoria"
+  ],
+  "city": "Genoa",
+  "country": "Italie",
+  "continent": "Europe",
+  "league": "Serie A",
+  "division_tier": 1,
+  "capacity": 36599,
+  "opening_year": 1911,
+  "coordinates": {
+    "lat": 44.4163,
+    "lng": 8.9633
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

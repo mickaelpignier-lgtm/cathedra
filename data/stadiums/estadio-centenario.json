@@ -1,0 +1,48 @@
+{
+  "slug": "estadio-centenario",
+  "name": "Estadio Centenario",
+  "official_name": "Estadio Centenario",
+  "clubs": [
+    "Uruguay National Team"
+  ],
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "continent": "South America",
+  "league": "National",
+  "division_tier": 1,
+  "capacity": 60000,
+  "opening_year": 1930,
+  "coordinates": {
+    "lat": -34.8944,
+    "lng": -56.515
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

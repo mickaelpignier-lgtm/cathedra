@@ -1,0 +1,48 @@
+{
+  "slug": "stadio-alberto-picco",
+  "name": "Stadio Alberto Picco",
+  "official_name": "Stadio Alberto Picco",
+  "clubs": [
+    "Spezia Calcio"
+  ],
+  "city": "La Spezia",
+  "country": "Italie",
+  "continent": "Europe",
+  "league": "Serie A",
+  "division_tier": 1,
+  "capacity": 15067,
+  "opening_year": 1919,
+  "coordinates": {
+    "lat": 43.217,
+    "lng": 9.2176
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

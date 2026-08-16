@@ -1,0 +1,48 @@
+{
+  "slug": "balaides",
+  "name": "Balaidés",
+  "official_name": "Balaidés",
+  "clubs": [
+    "RC Celta"
+  ],
+  "city": "Vigo",
+  "country": "Espagne",
+  "continent": "Europe",
+  "league": "La Liga",
+  "division_tier": 1,
+  "capacity": 29000,
+  "opening_year": 1985,
+  "coordinates": {
+    "lat": 42.2641,
+    "lng": -8.7635
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

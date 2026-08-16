@@ -1,0 +1,48 @@
+{
+  "slug": "stade-de-la-beaujoire",
+  "name": "Stade de la Beaujoire",
+  "official_name": "Stade de la Beaujoire",
+  "clubs": [
+    "FC Nantes"
+  ],
+  "city": "Nantes",
+  "country": "France",
+  "continent": "Europe",
+  "league": "Ligue 1",
+  "division_tier": 1,
+  "capacity": 35322,
+  "opening_year": 1989,
+  "coordinates": {
+    "lat": 47.2694,
+    "lng": -1.3458
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

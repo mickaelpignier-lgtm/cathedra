@@ -1,0 +1,48 @@
+{
+  "slug": "estadio-libertadores-de-america",
+  "name": "Estadio Libertadores de América",
+  "official_name": "Estadio Libertadores de América",
+  "clubs": [
+    "Racing Club"
+  ],
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "continent": "South America",
+  "league": "Primera División",
+  "division_tier": 1,
+  "capacity": 40000,
+  "opening_year": 1941,
+  "coordinates": {
+    "lat": -34.7219,
+    "lng": -58.4256
+  },
+  "architecture": {
+    "initial_architect": "",
+    "renovations": []
+  },
+  "attendance_record": null,
+  "how_to_get_there": {
+    "nearest_airport": null,
+    "public_transport": ""
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": "",
+    "match_ticket_price_from_eur": null,
+    "match_ticket_url": "",
+    "highlights": [],
+    "insider_tip": ""
+  },
+  "shop": {
+    "url": "",
+    "sample_products": []
+  },
+  "data_quality": {
+    "tier": 2,
+    "sources": [
+      "https://www.wikipedia.org"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}
