@@ -1,0 +1,49 @@
+{
+  "slug": "la-bombonera",
+  "name": "La Bombonera",
+  "official_name": "Estadio Alberto J. Armando",
+  "clubs": ["Boca Juniors"],
+  "city": "Buenos Aires",
+  "country": "Argentine",
+  "continent": "Amérique du Sud",
+  "league": "Primera División",
+  "division_tier": 1,
+  "capacity": 54000,
+  "opening_year": 1940,
+  "coordinates": { "lat": -34.6356, "lng": -58.3648 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2008, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 54000, "context": "Boca Juniors vs River Plate, Superclásico" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Ministro Pistarini International Airport (EZE)", "distance_km": 35, "route": "Taxi/Uber ~50 minutes. Bus aussi disponible." },
+    "public_transport": "Métro ligne C, station Nicolás Avellaneda (200 m du stade). Quartier La Boca très accessible."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 22,
+    "tour_booking_url": "https://www.bocajuniors.com.ar/",
+    "match_ticket_price_from_eur": 20,
+    "match_ticket_url": "https://www.bocajuniors.com.ar/",
+    "highlights": [
+      "Stade iconique de Boca Juniors (l'un des plus grands clubs sud-américains)",
+      "Capacité imposante (54 000 places)",
+      "Architecture unique avec tribunes presque verticales",
+      "Musée Boca Juniors avec trophées et histoire",
+      "Ambiance électrique lors du Superclásico (Boca vs River)"
+    ],
+    "insider_tip": "Superclásico est l'événement majeur – réservez très à l'avance. Quartier La Boca coloré et touristique. Excellents restaurants et tango bars autour."
+  },
+  "shop": { "url": "https://www.bocajuniors.com.ar/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Alberto_J._Armando",
+      "https://www.wikidata.org/wiki/Q537850"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

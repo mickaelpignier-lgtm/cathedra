@@ -1,0 +1,49 @@
+{
+  "slug": "centenario",
+  "name": "Centenario",
+  "official_name": "Estadio Centenario",
+  "clubs": ["Peñarol", "Nacional"],
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "continent": "Amérique du Sud",
+  "league": "Primera División Uruguaya",
+  "division_tier": 1,
+  "capacity": 60000,
+  "opening_year": 1930,
+  "coordinates": { "lat": -34.8912, "lng": -56.1666 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1985, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 93625, "context": "Uruguay vs Brazil, 1950 World Cup" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Carrasco International Airport (MVD)", "distance_km": 20, "route": "Taxi/Uber ~30 minutes. Bus aussi disponible." },
+    "public_transport": "Bus urbains nombreux (15-20 minutes depuis centre). Stade bien accessible. Quartier très peuplé."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 20,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 15,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade légendaire du Mondial 1930 (première Coupe du Monde)",
+      "Home partagé de Peñarol et Nacional",
+      "Capacité respectable (60 000 places)",
+      "Architecture historique emblématique",
+      "Musée du Centenario avec histoire du football uruguayen"
+    ],
+    "insider_tip": "Montevideo très accueillante pour touristes. Matchs Peñarol vs Nacional très intenses. Excellent pour observer passion footballistique sud-américaine."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Centenario",
+      "https://www.wikidata.org/wiki/Q739166"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

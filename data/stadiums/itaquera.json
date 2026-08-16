@@ -1,0 +1,47 @@
+{
+  "slug": "itaquera",
+  "name": "Itaquera",
+  "official_name": "Arena Corinthians",
+  "clubs": ["Corinthians"],
+  "city": "São Paulo",
+  "country": "Brésil",
+  "continent": "Amérique du Sud",
+  "league": "Série A",
+  "division_tier": 1,
+  "capacity": 49205,
+  "opening_year": 2014,
+  "coordinates": { "lat": -23.5445, "lng": -46.4734 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": []
+  },
+  "attendance_record": { "value": 49205, "context": "Corinthians home matchs" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Guarulhos International Airport (GRU)", "distance_km": 40, "route": "Taxi/Uber ~50 minutes. Métro aussi." },
+    "public_transport": "Métro ligne 3 Rouge, station Itaquera (direct du stade). Très bien desservi. Bus aussi nombreux."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 19,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 18,
+    "match_ticket_url": "https://www.corinthians.com.br/",
+    "highlights": [
+      "Stade ultra-moderne inauguré en 2014 pour Coupe du Monde",
+      "Home de Corinthians (grand club brésilien)",
+      "Capacité imposante (49 205 places)",
+      "Architecture contemporaine élégante",
+      "Ambiance incroyable lors des matchs"
+    ],
+    "insider_tip": "Stade neuf et bien entretenu. Métro direct depuis centre-ville. Restaurants modernes autour. Très facile d'accès depuis aéroport."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Arena_Corinthians",
+      "https://www.wikidata.org/wiki/Q2745019"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "monumental",
+  "name": "Monumental",
+  "official_name": "Estadio Monumental de Núñez",
+  "clubs": ["River Plate"],
+  "city": "Buenos Aires",
+  "country": "Argentine",
+  "continent": "Amérique du Sud",
+  "league": "Primera División",
+  "division_tier": 1,
+  "capacity": 84000,
+  "opening_year": 1938,
+  "coordinates": { "lat": -34.5356, "lng": -58.4456 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1985, "architects": [] },
+      { "year": 2007, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 84000, "context": "River Plate vs Boca Juniors, Superclásico" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Ministro Pistarini International Airport (EZE)", "distance_km": 40, "route": "Taxi/Uber ~60 minutes selon trafic." },
+    "public_transport": "Bus urbains depuis centre Buenos Aires (30-40 minutes). Métro + bus combinés aussi efficaces."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 25,
+    "tour_booking_url": "https://www.riverplate.com.ar/",
+    "match_ticket_price_from_eur": 22,
+    "match_ticket_url": "https://www.riverplate.com.ar/",
+    "highlights": [
+      "Stade légendaire de River Plate (géant argentin)",
+      "Plus grande capacité d'Argentine (84 000 places)",
+      "Architecture monumentale imposante",
+      "Musée River Plate avec histoire riche",
+      "Superclásico atmosphère incomparable"
+    ],
+    "insider_tip": "Matchs River très courus. Superclásico est l'événement argentin par excellence – sécurité renforcée ces jours-là. Quartier Núñez agréable et sûr."
+  },
+  "shop": { "url": "https://www.riverplate.com.ar/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://es.wikipedia.org/wiki/Estadio_Monumental_de_N%C3%BA%C3%B1ez",
+      "https://www.wikidata.org/wiki/Q1116554"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}
