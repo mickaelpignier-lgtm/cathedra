@@ -14,7 +14,6 @@ import { NearbySection } from "@/components/NearbySection";
 import { ShopSection } from "@/components/ShopSection";
 import { LocationSection } from "@/components/LocationSection";
 import { Footer } from "@/components/Footer";
-import { EnrichmentSection } from "@/components/EnrichmentSection";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://cathedra.vercel.app";
@@ -108,7 +107,6 @@ export default async function StadiumPage({
       <NearbySection stadium={stadium} />
       <ShopSection stadium={stadium} />
       <LocationSection stadium={stadium} />
-      <EnrichmentSection stadium={stadium} />
       <Footer variant="page" meta={stadium.name} />
     </>
   );
