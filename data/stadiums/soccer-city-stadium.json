@@ -1,0 +1,49 @@
+{
+  "slug": "soccer-city-stadium",
+  "name": "Soccer City Stadium",
+  "official_name": "FNB Stadium (Soccer City)",
+  "clubs": ["Kaizer Chiefs", "Orlando Pirates", "South Africa national team"],
+  "city": "Johannesburg",
+  "country": "Afrique du Sud",
+  "continent": "Afrique",
+  "league": "Premier Soccer League",
+  "division_tier": 1,
+  "capacity": 94736,
+  "opening_year": 1989,
+  "coordinates": { "lat": -26.2380, "lng": 27.8217 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2010, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 94736, "context": "2010 FIFA World Cup Final: Spain vs Netherlands" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "OR Tambo International Airport (JNB)", "distance_km": 35, "route": "Taxi ou Uber ~45 minutes depuis aéroport. Bus Gautrain disponible." },
+    "public_transport": "Gautrain (train rapide) depuis centre Johannesburg à Soweto (25 minutes). Bus urbains également disponibles."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 20,
+    "tour_booking_url": "https://www.fnbstadium.co.za/",
+    "match_ticket_price_from_eur": 15,
+    "match_ticket_url": "https://www.fnbstadium.co.za/",
+    "highlights": [
+      "Stade iconique ayant accueilli la finale de la Coupe du Monde 2010",
+      "Capacité impressionnante (94 736 places)",
+      "Architecture distinctive inspirée d'une calabasse zoulou",
+      "Centre de football sud-africain, accueille Kaizer Chiefs et Orlando Pirates",
+      "Infrastructure moderne et complète"
+    ],
+    "insider_tip": "Visites guidées disponibles les jours sans matchs. Prendre le Gautrain pour éviter les embouteillages. L'atmosphère est incroyable lors des matchs Kaizer Chiefs vs Orlando Pirates (Soweto Derby)."
+  },
+  "shop": { "url": "https://www.fnbstadium.co.za/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/FNB_Stadium",
+      "https://www.wikidata.org/wiki/Q488960"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

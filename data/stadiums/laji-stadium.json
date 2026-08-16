@@ -1,0 +1,47 @@
+{
+  "slug": "laji-stadium",
+  "name": "Laji Stadium",
+  "official_name": "Laji Stadium (Lagos)",
+  "clubs": ["Enyimba FC", "Lagos national team matches"],
+  "city": "Lagos",
+  "country": "Nigeria",
+  "continent": "Afrique",
+  "league": "NPFL (Nigerian Premier Football League)",
+  "division_tier": 1,
+  "capacity": 30000,
+  "opening_year": 1990,
+  "coordinates": { "lat": 6.5244, "lng": 3.3792 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": []
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Muritala Muhammed International Airport (LOS)", "distance_km": 30, "route": "Taxi ou Uber ~60-90 minutes selon trafic (Lagos est dense)." },
+    "public_transport": "Bus urbains disponibles. Taxi sont le transport le plus courant à Lagos. Stade en zone semi-périphérique."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 8,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade majeur du football nigérian, cœur du NPFL",
+      "Atmosphère électrique lors des matchs de haut niveau",
+      "Centre du football ouest-africain",
+      "Infrastructure adaptée aux compétitions continentales",
+      "Hub culturel de Lagos"
+    ],
+    "insider_tip": "Les jours de match, l'atmosphère est exceptionnelle mais la circulation à Lagos est chaotique. Partir très tôt. Les supporters nigérians sont passionnés et bruyants (excellent pour l'ambiance)."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Laji_Stadium",
+      "https://www.wikidata.org/wiki/Q6480919"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "medium"
+  }
+}

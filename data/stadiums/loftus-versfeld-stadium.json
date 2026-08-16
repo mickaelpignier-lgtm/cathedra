@@ -1,0 +1,50 @@
+{
+  "slug": "loftus-versfeld-stadium",
+  "name": "Loftus Versfeld Stadium",
+  "official_name": "Loftus Versfeld",
+  "clubs": ["Mamelodi Sundowns"],
+  "city": "Pretoria",
+  "country": "Afrique du Sud",
+  "continent": "Afrique",
+  "league": "Premier Soccer League",
+  "division_tier": 1,
+  "capacity": 50000,
+  "opening_year": 1957,
+  "coordinates": { "lat": -25.7461, "lng": 28.2414 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2003, "architects": [] },
+      { "year": 2013, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 50000, "context": "Mamelodi Sundowns vs Kaizer Chiefs, Premier Soccer League" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "OR Tambo International Airport (JNB)", "distance_km": 50, "route": "Taxi ou Uber ~60 minutes. Transports en commun disponibles." },
+    "public_transport": "Différents bus urbains de Pretoria desservent le stade. Taxi à proximité du centre-ville."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 18,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 12,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade historique inauguré en 1957",
+      "Home de Mamelodi Sundowns (les Brazilians), l'un des plus grands clubs d'Afrique du Sud",
+      "Infrastructure bien entretenue et moderne",
+      "Atmosphère vibrante lors des matchs du dimanche",
+      "Proximité du centre administratif de Pretoria"
+    ],
+    "insider_tip": "Les matchs à domicile de Sundowns sont spectaculaires. Excellent accueil des visiteurs. Des restaurants et bars autour du stade pour l'avant et après-match."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Loftus_Versfeld",
+      "https://www.wikidata.org/wiki/Q876893"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}
