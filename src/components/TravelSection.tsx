@@ -58,7 +58,7 @@ export function TravelSection({ stadium }: TravelSectionProps) {
                 {card.note}
               </p>
             )}
-            {i === 1 && stadium.transitLines.length > 0 && (
+            {i === 1 && (stadium.transitLines.length > 0 || stadium.metroLineColors.length > 0) && (
               <div className="mt-3.5 flex flex-wrap gap-2">
                 {stadium.transitLines.map((line) => (
                   <span
@@ -69,6 +69,21 @@ export function TravelSection({ stadium }: TravelSectionProps) {
                       color: contrastTextColor(line.color),
                     }}
                     title={line.network}
+                  >
+                    <span className="font-display text-[12px] uppercase leading-none">
+                      {line.label}
+                    </span>
+                  </span>
+                ))}
+                {stadium.metroLineColors.map((line) => (
+                  <span
+                    key={line.label}
+                    className="inline-flex items-center gap-1.5 rounded-full px-3 py-1"
+                    style={{
+                      background: line.color,
+                      color: contrastTextColor(line.color),
+                    }}
+                    title={line.label}
                   >
                     <span className="font-display text-[12px] uppercase leading-none">
                       {line.label}
