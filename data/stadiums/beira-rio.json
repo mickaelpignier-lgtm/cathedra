@@ -1,0 +1,49 @@
+{
+  "slug": "beira-rio",
+  "name": "Beira-Rio",
+  "official_name": "Estádio José Pinheiro Borda",
+  "clubs": ["Sport Club Internacional"],
+  "city": "Porto Alegre",
+  "country": "Brésil",
+  "continent": "Amérique du Sud",
+  "league": "Série A",
+  "division_tier": 1,
+  "capacity": 55662,
+  "opening_year": 1969,
+  "coordinates": { "lat": -30.0320, "lng": -51.3902 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2010, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 55662, "context": "Sport Club Internacional matchs" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Salgado Filho International Airport (POA)", "distance_km": 15, "route": "Taxi/Uber ~25 minutes. Bus aussi disponible." },
+    "public_transport": "Bus urbains depuis centre Porto Alegre (20 minutes). Stade bien accessible. Ônibus prédéfinis pour matchs."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 15,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 16,
+    "match_ticket_url": "https://www.internacional.com.br/",
+    "highlights": [
+      "Stade historique inauguré en 1969",
+      "Home de Sport Club Internacional (l'un des géants brésiliens)",
+      "Capacité respectable (55 662 places)",
+      "Situé au bord du Guaíba (fleuve Rio Grande do Sul)",
+      "Ambiance chaleureuse et accueillante"
+    ],
+    "insider_tip": "Porto Alegre accueille chaleureusement les visiteurs. Matchs d'Internacional très courus. Excellents restaurants sur les quais près du stade (bord du Guaíba)."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Pinheiro_Borda",
+      "https://www.wikidata.org/wiki/Q912060"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

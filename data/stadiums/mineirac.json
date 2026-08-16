@@ -1,0 +1,49 @@
+{
+  "slug": "mineirac",
+  "name": "Mineirão",
+  "official_name": "Estádio Governador Magalhães Pinto",
+  "clubs": ["Cruzeiro", "Atlético Mineiro"],
+  "city": "Belo Horizonte",
+  "country": "Brésil",
+  "continent": "Amérique du Sud",
+  "league": "Série A",
+  "division_tier": 1,
+  "capacity": 75000,
+  "opening_year": 1965,
+  "coordinates": { "lat": -19.8676, "lng": -43.9712 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2013, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 75000, "context": "Cruzeiro vs Atlético Mineiro, Campeonato Mineiro" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Confins International Airport (CNF)", "distance_km": 35, "route": "Taxi/Uber ~50 minutes. Bus de l'aéroport disponible." },
+    "public_transport": "Bus urbains depuis centre Belo Horizonte. Métro disponible aussi (30 minutes de trajet)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 16,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 18,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade moderne rénové pour Coupe du Monde 2014",
+      "Home de Cruzeiro et Atlético Mineiro",
+      "Capacité imposante (75 000 places)",
+      "Arquitecture contemporaine élégante",
+      "Ambiance vibrante lors du Derby Mineiro (Cruzeiro vs Atlético)"
+    ],
+    "insider_tip": "Derby Mineiro est un événement majeur. Réservez bien à l'avance. Restaurants bons autour du stade. Stade facilement accessible en bus."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Governador_Magalh%C3%A3es_Pinto",
+      "https://www.wikidata.org/wiki/Q912011"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

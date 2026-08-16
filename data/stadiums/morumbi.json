@@ -1,0 +1,49 @@
+{
+  "slug": "morumbi",
+  "name": "Morumbi",
+  "official_name": "Estádio Cícero Pompeu de Toledo",
+  "clubs": ["São Paulo FC"],
+  "city": "São Paulo",
+  "country": "Brésil",
+  "continent": "Amérique du Sud",
+  "league": "Série A",
+  "division_tier": 1,
+  "capacity": 72788,
+  "opening_year": 1960,
+  "coordinates": { "lat": -23.5888, "lng": -46.4710 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 1990, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 72788, "context": "São Paulo FC matchs" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Aeroporto de Guarulhos (GRU)", "distance_km": 40, "route": "Taxi/Uber ~60 minutes. Métro + bus aussi." },
+    "public_transport": "Métro ligne 1 direction Tucuruvi, puis bus. Stade bien accessible depuis centre-ville (30-40 minutes)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 18,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 20,
+    "match_ticket_url": "https://www.saopaulofc.net/",
+    "highlights": [
+      "Cathédrale du football paulista",
+      "Home de São Paulo FC, l'un des plus grands clubs brésiliens",
+      "Capacité imposante (72 788 places)",
+      "Architecture emblématique",
+      "Ambiance intérieure exceptionnelle"
+    ],
+    "insider_tip": "Matchs de São Paulo très courus. Réservez à l'avance. Restaurants et bars nombreux autour du stade."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_C%C3%ADcero_Pompeu_de_Toledo",
+      "https://www.wikidata.org/wiki/Q911636"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

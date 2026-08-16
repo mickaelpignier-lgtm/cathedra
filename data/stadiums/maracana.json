@@ -1,0 +1,50 @@
+{
+  "slug": "maracana",
+  "name": "Maracanã",
+  "official_name": "Estádio Jornalista Mário Filho",
+  "clubs": ["Brasil national team", "Flamengo", "Fluminense", "Botafogo", "Vasco da Gama"],
+  "city": "Rio de Janeiro",
+  "country": "Brésil",
+  "continent": "Amérique du Sud",
+  "league": "Série A / Copa América / Coupe du Monde",
+  "division_tier": 1,
+  "capacity": 78838,
+  "opening_year": 1950,
+  "coordinates": { "lat": -22.9123, "lng": -43.2304 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2007, "architects": [] },
+      { "year": 2013, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 199854, "context": "Brésil vs Uruguay, Coupe du Monde 1950 (match d'ouverture)" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Galeão – Rio de Janeiro/Antônio Carlos Jobim International Airport (GIG)", "distance_km": 25, "route": "Taxi/Uber ~40 minutes selon trafic. Métro + bus aussi disponibles." },
+    "public_transport": "Métro ligne 1 et 2, station Maracanã. Bus urbains nombreux. Quartier São Cristóvão bien desservi."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 20,
+    "tour_booking_url": "https://www.maracana.com.br/",
+    "match_ticket_price_from_eur": 25,
+    "match_ticket_url": "https://www.maracana.com.br/",
+    "highlights": [
+      "Stade légendaire, hôte du Mondial 1950 et 2014",
+      "Musée du Maracanã avec historique complet",
+      "Capacité impressionnante (78 838 places)",
+      "Atmosphère électrique lors des matchs brésiliens",
+      "Panorama unique sur Rio depuis les tribunes hautes"
+    ],
+    "insider_tip": "Réservez les tours en ligne pour éviter les files. Jours de match, arrivez tôt pour l'atmosphère pré-match. Excellent restaurants à proximité dans le quartier."
+  },
+  "shop": { "url": "https://www.maracana.com.br/", "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Jornalista_M%C3%A1rio_Filho",
+      "https://www.wikidata.org/wiki/Q374003"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}
