@@ -71,6 +71,13 @@ export interface Stadium {
   recordAttendance: number | null;
   recordMatchLabel: string;
   owner: string;
+  clubLogoUrl: string;
+  clubColorPrimary: string;
+  clubColorSecondary: string;
+  metroLineNames: string[];
+  metroLineColors: Array<{ label: string; color: string }>;
+  airportName: string;
+  airportLogoUrl: string;
 }
 
 type StadiumRow = typeof stadiums.$inferSelect;
@@ -125,6 +132,13 @@ function toStadium(row: StadiumRow, t: TranslationRow): Stadium {
     recordAttendance: row.recordAttendance,
     recordMatchLabel: t.recordMatchLabel,
     owner: t.owner,
+    clubLogoUrl: row.clubLogoUrl || "",
+    clubColorPrimary: row.clubColorPrimary || "",
+    clubColorSecondary: row.clubColorSecondary || "",
+    metroLineNames: (row.metroLineNames as string[]) || [],
+    metroLineColors: (row.metroLineColors as Array<{ label: string; color: string }>) || [],
+    airportName: row.airportName || "",
+    airportLogoUrl: row.airportLogoUrl || "",
   };
 }
 
