@@ -1,0 +1,46 @@
+{
+  "slug": "borg-el-arab-stadium",
+  "name": "Borg El Arab Stadium",
+  "official_name": "Borg El Arab Stadium",
+  "clubs": ["Al Montakhab", "Al Mandara"],
+  "city": "Alexandrie",
+  "country": "Égypte",
+  "continent": "Afrique",
+  "league": "Egyptian Premier League",
+  "division_tier": 1,
+  "capacity": 30000,
+  "opening_year": 2007,
+  "coordinates": { "lat": 31.0267, "lng": 29.9400 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": []
+  },
+  "attendance_record": { "value": null, "context": null },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Alexandria International Airport (ABZ)", "distance_km": 20, "route": "Taxi ~40 minutes" },
+    "public_transport": "Bus depuis centre Alexandrie (environ 30-40 minutes). Stade situé en périphérie ouest de la ville."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 8,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade moderne construit en 2007, infrastructure de classe mondiale",
+      "Cadre côtier proche de la Méditerranée",
+      "Stade national d'Égypte pour matchs internationaux",
+      "Architecture contemporaine impressionnante"
+    ],
+    "insider_tip": "Excellent accueil des visiteurs. Stade moins bondé que Le Caire. Excellent restaurants et cafés aux alentours."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Borg_El_Arab_Stadium",
+      "https://www.wikidata.org/wiki/Q903624"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "cairo-international-stadium",
+  "name": "Cairo International Stadium",
+  "official_name": "Cairo International Stadium",
+  "clubs": ["Al Ahly", "Zamalek"],
+  "city": "Le Caire",
+  "country": "Égypte",
+  "continent": "Afrique",
+  "league": "Egyptian Premier League",
+  "division_tier": 1,
+  "capacity": 74100,
+  "opening_year": 1960,
+  "coordinates": { "lat": 30.0700, "lng": 31.3175 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2006, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 74100, "context": "Al Ahly vs Zamalek, Egyptian Premier League" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Cairo International Airport (CAI)", "distance_km": 10, "route": "Airport shuttle or taxi ~25 minutes" },
+    "public_transport": "Metro ligne 3 direction Abbassia, station Stade International. Également accessible par bus depuis centre-ville."
+  },
+  "visiting": {
+    "guided_tour_price_eur": null,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 10,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade iconique ayant accueilli la finale de la Coupe d'Afrique des Nations",
+      "Capacité imposante (74 100 places) et infrastructure moderne",
+      "Historique riche du football égyptien",
+      "Atmosphère intense lors des matchs entre Al Ahly et Zamalek (Clasico africain)"
+    ],
+    "insider_tip": "Arrive tôt pour les grands matchs, l'affluence est massive. Les jours de semaine hors compétition sont plus calmes."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cairo_International_Stadium",
+      "https://www.wikidata.org/wiki/Q1027071"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "stade-olympique-rades",
+  "name": "Stade Olympique de Rades",
+  "official_name": "Stade Olympique de Rades",
+  "clubs": ["Espérance de Tunis", "Étoile du Sahel"],
+  "city": "Radès",
+  "country": "Tunisie",
+  "continent": "Afrique",
+  "league": "Ligue Professionnelle 1",
+  "division_tier": 1,
+  "capacity": 60000,
+  "opening_year": 1972,
+  "coordinates": { "lat": 36.7533, "lng": 10.2475 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2007, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 60000, "context": "Espérance de Tunis vs Étoile du Sahel, Ligue Tunisienne" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Tunis-Carthage International Airport (TUN)", "distance_km": 15, "route": "Taxi ou bus ~20-30 minutes" },
+    "public_transport": "Train de banlieue (TGM) depuis Tunis vers Radès (20 minutes). Bus urbains disponibles. Stade facilement accessible depuis centre-ville."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 12,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 10,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade olympique majeur ayant accueilli la Coupe d'Afrique des Nations 2004",
+      "Capacité imposante (60 000) et infrastructure moderne",
+      "Proximité de Carthage et richesse historique",
+      "Atmosphère intense lors des matchs Espérance vs Étoile (Derby de Tunis)"
+    ],
+    "insider_tip": "Stade très accessible en train depuis Tunis. Les matchs en fin d'après-midi offrent une belle lumière. Restaurants locaux autour du stade."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Olympique_Stadium_of_Rades",
+      "https://www.wikidata.org/wiki/Q1014872"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}

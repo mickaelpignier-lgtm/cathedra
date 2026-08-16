@@ -1,0 +1,48 @@
+{
+  "slug": "stade-mohammed-v",
+  "name": "Stade Mohammed V",
+  "official_name": "Stade Mohammed V",
+  "clubs": ["Raja Casablanca", "Wydad Casablanca"],
+  "city": "Casablanca",
+  "country": "Maroc",
+  "continent": "Afrique",
+  "league": "Botola Pro",
+  "division_tier": 1,
+  "capacity": 55000,
+  "opening_year": 1955,
+  "coordinates": { "lat": 33.5731, "lng": -7.5898 },
+  "architecture": {
+    "initial_architect": null,
+    "renovations": [
+      { "year": 2009, "architects": [] }
+    ]
+  },
+  "attendance_record": { "value": 55000, "context": "Raja Casablanca vs Wydad Casablanca, Derbi du Casablanca" },
+  "how_to_get_there": {
+    "nearest_airport": { "name": "Casablanca-Mohamed V International Airport (CMN)", "distance_km": 25, "route": "Taxi ~45 minutes, bus de l'aéroport disponible" },
+    "public_transport": "Tram Casablanca, stations proches du stade. Bus urbains depuis centre-ville (15-20 minutes)."
+  },
+  "visiting": {
+    "guided_tour_price_eur": 15,
+    "tour_booking_url": null,
+    "match_ticket_price_from_eur": 12,
+    "match_ticket_url": null,
+    "highlights": [
+      "Stade iconique du Maroc, cœur du football marocain depuis 1955",
+      "Architecture imposante récemment rénovée",
+      "Atmosphère électrique lors des derbis Raja vs Wydad (un des plus grands rivalités africaines)",
+      "Proximité du centre-ville de Casablanca"
+    ],
+    "insider_tip": "Le Derbi du Casablanca (Raja vs Wydad) est un événement majeur ; réservez bien à l'avance. Les jours de match, circulation intense dans la ville."
+  },
+  "shop": { "url": null, "sample_products": [] },
+  "data_quality": {
+    "tier": 1,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stade_Mohammed_V",
+      "https://www.wikidata.org/wiki/Q785825"
+    ],
+    "last_checked": "2026-08-16",
+    "confidence": "high"
+  }
+}
