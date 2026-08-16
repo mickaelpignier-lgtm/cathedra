@@ -70,10 +70,10 @@ export function WorldMapPreview({ stadiums }: WorldMapPreviewProps) {
                 style={{ left: `${x}%`, top: `${y}%` }}
               >
                 <span
-                  className="block h-3.5 w-3.5 rounded-full"
+                  className="block h-5 w-5 rounded-full"
                   style={{
                     background: "var(--acc)",
-                    boxShadow: "0 0 0 8px color-mix(in srgb, var(--acc) 22%, transparent)",
+                    boxShadow: "0 0 0 12px color-mix(in srgb, var(--acc) 22%, transparent)",
                   }}
                 />
                 <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-2 -translate-x-1/2 whitespace-nowrap bg-[#0B0B0C] px-2 py-1 font-mono text-[10px] uppercase tracking-[.1em] text-[#F2EFE9] opacity-0 transition-opacity group-hover:opacity-100">
