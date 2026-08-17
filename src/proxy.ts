@@ -5,6 +5,9 @@ import { routing } from "./i18n/routing";
 const intlMiddleware = createIntlMiddleware(routing);
 
 export default clerkMiddleware(async (_auth, req) => {
+  if (req.nextUrl.pathname.startsWith("/admin")) {
+    return;
+  }
   return intlMiddleware(req);
 });
 
